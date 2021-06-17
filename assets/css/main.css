@@ -1,0 +1,23 @@
+.lp-bod {
+  background-image: url('../images/tester.gif');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: auto;
+  /*Responsive Background Image - Socurce [https://stackoverflow.com/questions/12609110/responsive-css-background-images]*/
+}
+
+
+.enter-buttonlp > button {
+    width: 100px;
+	height: 100px;
+	background-color: red;
+	
+	position: absolute;
+	top: 100px;
+	bottom: -200px;
+	left: 50%;
+	right: 50%;
+  	
+	margin: auto;
+}
+
