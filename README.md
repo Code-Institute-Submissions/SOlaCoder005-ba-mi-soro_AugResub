@@ -18,7 +18,7 @@
 
 ### 3.1 Wireframes 
 
-1.	[Wireframe – Overview Page](/docs/wireframes/ba-mi-soro-overview.png)
+1.	[Wireframe – Overview Page]()
 2.	[Wireframe – Landing Page](assets/docs/wireframes/ba-mi-soro-landingpg.png)
 3.	[Wireframe – Quiz Landing Page](assets/docs/wireframes/ba-mi-soro-quiz-landingpg.png)
 4.	[Wireframe – Quizzes Page](assets/docs/wireframes/ba-mi-soro-quizzes.png)
