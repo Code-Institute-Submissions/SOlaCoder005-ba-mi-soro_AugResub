@@ -25,6 +25,13 @@
 5.	[Wireframe – Factsheets Page](assets/docs/wireframes/ba-mi-soro-factsheets.png)
 6.	[Wireframe – Contact Us Page](assets/docs/wireframes/ba-mi-soro-contactuspg.png)
 
+### 3.2 Fonts Used 
+![](/docs/readme-content/fonts-used.PNG)
+
+- Monserat (Header) 
+- Roboto (Text/Subtext) 
+
+
 ## 4. Features
 ## 5. Technologies Used
 ## 6. Testing
