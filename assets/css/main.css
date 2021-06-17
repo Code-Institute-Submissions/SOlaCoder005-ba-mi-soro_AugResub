@@ -23,6 +23,11 @@ body {
 	
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
 
 nav {
 	background-color: green;
@@ -116,17 +121,21 @@ ENTER SITE PAGE
 	width: 100%; 
 	height: 100px;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
+	font-size: 25px;
+	font-weight: 700;
 	background-color: rgb(255, 255, 255);
 	border: none;
 	border-radius: 5px; 
 	padding: 20px;
+	color: rgb(90, 87, 87);
 }
 
 /*Box Shadow. Reference Material: [https://www.w3schools.com/css/css3_shadows.asp]*/
 .entersite-button > button:hover {
 	box-shadow: 4px 4px 4px rgb(90, 87, 87, .7);
 }
+
+
 
 
 
