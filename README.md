@@ -15,6 +15,16 @@
 ## 1. Overview
 ## 2. User Experience (UX)
 ## 3. Content
+
+### 3.1 Wireframes 
+
+1.	[Wireframe – Overview Page](assets/docs/wireframes/ba-mi-soro-overview.png)
+2.	[Wireframe – Landing Page](assets/docs/wireframes/ba-mi-soro-landingpg.png)
+3.	[Wireframe – Quiz Landing Page](assets/docs/wireframes/ba-mi-soro-quiz-landingpg.png)
+4.	[Wireframe – Quizzes Page](assets/docs/wireframes/ba-mi-soro-quizzes.png)
+5.	[Wireframe – Factsheets Page](assets/docs/wireframes/ba-mi-soro-factsheets.png)
+6.	[Wireframe – Contact Us Page](assets/docs/wireframes/ba-mi-soro-contactuspg.png)
+
 ## 4. Features
 ## 5. Technologies Used
 ## 6. Testing
