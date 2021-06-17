@@ -2,34 +2,173 @@
 IMPORT SECTION 
 */
 /*Font has been imported from Google Fonts. Source [https://fonts.google.com/specimen/Montserrat?category=Sans+Serif,Display#standard-styles]*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&family=Roboto&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
 
 /*
-LANDING PAGE
+BODY 
 */
 
+/*Site-wide settings. Referenced Source:[https://www.youtube.com/watch?v=0-DY8J_skZ0]*/
+* {
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+body {
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+
+
+
+nav {
+	background-color: green;
+	border: 2px solid red; 
+	grid-column: 1/4; /*start val/end val*/
+}
+
+main {
+	background-color: blue;
+	border: 2px solid red; 
+	grid-column: 1/4; /*start val/end val*/
+}
+
+div > .content {
+	background-color: yellow;
+	border: 2px solid red; 
+	grid-column: repeat(3, 1fr);  1/4; /*start val/end val*/
+} 
+
+footer {
+	background-color: pink;
+	border: 2px solid red; 
+	grid-column: 1/4; /*start val/end val*/
+}
+
+/*CONTAINERS*/
+
+/* css grid container below for Enter Site Page*/
+.entersite-cont {
+	height: 100vh; 
+	border: 1px rgb(239, 130, 62, 0.5);
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4,1fr);
+	justify-content: center;
+	align-content: center;
+	grid-gap: 10px;
+	background-color: rgb(239, 130, 62, 0.5);
+} 
+
+/* css grid container below for Quiz Hompage  and Factsheet Page*/ 
+.quiz-landpage-cont {
+	height: 100vh; 
+	border: 5px orange solid;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr 3fr 2fr 0.5fr;
+	justify-content: center;
+	align-content: center;
+	grid-gap: 10px;
+}  
+
+/* css grid container below for Contact Us Page*/
+.contact-cont {
+	height: 100vh; 
+	border: 10px orange solid;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr 2fr 0.5fr;
+	justify-content: center;
+	align-content: center;
+	grid-gap: 10px;
+} 
+ 
+
 /*
-QUIZ PAGE
+ENTER SITE PAGE
 */
+
+.entersite-logo {
+	/* background-color: blue; */
+	grid-column: 2 / 3; 
+	grid-row: 1 / 4;
+	/* Referenced Source:[https://www.youtube.com/watch?v=0-DY8J_skZ0] */
+	width: auto;
+	height: 70%;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+ }
+
+.entersite-button {
+	/* background-color: #eee;
+	border: 2px solid red;  */
+	grid-column: 2/3; 
+	grid-row: 3/4; 
+	padding: 20px;
+}
+
+.entersite-button > button {
+	width: 100%; 
+	height: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	background-color: rgb(255, 255, 255);
+	border: none;
+	border-radius: 5px; 
+	padding: 20px;
+}
+
+.entersite-button > button:hover {
+	box-shadow: 4px 4px 4px rgb(90, 87, 87, .7);
+}
+
+
+
+
+
+/*
+QUIZ HOMEPAGE
+*/
+
 
 /*
 BEGGINER QUIZ PAGE
 */
 
+
 /*
 INTERMEDIATE QUIZ PAGE
 */
+
 
 /*
 ADVANCED QUIZ PAGE
 */
 
+
 /*
 FACTSHEET PAGE
 */
 
+/* css grid container below*/
+
+ 
+
+
 /*
 CONTACT US PAGE
+*/
+
+
+
+/*
+MEDIA QUERIES
 */
 
 
