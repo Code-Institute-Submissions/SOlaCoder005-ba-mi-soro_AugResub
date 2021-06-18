@@ -10,49 +10,6 @@ IMPORT SECTION
 BODY 
 */
 
-/*Site-wide settings. Reference Material :[https://www.youtube.com/watch?v=0-DY8J_skZ0]*/
-* {
-	margin: 0; 
-	padding: 0;
-	box-sizing: border-box; 
-}
-
-body {
-	/* font-family: 'Montserrat', sans-serif; */
-	font-family: 'Roboto', sans-serif;
-	
-}
-
-a {
-	text-decoration: none;
-	color: black;
-}
-
-
-nav {
-	background-color: green;
-	border: 2px solid red; 
-	grid-column: 1/4; /*start val/end val*/
-}
-
-main {
-	background-color: blue;
-	border: 2px solid red; 
-	grid-column: 1/4; /*start val/end val*/
-}
-
-div > .content {
-	background-color: yellow;
-	border: 2px solid red; 
-	grid-column: repeat(3, 1fr);  1/4; /*start val/end val*/
-} 
-
-footer {
-	background-color: pink;
-	border: 2px solid red; 
-	grid-column: 1/4; /*start val/end val*/
-}
-
 /*CONTAINERS*/
 
 /* css grid container below for Enter Site Page*/
@@ -69,29 +26,112 @@ footer {
 } 
 
 /* css grid container below for Quiz Hompage and Factsheet Page*/ 
-.quiz-landpage-cont {
+.main-cont {
 	height: 100vh; 
-	border: 5px orange solid;
+	/* border: 5px orange solid; */
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 1fr 3fr 2fr 0.5fr;
 	justify-content: center;
 	align-content: center;
 	grid-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr 3fr 2fr 0.5fr;
+	grid-template-areas: 
+	"nav nav nav"
+	"main main main"
+	"box1 box2 box3"
+	"footer footer footer";
 }  
 
-/* css grid container below for Contact Us Page*/
-.contact-cont {
+.factpage-cont {
 	height: 100vh; 
-	border: 10px orange solid;
+	/* border: 5px orange solid; */
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr 3fr 0.5fr;
+	grid-template-areas: 
+	"nav nav nav"
+	"box1 box2 box3"
+	"footer footer footer";
+}
+
+/* css grid container below for Contact Us Page*/
+/* .contact-cont {
+	height: 100vh; 
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 1fr 2fr 0.5fr;
 	justify-content: center;
 	align-content: center;
 	grid-gap: 10px;
-} 
+}  */
  
+
+/*Site-wide settings. Reference Material :[https://www.youtube.com/watch?v=0-DY8J_skZ0]*/
+* {
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+body {
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Roboto', sans-serif;	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+nav {
+	grid-area: nav; 
+	background-color: rgb(255, 255, 255);
+	grid-column: 1/4; /*start val/end val*/
+	box-shadow: 0 2px 2px 0 rgb(128, 128, 128, .5);
+	padding: 10px;
+	
+}
+
+main {
+	grid-area: main; 
+	background-color: rgb(64, 224, 208);
+	grid-column: 1/4; /*start val/end val*/
+	padding: 10px;
+}
+
+.box1 {
+	grid-area: box1; 
+	background-color: rgb(64, 224, 208, .3);
+	grid-column: repeat(3, 1fr);  1/4; /*start val/end val*/
+	padding: 10px;
+} 
+
+.box2 {
+	grid-area: box2; 
+	background-color: rgb(64, 224, 208, .5);
+	grid-column: repeat(3, 1fr);  1/4; /*start val/end val*/
+	padding: 10px;
+} 
+
+.box3 {
+	grid-area: box3; 
+	background-color: rgb(64, 224, 208, .7);
+	grid-column: repeat(3, 1fr);  1/4; /*start val/end val*/
+	padding: 10px;
+} 
+
+footer {
+	grid-area: footer;
+	background-color: rgb(173, 255, 47, .5);
+	grid-column: 1/4; /*start val/end val*/
+	padding: 10px;
+}
+
+
 
 /*
 ENTER SITE PAGE
@@ -103,10 +143,9 @@ ENTER SITE PAGE
 	grid-row: 1 / 4;
 	/* Referenced Source:[https://www.youtube.com/watch?v=0-DY8J_skZ0] */
 	width: auto;
-	height: 70%;
+	height: 85%;
 	display: block;
-	margin-left:auto;
-	margin-right:auto;
+	padding: 30px;
  }
 
 .entersite-button {
@@ -184,6 +223,66 @@ CONTACT US PAGE
 /*
 MEDIA QUERIES
 */
+
+@media only screen and (max-width: 320px) {
+	.main-cont {
+		height: 100vh;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 3fr 2fr 2fr 2fr 0.5fr;
+		grid-template-areas: 
+		"nav"
+		"main"
+		"box1" 
+		"box2" 
+		"box3"
+		"footer"
+	} 
+
+	.factpage-cont {
+		height: 100vh; 
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr 2fr 2fr 2fr 0.5fr;
+		grid-template-areas: 
+		"nav"
+		"box1" 
+		"box2" 
+		"box3"
+		"footer";
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.main-cont {
+		height: 100vh;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 3fr 2fr 2fr 2fr 0.5fr;
+		grid-template-areas: 
+		"nav"
+		"main"
+		"box1" 
+		"box2" 
+		"box3"
+		"footer"
+	} 
+
+	.factpage-cont {
+		height: 100vh; 
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr 2fr 2fr 2fr 0.5fr;
+		grid-template-areas: 
+		"nav"
+		"box1" 
+		"box2" 
+		"box3"
+		"footer";
+	}
+}
+
+
+
+
+
+
 
 
 
