@@ -1,18 +1,30 @@
-/*
-IMPORT SECTION 
-*/
+/*IMPORT SECTION */
 
 /*Font has been imported from Google Fonts. Source: [https://fonts.google.com/specimen/Montserrat?category=Sans+Serif,Display#standard-styles]*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&family=Roboto&family=Rock+Salt&display=swap');
 
 
+/*SITE SETTINGS*/
+
 /*
-BODY 
+Reference Material: [codeSTACKr] 
 */
+
+* {
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+
+/*BODY*/
 
 /*CONTAINERS*/
 
-/* css grid container below for Enter Site Page*/
+/*
+Reference Material: [codeSTACKr, A. Delise] 
+*/
+
 .entersite-cont {
 	height: 100vh; 
 	border: 1px solid rgb(239, 130, 62, 0.5);
@@ -25,7 +37,6 @@ BODY
 	background-color: rgb(239, 130, 62, 0.5);
 } 
 
-/* css grid container below for Quiz Hompage and Factsheet Page*/ 
 .main-cont {
 	height: 100vh; 
 	/* border: 5px orange solid; */
@@ -57,7 +68,6 @@ BODY
 	"footer footer footer";
 }
 
-/* css grid container below for Contact Us Page*/
 /* .contact-cont {
 	height: 100vh; 
 	display: grid;
@@ -67,14 +77,6 @@ BODY
 	align-content: center;
 	grid-gap: 10px;
 }  */
- 
-
-/*Site-wide settings. Reference Material :[https://www.youtube.com/watch?v=0-DY8J_skZ0]*/
-* {
-	margin: 0; 
-	padding: 0;
-	box-sizing: border-box; 
-}
 
 body {
 	/* font-family: 'Montserrat', sans-serif; */
@@ -85,7 +87,6 @@ a {
 	text-decoration: none;
 	color: black;
 }
-
 
 nav {
 	grid-area: nav; 
@@ -132,9 +133,10 @@ footer {
 }
 
 
+/*ENTER SITE PAGE*/
 
-/*
-ENTER SITE PAGE
+/* Reference Material: 
+Box Shadow - [https://www.w3schools.com/css/css3_shadows.asp]
 */
 
 .entersite-logo {
@@ -164,7 +166,7 @@ ENTER SITE PAGE
 	font-weight: 700;
 	background-color: rgb(255, 255, 255);
 	border: none;
-	border-radius: 5px; 
+	border-radius: 70px; 
 	padding: 5px;
 	/*Code below centers the button. Reference Material: [https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/]*/
 	position: absolute; /*this property is dependant on position value of parent element see above*/
@@ -174,20 +176,20 @@ ENTER SITE PAGE
 	/* background-color: green;	 */
 }
 
-/*Box Shadow. Reference Material: [https://www.w3schools.com/css/css3_shadows.asp]*/
 .entersite-button > button:hover {
 	box-shadow: 4px 4px 4px rgb(90, 87, 87, .7);
+	border: 2px solid rgb(239, 130, 62);
 }
-
-
-
-
-
+	.entersite-button > a:hover {
+	color: rgb(239, 130, 62);
+}
 
 
 /*
 QUIZ HOMEPAGE
 */
+
+
 
 
 /*
