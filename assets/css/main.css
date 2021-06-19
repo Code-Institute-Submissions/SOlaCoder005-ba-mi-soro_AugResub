@@ -65,8 +65,8 @@ nav {
 }
 
 #bamisoro-logo {
-	width: 150px;
-	height: 150px;
+	width: 250px;
+	height: 250px;
 }
 
 #bamisoro-logo:hover {
@@ -145,7 +145,50 @@ Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything
 
 
 
+/*MENU*/
 
+.nav-ul {
+	padding: 0 60px;
+}
+
+.nav-ul > li {
+	display: flex;
+	float: right;
+	list-style-type: none;
+	word-spacing: 10px;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 25px;
+	padding: 20px;
+}
+
+.nav-ul, li > a {
+	color:  rgb(255, 255, 255);
+}
+
+.nav-ul > li:hover {
+	font-size: 30px;
+	color:  rgb(255, 255, 255);
+	text-decoration: solid underline;
+}
+
+.hamburger {
+	background-color: transparent;
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	border: 0;
+	cursor: pointer;
+	display: none; /*ensures hamburger icon does not appear on screens > 768px*/
+}
+
+/* .ham-menu-btn {
+	outline: none;
+} */
+
+
+/* .ham-menu-btn {
+	
+} */
 
 
 
@@ -399,6 +442,23 @@ form > input:hover {
 		"box3"
 		"footer";
 	}  
+	
+	.nav-ul {
+		display: none;
+	}
+
+	.nav-ul.show {
+		display: flex;
+	}
+	
+	.hamburger {
+		display: block;
+		float: right;
+		margin-left: auto;
+		margin-left: auto;
+		padding: 30px;
+		font-size: 50px;
+	}
 
 	#what-we-offer > i {
 		display: block;
