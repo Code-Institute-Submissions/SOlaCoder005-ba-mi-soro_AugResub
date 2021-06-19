@@ -23,7 +23,7 @@ Reference Material: [codeSTACKr]
 
 /*
 Reference Material: 
-YouTubers - [codeSTACKr, A. Delise] 
+YouTubers - [codeSTACKr, A. Delise, Florin Pop] 
 */
 
 .main-cont {
@@ -62,16 +62,18 @@ nav {
 	/* grid-column: 1/4;  */
 	box-shadow: 0 2px 2px 0 rgb(128, 128, 128, .5);
 	background-color: rgb(240, 98, 32);
+	display: flex;
+	flex-wrap: wrap;
 }
 
 #bamisoro-logo {
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 }
 
 #bamisoro-logo:hover {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 }
 
 main {
@@ -147,32 +149,29 @@ Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything
 
 /*MENU*/
 
-.nav-ul {
+.nav-MU {
 	padding: 0 60px;
 }
 
-.nav-ul > li {
-	display: flex;
-	float: right;
-	list-style-type: none;
-	word-spacing: 10px;
-	justify-content: space-between;
-	align-items: center;
+.nav-MU > li {
+	display: table-cell;
+	float: left;
 	font-size: 25px;
 	padding: 20px;
+	line-height: 200px;
 }
 
-.nav-ul, li > a {
+.nav-MU, li > a {
 	color:  rgb(255, 255, 255);
 }
 
-.nav-ul > li:hover {
+.nav-MU > li:hover {
 	font-size: 30px;
 	color:  rgb(255, 255, 255);
 	text-decoration: solid underline;
 }
 
-.hamburger {
+.ham {
 	background-color: transparent;
 	color: rgb(255, 255, 255);
 	font-size: 30px;
@@ -428,7 +427,8 @@ form > input:hover {
 
 /*MEDIA QUERIES*/
 
-@media only screen and (max-width:768px) {
+
+@media only screen and (max-width: 320px) {
 	.main-cont {
 		display: grid;
 		height: auto; /*auto makes the content adjust to viewport so elements dont overlap*/
@@ -443,21 +443,113 @@ form > input:hover {
 		"footer";
 	}  
 	
-	.nav-ul {
+	.nav-MU {
 		display: none;
+		width: 100%;
+		flex-direction: column;
 	}
 
-	.nav-ul.show {
+	.nav-MU > li {
+		line-height: 20px;
+		padding-bottom: 50px;
+	}
+
+	.nav-MU.show {
 		display: flex;
 	}
 	
-	.hamburger {
+	.ham {
 		display: block;
-		float: right;
 		margin-left: auto;
-		margin-left: auto;
-		padding: 30px;
+		margin-right: 10px;
 		font-size: 50px;
+	}
+
+	#what-we-offer > i {
+		display: block;
+		font-size: 50px;
+		padding: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-right: auto;
+		margin-left: auto;
+	} 	
+
+	#what-we-offer > h3 {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	} 
+
+	form > span {
+		margin-bottom: 30px;
+		font-weight: 400;
+		display: block;
+	}
+	
+	.footer-links > a {
+		position: relative;
+		top: -15px;
+		font-size: 20px;
+		padding: 10px;
+		margin-right: 10px
+	}
+	
+	.logo-footer {
+		width: 55px;
+		height: 55px;
+		margin-right: 40px;
+	}
+
+	#box1-color {
+		margin-bottom: 50px;
+	}
+	
+	#box2-color {
+		margin-bottom: 50px;
+	}
+	
+	#box3-color {
+		margin-bottom: 50px;
+	}
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+	.main-cont {
+		display: grid;
+		height: auto; /*auto makes the content adjust to viewport so elements dont overlap*/
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		grid-template-areas:
+		"nav"
+		"main"
+		"box1" 
+		"box2" 
+		"box3"
+		"footer";
+	}  
+	
+	.nav-MU {
+		display: none;
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.nav-MU > li {
+		line-height: 20px;
+		padding-bottom: 50px;
+	}
+
+	.nav-MU.show {
+		display: flex;
+	}
+	
+	.ham {
+		display: block;
+		/* float: right; */
+		margin-left: auto;
+		margin-right: 60px;
+		font-size: 70px;
 	}
 
 	#what-we-offer > i {
