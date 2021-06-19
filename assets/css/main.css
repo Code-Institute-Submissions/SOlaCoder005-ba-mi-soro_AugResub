@@ -180,14 +180,6 @@ Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything
 	display: none; /*ensures hamburger icon does not appear on screens > 768px*/
 }
 
-/* .ham-menu-btn {
-	outline: none;
-} */
-
-
-/* .ham-menu-btn {
-	
-} */
 
 
 
@@ -200,8 +192,12 @@ section {
 	display: block;
 	border-radius: 20px;
 	box-shadow: 3.5px 3.5px 3.5px rgb(90, 87, 87, .5);
-	color: rgb(239, 130, 62);
+	/* color: rgb(239, 130, 62); */
 	background-color: rgb(93, 93, 93, .05);
+}
+
+#what-we-offer > h1 {
+	color: rgb(239, 130, 62);
 }
 
 #what-we-offer > p {
@@ -218,7 +214,7 @@ section {
 	top: -10px;
 }
 
-#what-we-offer > i {
+#what-we-offer > a {
 	display: inline-block;
 	font-size: 50px;
 	padding: 20px;
@@ -226,7 +222,12 @@ section {
 	margin-bottom: 10px;
 	margin-right: auto;
 	margin-left: auto;
+	color: rgb(239, 130, 62);
 } 
+
+.quiz-lp > h1 {
+	color: rgb(239, 130, 62);
+}
 
 #box1-color {
 	background-color: rgb(239, 130, 62, .2);
@@ -461,11 +462,15 @@ form > input:hover {
 	.ham {
 		display: block;
 		margin-left: auto;
-		margin-right: 10px;
-		font-size: 50px;
+		margin-right: 30px;
+		font-size: 40px;
 	}
 
-	#what-we-offer > i {
+	.ham:hover {
+		font-size: 60px;
+	}
+
+	#what-we-offer > a {
 		display: block;
 		font-size: 50px;
 		padding: 10px;
@@ -549,10 +554,14 @@ form > input:hover {
 		/* float: right; */
 		margin-left: auto;
 		margin-right: 60px;
-		font-size: 70px;
+		font-size: 40px;
 	}
 
-	#what-we-offer > i {
+	.ham:hover {
+		font-size: 60px;
+	}
+
+	#what-we-offer > a {
 		display: block;
 		font-size: 50px;
 		padding: 10px;
