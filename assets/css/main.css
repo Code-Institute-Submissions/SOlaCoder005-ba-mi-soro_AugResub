@@ -69,6 +69,11 @@ nav {
 	height: 150px;
 }
 
+#bamisoro-logo:hover {
+	width: 200px;
+	height: 200px;
+}
+
 main {
 	grid-area: main; 
 	/* background-color: rgb(64, 224, 208); */
@@ -80,18 +85,21 @@ main {
 	grid-area: box1; 
 	/* background-color: rgb(64, 224, 208, .3); */
 	padding: 10px;
+	position: relative; /*this affects the buttons' position on the quiz page*/
 } 
 
 .box2 {
 	grid-area: box2; 
 	/* background-color: rgb(64, 224, 208, .5); */
 	padding: 10px;	
+	position: relative; /*this affects the buttons' position on the quiz page*/
 } 
 
 .box3 {
 	grid-area: box3; 
 	/* background-color: rgb(64, 224, 208, .7); */
 	padding: 10px;
+	position: relative; /*this affects the buttons' position on the quiz page*/
 } 
 
 footer {
@@ -101,6 +109,7 @@ footer {
 	padding: 10px;
 	border-top: 5px solid rgb(240, 98, 32, .5); 
 	margin-top: 20px;
+	background-color: rgb(240, 98, 32);
 }
 
 .footer-links {
@@ -114,7 +123,7 @@ footer {
 	top: -40px;
 	font-size: 30px;
 	padding: 10px;
-	color: rgb(240, 98, 32, .7);
+	color: rgb(255, 255, 255);
 }
 
 .footer-links > a:hover {
@@ -417,9 +426,7 @@ form > input:hover {
 		top: -15px;
 		font-size: 20px;
 		padding: 10px;
-		color: rgb(240, 98, 32, .7);
 		margin-right: 10px
-
 	}
 	
 	.logo-footer {
