@@ -63,7 +63,7 @@ nav {
 	box-shadow: 0 2px 2px 0 rgb(128, 128, 128, .5);
 	background-color: rgb(240, 98, 32);
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: wrap;/*impacts the nave bar, do not remove*/
 }
 
 #bamisoro-logo {
@@ -109,7 +109,6 @@ footer {
 	/* background-color: rgb(173, 255, 47, .5); */
 	/* grid-column: 1/4;  */
 	padding: 10px;
-	border-top: 5px solid rgb(240, 98, 32, .5); 
 	margin-top: 20px;
 	background-color: rgb(240, 98, 32);
 }
@@ -145,7 +144,56 @@ Box Shadow - [https://www.w3schools.com/css/css3_shadows.asp]
 Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/]
 */
 
+#enter-bamisoro-logo {
+	margin: 10px;
+	width: 50%;
+	height: 50%;
+	margin-right:auto;
+	margin-left: auto;
+	display: block;	
+}
 
+#enter-bamisoro-logo:hover {
+	width: 60%;
+	height: 60%;
+}
+
+.enter-main {
+	background-color: rgb(240, 98, 32);
+	height: 100vh;	
+}
+
+#enter-site-space {
+	position: relative;
+	display: block;
+	background-color: rgb(240, 98, 32);
+}
+
+.enter-site-btn {
+	width: 270px;
+	height: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 27px;
+	font-weight: 700;
+	background-color: rgb(255, 255, 255);
+	border: 4px solid black;
+	border-radius: 70px; 
+	position: absolute; /*this property is dependant on position value of parent element see above*/
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.enter-site-btn:hover {
+	box-shadow: 5px 5px 5px rgb(90, 87, 87, .5);
+	border: none;
+}
+
+.enter-site-btn > a:hover {
+	color: rgb(239, 130, 62);
+}
 
 /*MENU*/
 .nav-MU {
@@ -364,12 +412,15 @@ form > img {
 
 form {
 	padding: 20px;
-	box-shadow: 5px 5px 5px 5px rgb(90, 87, 87, .5);
-	border-radius: 5px;
+	border-radius: 20px;
 	background-color: rgb(93, 93, 93, .05);
 	font-weight: 500;
 	display: inline-block;
 	margin-top: 50px;
+}
+
+form:hover {
+		box-shadow: 9px 9px 9px rgba(240, 98, 32, .3);
 }
 
 form > input {
@@ -475,6 +526,17 @@ form > input:hover {
 		font-size: 60px;
 	}
 
+	#enter-bamisoro-logo {
+		width: 40%;
+		height: 40%;
+	}
+
+	#enter-bamisoro-logo:hover {
+		width: 45%;
+		height: 45%;
+	
+	}
+
 	#what-we-offer > a {
 		display: block;
 		font-size: 50px;
@@ -564,6 +626,16 @@ form > input:hover {
 
 	.ham:hover {
 		font-size: 60px;
+	}
+
+	#enter-bamisoro-logo {
+		width: 40%;
+		height: 40%;
+	}
+
+	#enter-bamisoro-logo:hover {
+		width: 45%;
+		height: 45%;
 	}
 
 	#what-we-offer > a {
