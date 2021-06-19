@@ -148,7 +148,6 @@ Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything
 
 
 /*MENU*/
-
 .nav-MU {
 	padding: 0 60px;
 }
@@ -180,9 +179,6 @@ Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything
 	display: none; /*ensures hamburger icon does not appear on screens > 768px*/
 }
 
-
-
-
 /*QUIZ HOMEPAGE*/
 
 section {
@@ -191,9 +187,13 @@ section {
 	text-align: center;
 	display: block;
 	border-radius: 20px;
-	box-shadow: 3.5px 3.5px 3.5px rgb(90, 87, 87, .5);
+	
 	/* color: rgb(239, 130, 62); */
 	background-color: rgb(93, 93, 93, .05);
+}
+
+section:hover{
+	box-shadow: 3.5px 3.5px 3.5px rgb(90, 87, 87, .5);
 }
 
 #what-we-offer > h1 {
@@ -223,6 +223,11 @@ section {
 	margin-right: auto;
 	margin-left: auto;
 	color: rgb(239, 130, 62);
+} 
+
+#what-we-offer > a:hover {
+	text-shadow: 5px 5px 5px rgb(90, 87, 87, .5);
+	font-size: 60px;
 } 
 
 .quiz-lp > h1 {
