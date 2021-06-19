@@ -71,30 +71,27 @@ nav {
 
 main {
 	grid-area: main; 
-	background-color: rgb(64, 224, 208);
+	/* background-color: rgb(64, 224, 208); */
 	/* grid-column: 1/4;  */
 	padding: 10px;
 }
 
 .box1 {
 	grid-area: box1; 
-	background-color: rgb(64, 224, 208, .3);
+	/* background-color: rgb(64, 224, 208, .3); */
 	padding: 10px;
-	position: relative;
 } 
 
 .box2 {
 	grid-area: box2; 
-	background-color: rgb(64, 224, 208, .5);
-	padding: 10px;
-	position: relative;
+	/* background-color: rgb(64, 224, 208, .5); */
+	padding: 10px;	
 } 
 
 .box3 {
 	grid-area: box3; 
-	background-color: rgb(64, 224, 208, .7);
+	/* background-color: rgb(64, 224, 208, .7); */
 	padding: 10px;
-	position: relative;
 } 
 
 footer {
@@ -228,28 +225,40 @@ section {
 /*ADVANCED QUIZ PAGE*/
 
 
-/*FACTSHEET PAGE*/
+/*PHRASESHEET PAGE*/
+#phrasesheet-descript {
+	box-shadow: 3.5px 3.5px 3.5px rgb(90, 87, 87, .5);
+	background-color: rgb(93, 93, 93, .05);
+	padding: 20px;
+}
 
-.facts-box {
-	background-color: rgb(221, 160, 221, .5);
-	border: 1px solid red; 
-	padding: 30px;
+#phrasesheet-descript > h1 {
+	color: rgb(239, 130, 62);
+}
+
+.phrase-box {
+	/* background-color: rgb(221, 160, 221, .5); */
+	/* border: 1px solid red;  */
+	padding: 10px;
 	border-radius: 10px;
 	text-align: left;
-	/* display: block;
-	margin-left: auto;
-	margin-right: auto; */
-	
+	background-color: rgb(93, 93, 93, .05);
+	box-shadow: 3.5px 3.5px 3.5px rgb(90, 87, 87, .5);
+}
+
+.phrase-box > h2 {
+	color: rgb(239, 130, 62);
 }
 
 th {
 	padding: 10px 10px;
-	
+	text-decoration: underline;
+	font-weight: 700;
+	color: rgb(239, 130, 62);
 }
 
 td {
 	padding: 10px 10px;
-	
 }
 
 tr {
@@ -257,14 +266,28 @@ tr {
 	padding: 10px 10px;
 }
 
-.factsheets-descript {
-	
-}
-
-
 .download-btn {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	width: 200px;
+	height: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(239, 130, 62);
+	border-radius: 70px; 
+	padding: 5px;
+	
+}
+
+.download-btn:hover {
+	box-shadow: 5px 5px 5px rgb(90, 87, 87, .5);
+	border: none;
+}
+
+.download-btn > a:hover {
+	color: rgb(239, 130, 62);
 }
  
 /*CONTACT US PAGE*/
@@ -329,6 +352,7 @@ form > i {
 	margin-bottom: 30px;
 	margin-top: 30px;
 	border: 2px solid  rgb(240, 98, 32, .7);
+	background-color: rgb(255, 255, 255);
 	border-radius: 30px;
 	padding: 20px;
 	width: 200px;
@@ -344,9 +368,10 @@ form > input:hover {
 }
 
 .submit-button:hover {
-	background-color: rgb(240, 98, 32, .7);
 	box-shadow: 4px 4px 4px rgb(90, 87, 87, .5);
-	color:white;
+	background-color: rgb(255, 255, 255);
+	color:rgb(240, 98, 32, .7);
+	border: none;
 }
 
 /*MEDIA QUERIES*/
