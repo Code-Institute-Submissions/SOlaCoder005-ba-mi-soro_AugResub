@@ -26,13 +26,12 @@ Reference Material:
 YouTubers - [codeSTACKr, A. Delise] 
 */
 
-
-
 .main-cont {
 	display: grid;
-	height: 100vh;
+	height:  minmax(100vh, auto);
+	grid-gap: 1rem;
 	grid-template-columns: repeat(3,1fr);
-	grid-template-rows: 1fr 3fr 2fr auto;
+	grid-template-rows: auto 3fr 2fr auto;
 	grid-template-areas:
 	"nav nav nav"
 	"main main main"
@@ -40,10 +39,15 @@ YouTubers - [codeSTACKr, A. Delise]
 	"footer footer footer";
 }  
 
-
 body {
 	/* font-family: 'Montserrat', sans-serif; */
-	font-family: 'Roboto', sans-serif;	
+	font-family: 'Roboto', sans-serif;
+	color: rgba(93, 93, 93);
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Montserrat', sans-serif; 
+	padding: 10px;
 }
 
 a {
@@ -59,9 +63,9 @@ nav {
 	background-color: rgb(240, 98, 32);
 }
 
-nav > img {
-	width: 200px;
-	height: 200px;
+#bamisoro-logo {
+	width: 150px;
+	height: 150px;
 }
 
 main {
@@ -73,7 +77,7 @@ main {
 
 .box1 {
 	grid-area: box1; 
-	background-color: rgb(64, 224, 208, .3);
+	/* background-color: rgb(64, 224, 208, .3); */
 	padding: 10px;
 	position: relative;
 } 
@@ -97,7 +101,7 @@ footer {
 	/* background-color: rgb(173, 255, 47, .5); */
 	/* grid-column: 1/4;  */
 	padding: 10px;
-	margin-top: 100px;
+	margin-top: 25px;
 	border-top: 5px solid rgb(240, 98, 32, .5); 
 }
 
@@ -110,14 +114,14 @@ footer {
 .footer-links > a {
 	position: relative;
 	top: -40px;
-	font-size: 50px;
+	font-size: 30px;
 	padding: 10px;
 	color: rgb(240, 98, 32, .7);
 }
 
 .footer-links > a:hover {
 	text-shadow: 4px 4px 4px rgb(93, 93, 93, .5);
-	font-size: 70px;
+	font-size: 50px;
 }
 
 .logo-footer {
@@ -140,11 +144,62 @@ Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything
 
 /*QUIZ HOMEPAGE*/
 
+section {
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	display: block;
+	border-radius: 20px;
+	box-shadow: 3.5px 3.5px 3.5px rgb(90, 87, 87, .5);
+	color: rgb(239, 130, 62);
+	background-color: rgb(93, 93, 93, .05);
+}
+
+#what-we-offer > p {
+	margin-top: 20px;
+}
+
+#what-we-offer > h3 {
+	margin-top: 5px;
+	margin-bottom: 15px;
+	margin-right: auto;
+	margin-left: 1px;
+	display: inline-block;
+	position: relative;
+	top: -10px;
+}
+
+#what-we-offer > i {
+	display: inline-block;
+	font-size: 50px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+} 
+
+#box1-color {
+	background-color: rgb(239, 130, 62, .2);
+	border-radius: 15px;
+	
+}
+
+#box2-color {
+	background-color: rgb(239, 130, 62, .5);
+	border-radius: 15px;
+}
+
+#box3-color {
+	background-color: rgb(239, 130, 62, .9);
+	border-radius: 15px;
+}
+
 .quiz-button {
-	width: 300px;
+	width: 270px;
 	height: 50px;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
+	font-size: 27px;
 	font-weight: 700;
 	background-color: rgb(255, 255, 255);
 	border: none;
@@ -154,11 +209,10 @@ Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	/* background-color: green;	 */
 }
 
 .quiz-button:hover {
-	box-shadow: 4px 4px 4px rgb(90, 87, 87, .7);
+	box-shadow: 5px 5px 5px rgb(90, 87, 87, .5);
 }
 
 .quiz-button > a:hover {
@@ -181,13 +235,8 @@ Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything
 	border: 1px solid red; 
 	width: 100%;
 }
-
  
 /*CONTACT US PAGE*/
-
-
-
-
 
 /*This centers the whole form*/
 .form-center {
@@ -203,7 +252,6 @@ form > img {
 }
 
 form {
-	box-shadow: 0 4px 4;
 	padding: 20px;
 	box-shadow: 5px 5px 5px 5px rgb(90, 87, 87, .5);
 	border-radius: 5px;
@@ -230,7 +278,7 @@ form > input {
 form > textarea {
 	padding: 20px;
 	width: 100%;
-	height:  minmax(200px, auto);
+	height: minmax(200px, auto);
 	font-size: 16px;
 	margin-right: 20px;
 	margin-bottom: 30px; 
@@ -253,7 +301,6 @@ form > i {
 	border-radius: 30px;
 	padding: 20px;
 	width: 200px;
-	color: rgb(93, 93, 93, .8);
 }
 
 form > i:hover {
@@ -271,20 +318,14 @@ form > input:hover {
 	color:white;
 }
 
-
-
-
-
-/*
-MEDIA QUERIES
-*/
+/*MEDIA QUERIES*/
 
 @media only screen and (max-width:768px) {
 	.main-cont {
 		display: grid;
-		height: 100vh;
+		height: auto; /*auto makes the content adjust to viewport so elements dont overlap*/
 		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 3fr 2fr auto;
+		grid-template-rows: auto 2fr 1fr 1fr 1fr auto;
 		grid-template-areas:
 		"nav"
 		"main"
@@ -294,6 +335,21 @@ MEDIA QUERIES
 		"footer";
 	}  
 
+	#what-we-offer > i {
+		display: block;
+		font-size: 50px;
+		padding: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-right: auto;
+		margin-left: auto;
+	} 	
+
+	#what-we-offer > h3 {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	} 
+
 	form > span {
 		margin-bottom: 30px;
 		font-weight: 400;
@@ -301,10 +357,9 @@ MEDIA QUERIES
 	}
 	
 	.footer-links > a {
-	
 		position: relative;
-		top: -20px;
-		font-size: 25px;
+		top: -15px;
+		font-size: 20px;
 		padding: 10px;
 		color: rgb(240, 98, 32, .7);
 		margin-right: 10px
@@ -312,9 +367,9 @@ MEDIA QUERIES
 	}
 	
 	.logo-footer {
-		width: 80px;
-		height: 80px;
-		margin-right: 40px
+		width: 55px;
+		height: 55px;
+		margin-right: 40px;
 	}
 }
 

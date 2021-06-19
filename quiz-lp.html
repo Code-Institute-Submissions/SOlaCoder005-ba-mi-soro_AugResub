@@ -11,42 +11,72 @@
 </head>
 <body>
     <div class="main-cont">
-
-        <nav>NAV<!-- hamburger bare will be in here --></nav>
+        <nav>
+            <a href="index.html" aria-label="Click here to go to website's enter site page"><img src="assets/images/BAMISOROLOGO.png" alt="Website logo" id="bamisoro-logo"></a>
+        </nav>
         
         <main>
-            <div>
-                <h1>Welcome!</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, officia ut optio enim delectus nisi beatae perspiciatis rerum. Sed quidem ex vel accusantium tenetur, corporis reiciendis officiis consequatur ratione repellat.</p>
-            </div>
-            <div>
-                <h1>Select Your Quiz Level</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti itaque doloribus, consequuntur enim perferendis hic facilis eos sit in necessitatibus officia eaque blanditiis a esse accusamus incidunt eius labore. Autem!</p>
-            </div>
+            <section>
+                <div>
+                    <h1>Welcome!</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, officia ut optio enim delectus nisi beatae perspiciatis rerum. Sed quidem ex vel accusantium tenetur, corporis reiciendis officiis consequatur ratione repellat.</p>
+                </div>
+            </section>
+
+            <section>
+                <div id="what-we-offer">
+                    <h1>What we offer</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, iusto deleniti recusandae qui suscipit reprehenderit nostrum odio incidunt voluptas inventore natus maiores doloremque maxime tenetur repellat eaque ipsa saepe. Corrupti!</p>
+                    <i class="far fa-question-circle"></i>
+                    <h3>Quizzes!</h3>
+                    <i class="far fa-file-alt"></i>
+                    <h3>Key Phase Sheets</h3>
+                </div>
+            </section>
+
+            <section>
+                <div>
+                    <h1>Select Your Quiz Level</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti itaque doloribus, consequuntur enim perferendis hic facilis eos sit in necessitatibus officia eaque blanditiis a esse accusamus incidunt eius labore. Autem!</p>
+                </div>
+            </section>
         </main>
         
-        <div class="box1">
+        <div class="box1" id="box1-color">
             <div>
                 <button class="quiz-button"><a href="begginer-quiz.html" aria-label="Click the button to start the quiz">BEGGINER</a></button>
             </div>
         </div>
 
-        <div class="box2">
+        <div class="box2" id="box2-color">
             <div>
                 <button class="quiz-button"><a href="intermediate-quiz.html" aria-label="Click the button to start the quiz">INTERMEDIATE</a></button>
             </div>
         </div>
 
-        <div class="box3">
+        <div class="box3" id="box3-color">
             <div>
                 <button class="quiz-button"><a href="advanced-quiz.html" aria-label="Click the button to start the quiz">ADVANCED</a></button>
             </div>
         </div>
 
-        <footer>FOOTER</footer>
+        <footer>  
+            <span class="footer-links">
+                <a href="https://www.instagram.com/" target="_blank" aria-label="Click here to go to website's Instagram profile"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/home?lang=en-gb" target="_blank" aria-label="Click here to go to website's Twitter icon profile"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank" aria-label="Click here to go to website's LinkedIn icon profile"><i class="fab fa-linkedin-in"></i></a> 
+                <img src="assets/images/BAMISOROLOGO.png" alt="Website logo" class="logo-footer">
+            </span>
+        </footer>
     </div>
+
+
+    <!-- FontAwesome CDN is below -->
+    <script src="https://kit.fontawesome.com/1699136767.js" crossorigin="anonymous"></script>
+
     <!--External Script element uses this syntax as advised. Source [https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+2021_T1/courseware/0a4bf408d10c4149bb686457ac11edf6/bff0041fe4e24c15b553355f17f5c7b9/?child=first]-->
     <script src="assets/js/main.js" type="test/javascript"></script>
+
     <noscript>Sorry, but your browser does not support JavaScript.</noscript>
 </body>
 </html>
