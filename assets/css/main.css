@@ -238,8 +238,8 @@ section {
 	background-color: rgb(93, 93, 93, .1);
 }
 
-section:hover{
-	box-shadow: 3.5px 3.5px 3.5px rgb(90, 87, 87, .5);
+section:hover {
+	box-shadow: 9px 9px 9px rgba(240, 98, 32, .3);
 }
 
 #what-we-offer > h1 {
@@ -379,6 +379,10 @@ padding-bottom: 10px;
 
 .phrase-box > h2 {
 	color: rgb(239, 130, 62);
+}
+
+.phrase-box:hover {
+	box-shadow: 9px 9px 9px rgba(240, 98, 32, .3);
 }
 
 th {
