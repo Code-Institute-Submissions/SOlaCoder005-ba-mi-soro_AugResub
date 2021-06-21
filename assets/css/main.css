@@ -144,29 +144,28 @@ Box Shadow - [https://www.w3schools.com/css/css3_shadows.asp]
 Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/]
 */
 
+#entersite-background {
+	background-color: rgb(240, 98, 32);
+	height: 100vh;
+}
+
 #enter-bamisoro-logo {
 	margin: 10px;
-	width: 50%;
-	height: 50%;
+	width: 500px;
+	height: 500px;
 	margin-right:auto;
 	margin-left: auto;
 	display: block;	
 }
 
 #enter-bamisoro-logo:hover {
-	width: 60%;
-	height: 60%;
-}
-
-.enter-main {
-	background-color: rgb(240, 98, 32);
-	height: 100vh;	
+	width: 550px;
+	height: 550px;
 }
 
 #enter-site-space {
 	position: relative;
 	display: block;
-	background-color: rgb(240, 98, 32);
 }
 
 .enter-site-btn {
@@ -527,14 +526,17 @@ form > input:hover {
 	}
 
 	#enter-bamisoro-logo {
-		width: 40%;
-		height: 40%;
+		/* margin: 10px; */
+		width: 50%;
+		height: 50%;
+		/* margin-right:auto;
+		margin-left: auto;
+		display: block;	 */
 	}
-
-	#enter-bamisoro-logo:hover {
-		width: 45%;
-		height: 45%;
 	
+	#enter-bamisoro-logo:hover {
+		width: 60%;
+		height: 60%;
 	}
 
 	#what-we-offer > a {
@@ -629,13 +631,13 @@ form > input:hover {
 	}
 
 	#enter-bamisoro-logo {
-		width: 40%;
-		height: 40%;
+		width: 50%;
+		height: 50%;
 	}
-
+	
 	#enter-bamisoro-logo:hover {
-		width: 45%;
-		height: 45%;
+		width: 55%;
+		height: 55%;
 	}
 
 	#what-we-offer > a {
