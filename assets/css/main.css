@@ -207,7 +207,7 @@ Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything
 	line-height: 200px;
 }
 
-.nav-MU, li > a {
+.nav-MU > li > a {
 	color:  rgb(255, 255, 255);
 }
 
@@ -342,7 +342,25 @@ section:hover{
 #phrasesheet-descript {
 	box-shadow: 3.5px 3.5px 3.5px rgb(90, 87, 87, .5);
 	background-color: rgb(93, 93, 93, .05);
-	padding: 20px;
+	padding: 30px;
+}
+
+#phrasesheet-descript > p {
+	padding: 10px 0 0 20px;
+
+}
+
+#phrasesheet-descript > ul  {
+	padding-left: 50px;
+	color:rgb(239, 130, 62);
+}
+
+#phrasesheet-descript > ul > li  {
+padding-bottom: 10px;
+}
+
+#phrasesheet-descript > ul > li > a  {
+	color:rgb(239, 130, 62);
 }
 
 #phrasesheet-descript > h1 {
@@ -352,7 +370,7 @@ section:hover{
 .phrase-box {
 	/* background-color: rgb(221, 160, 221, .5); */
 	/* border: 1px solid red;  */
-	padding: 10px;
+	padding: 30px;
 	border-radius: 10px;
 	text-align: left;
 	background-color: rgb(93, 93, 93, .05);
@@ -391,7 +409,7 @@ tr {
 	border: 2px solid rgb(239, 130, 62);
 	border-radius: 70px; 
 	padding: 5px;
-	
+	color: rgb(90, 87, 87, .8);	
 }
 
 .download-btn:hover {

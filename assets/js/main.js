@@ -6,3 +6,4 @@ const navMU = document.getElementById('nav-MU');
 ham.addEventListener('click', () => {
     navMU.classList.toggle('show');
 });
+
