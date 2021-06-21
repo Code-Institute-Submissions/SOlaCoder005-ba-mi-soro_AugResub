@@ -39,3 +39,5 @@
 ## 8. Credits
 ## 9. Acknowledgements
 ## 10. References
+
+Several resources have been referred to throughout the development of the 'Ba Mi Soro!' website. A list has been provided, [here](https://github.com/SOlaCoder005/ba-mi-soro/blob/master/REFS.md).
