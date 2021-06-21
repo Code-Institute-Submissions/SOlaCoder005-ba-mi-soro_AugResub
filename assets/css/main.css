@@ -492,7 +492,7 @@ form > input:hover {
 
 /*MEDIA QUERIES*/
 
-
+/*For small screens*/
 @media only screen and (max-width: 320px) {
 	.main-cont {
 		display: grid;
@@ -596,8 +596,108 @@ form > input:hover {
 	}
 }
 
+/*For medium screens*/
+@media screen and (max-width: 600px) and (min-width: 321px) {
+	.main-cont {
+		display: grid;
+		height: auto; /*auto makes the content adjust to viewport so elements dont overlap*/
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		grid-template-areas:
+		"nav"
+		"main"
+		"box1" 
+		"box2" 
+		"box3"
+		"footer";
+	}  
+	
+	.nav-MU {
+		display: none;
+		width: 100%;
+		flex-direction: column;
+	}
 
-@media screen and (max-width: 768px) and (min-width: 321px) {
+	.nav-MU > li {
+		line-height: 20px;
+		padding-bottom: 50px;
+	}
+
+	.nav-MU.show {
+		display: flex;
+	}
+	
+	.ham {
+		display: block;
+		margin-left: auto;
+		margin-right: 30px;
+		font-size: 40px;
+	}
+
+	.ham:hover {
+		font-size: 60px;
+	}
+
+	#enter-bamisoro-logo {
+		width: 50%;
+		height: 50%;
+	}
+	
+	#enter-bamisoro-logo:hover {
+		width: 60%;
+		height: 60%;
+	}
+
+	#what-we-offer > a {
+		display: block;
+		font-size: 50px;
+		padding: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		margin-right: auto;
+		margin-left: auto;
+	} 	
+
+	#what-we-offer > h3 {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	} 
+
+	form > span {
+		margin-bottom: 30px;
+		font-weight: 400;
+		display: block;
+	}
+	
+	.footer-links > a {
+		position: relative;
+		top: -15px;
+		font-size: 20px;
+		padding: 10px;
+		margin-right: 10px
+	}
+	
+	.logo-footer {
+		width: 55px;
+		height: 55px;
+		margin-right: 40px;
+	}
+
+	#box1-color {
+		margin-bottom: 50px;
+	}
+	
+	#box2-color {
+		margin-bottom: 50px;
+	}
+	
+	#box3-color {
+		margin-bottom: 50px;
+	}
+}
+
+/*For large screens*/
+@media screen and (max-width: 768px) and (min-width: 601px) {
 	.main-cont {
 		display: grid;
 		height: auto; /*auto makes the content adjust to viewport so elements dont overlap*/
