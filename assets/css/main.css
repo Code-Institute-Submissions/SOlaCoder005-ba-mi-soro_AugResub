@@ -356,6 +356,48 @@ Reference material:
 
 /*INTERMEDIATE QUIZ PAGE*/
 
+.quiz-cont {
+	display: block;
+	text-align: center;
+	/* background-color: grey;
+	border: 3px solid red; */
+	margin: 60px 60px;
+}	
+
+#intermediateqs {
+	padding: 10px;
+	/* background-color: blueviolet; */
+	/* color: rgb(239, 130, 62); */
+	font-size: 30px;
+}	
+
+.option-cont {
+	display: inline-block; /*aligns buttons into a row on desktop, square block  on smaller screens, 320px size needs amending*/
+	margin-bottom: 20px;
+	/* background-color: blue; */
+}	
+
+.optionsil {
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin: 20px 20px;
+	border: 6px solid rgb(90, 87, 87, .5);
+	border-radius: 50%;/*makes buttons round*/
+	font-size: 20px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(90, 87, 87, .8);	
+}
+
+.optionsil:hover {
+	border: 5px solid rgb(239, 130, 62);/*makes buttons round*/
+	box-shadow: 5px 5px 5px rgb(90, 87, 87, .5);
+	color: rgb(239, 130, 62);
+}
+
 
 /*ADVANCED QUIZ PAGE*/
 
@@ -641,6 +683,11 @@ form > input:hover {
 	}
 
 	.optionsbl {
+		width: 150px;
+		height: 150px;
+	}
+
+	.optionsil {
 		width: 150px;
 		height: 150px;
 	}
