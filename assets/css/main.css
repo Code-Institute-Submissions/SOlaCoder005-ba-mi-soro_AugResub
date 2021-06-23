@@ -305,8 +305,12 @@ section:hover {
 	width: 350px;
 	height: 350px;
 }
+
 /*BEGGINER QUIZ PAGE
-Reference Material: Code Institue: JavaScriptChallenge 45 [https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+2021_T1/courseware/0a4bf408d10c4149bb686457ac11edf6/37e3becd93804fdf8bf586523f56ead5/]*/
+Reference material: 
+* J. Q. Quick, 2019 [https://youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx]
+* Code Institute|JavaScript Challenge 45: [https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+2021_T1/courseware/0a4bf408d10c4149bb686457ac11edf6/37e3becd93804fdf8bf586523f56ead5/]
+*/
 
 .quiz-cont {
 	display: block;
@@ -348,7 +352,6 @@ Reference Material: Code Institue: JavaScriptChallenge 45 [https://learn.codeins
 	border: 5px solid rgb(239, 130, 62);/*makes buttons round*/
 	box-shadow: 5px 5px 5px rgb(90, 87, 87, .5);
 }
-
 
 /*INTERMEDIATE QUIZ PAGE*/
 
