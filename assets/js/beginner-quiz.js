@@ -56,10 +56,10 @@ startQuiz = () => {
     score = 0;
     directoryQuestions = [...listOfQuestions];
     console.log(directoryQuestions);
-    getNewQuestion();
+    fetchNextQuestion();
 };
 
-getNewQuestion = () => {
+fetchNextQuestion = () => {
     questionblCounter++;
     const questionIndex = Math.floor(Math.random() * directoryQuestions.length);//this allow the reandom selection of answers
     liveQuestion = directoryQuestions[questionIndex];
@@ -77,7 +77,14 @@ getNewQuestion = () => {
 
 options.forEach(option => {
     option.addEventListener('click', e => {
-    console.log(e.target);  
+    // console.log(e.target);  
+    if(!monitoringAnswers) return;
+
+    monitoringAnswers = false; 
+    const selectedOption = e.target;
+    const selectedAnswer = selectedOption.dataset["number"];
+    fetchNextQuestion();
+
     });// this tracks which answer is clicked in the console
 });
 
