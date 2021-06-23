@@ -325,6 +325,7 @@ Reference material:
 	/* background-color: blueviolet; */
 	color: rgb(239, 130, 62);
 	font-size: 30px;
+	margin-bottom: 30px;
 }	
 
 .option-cont {
@@ -364,11 +365,18 @@ Reference material:
 	margin: 60px 60px;
 }	
 
+#gameil > h2 {
+	margin-bottom: 30px;
+	color: rgb(239, 130, 62);
+	font-size: 20px;
+}
+
 #intermediateqs {
 	padding: 10px;
 	/* background-color: blueviolet; */
-	/* color: rgb(239, 130, 62); */
+	color: rgb(239, 130, 62);
 	font-size: 30px;
+	margin-bottom: 15px;
 }	
 
 .option-cont {
@@ -400,6 +408,60 @@ Reference material:
 
 
 /*ADVANCED QUIZ PAGE*/
+
+.quiz-cont {
+	display: block;
+	text-align: center;
+	/* background-color: grey;
+	border: 3px solid red; */
+	margin: 60px 60px;
+}	
+
+#gameal > h2 {
+	margin-bottom: 30px;
+	color: rgb(239, 130, 62);
+	font-size: 20px;
+}
+
+#gameal-text {
+	margin-bottom: 30px;
+	font-size: 25px;
+}
+
+#advancedqs {
+	padding: 10px;
+	/* background-color: blueviolet; */
+	color: rgb(239, 130, 62);
+	font-size: 30px;
+	margin-bottom: 15px;
+}	
+
+.option-cont {
+	display: inline-block; /*aligns buttons into a row on desktop, square block  on smaller screens, 320px size needs amending*/
+	margin-bottom: 20px;
+	/* background-color: blue; */
+}	
+
+.optionsal {
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin: 20px 20px;
+	border: 6px solid rgb(90, 87, 87, .5);
+	border-radius: 50%;/*makes buttons round*/
+	font-size: 20px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(90, 87, 87, .8);	
+}
+
+.optionsal:hover {
+	border: 5px solid rgb(239, 130, 62);/*makes buttons round*/
+	box-shadow: 5px 5px 5px rgb(90, 87, 87, .5);
+	color: rgb(239, 130, 62);
+}
 
 
 /*PHRASESHEET PAGE*/
@@ -682,6 +744,13 @@ form > input:hover {
 		height: 75%;
 	}
 
+	#intermediateqs {
+		padding: 10px;
+		/* background-color: blueviolet; */
+		/* color: rgb(239, 130, 62); */
+		font-size: 25px;
+	}	
+
 	.optionsbl {
 		width: 150px;
 		height: 150px;
@@ -690,6 +759,16 @@ form > input:hover {
 	.optionsil {
 		width: 150px;
 		height: 150px;
+	}
+	
+	.optionsal {
+		width: 150px;
+		height: 150px;
+	}
+
+	#gameal-text {
+		margin-bottom: 30px;
+		font-size: 25px;
 	}
 }
 
