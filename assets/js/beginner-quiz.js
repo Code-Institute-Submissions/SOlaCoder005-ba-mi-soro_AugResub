@@ -1,3 +1,3 @@
-const questionbl = document.getElementById("beginnerquest");
-const optionsbl = Array.from (document.getElementsByClassName("option-btn")); 
-// console.log(optionsbl);
+const question = document.getElementById('beginnerqs');
+const options = document.getElementsByClassName('option-btn');
+console.log();
