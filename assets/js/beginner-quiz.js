@@ -3,14 +3,14 @@ const options = Array.from(document.getElementsByClassName("optionsbl"));
 // console.log(options);
 
 let liveQuestion = {}; //object
-let monitoringAnswers = true; //creates a delay 
+let monitoringAnswers = false; //creates a dela, set tyo false so users can not pick answer before page loads
 let tally = 0; 
 let questionblCounter = 0;
 let directoryQuestions = [];
 
 let listOfQuestions = [
     {
-        question:"How do you say Good morning in Yoruba?",
+        question:"Q: How do you say Good morning in Yoruba?",
         option1:"Ekaro",
         option2:"Ekasan",
         option3:"Ekale",
@@ -18,7 +18,7 @@ let listOfQuestions = [
         answer: 1
     },
     {
-        question:"How do you say 'Orange'(fruit) in Yoruba?",
+        question:"Q: How do you say 'Orange'(fruit) in Yoruba?",
         option1:"Ada",
         option2:"Sibi",
         option3:"Osan",
@@ -26,7 +26,7 @@ let listOfQuestions = [
         answer: 3
     },
     {
-        question:"Yoruba is a tribe in which African country?",
+        question:"Q: Yoruba is a tribe in which African country?",
         option1:"Ghana",
         option2:"South Africa",
         option3:"Nigeria",
@@ -34,7 +34,7 @@ let listOfQuestions = [
         answer: 3
     },
     {
-        question:"How do you say Good afternoon in Yoruba?",
+        question:"Q: How do you say Good afternoon in Yoruba?",
         option1:"Bawo ni",
         option2:"Ekasan",
         option3:"Dada ni",
@@ -42,7 +42,7 @@ let listOfQuestions = [
         answer: 4
     },
     {
-        question:"How do you say ‘Mother’ in Yoruba?",
+        question:"Q: How do you say ‘Mother’ in Yoruba?",
         option1:"Aburo",
         option2:"Maami",
         option3:"Egbon",
@@ -68,8 +68,18 @@ getNewQuestion = () => {
     options.forEach( option => {
         const number = option.dataset['number'];
         option.innerText = liveQuestion['option' + number];
-    })
-}
+    });
+
+    directoryQuestions.splice(questionIndex, 1);//this removes the question that is used
+
+    monitoringAnswers = true; //corrolates with initial variable value (above)
+};
+
+options.forEach(option => {
+    option.addEventListener('click', e => {
+    console.log(e.target);  
+    });// this tracks which answer is clicked in the console
+});
 
 
 

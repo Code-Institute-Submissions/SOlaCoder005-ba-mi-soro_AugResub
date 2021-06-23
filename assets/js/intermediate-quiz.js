@@ -10,7 +10,7 @@ let directoryQuestions = [];
 
 let listOfQuestions = [
     {
-        question:"'Mo ti ra ________'",//I have bought an orange.
+        question:"'Mo ti ra  ________ '",//I have bought an orange.
         option1:"Osan",
         option2:"Maami",
         option3:"Oja",
@@ -18,7 +18,7 @@ let listOfQuestions = [
         answer: 1
     },
     {
-        question:"'Mo fe lo _______'", //I want to sleep.
+        question:"'Mo fe lo  ________ '", //I want to sleep.
         option1:"Sun",
         option2:"Ejo",
         option3:"Bawo ni",
@@ -26,7 +26,7 @@ let listOfQuestions = [
         answer: 1
     },
     {
-        question:"'Se o ti ________'",//Have you eaten?
+        question:"'Se o ti  ________ '",//Have you eaten?
         option1:"Awo",
         option2:"Tabili",
         option3:"Oja",
@@ -34,7 +34,7 @@ let listOfQuestions = [
         answer: 4
     },
     {
-        question:"'___________ni mi'",//I am a boy.
+        question:"'  ________ ni mi'",//I am a boy.
         option1:"Aja",
         option2:"Okunrin",
         option3:"Oko ayokele",
@@ -42,7 +42,7 @@ let listOfQuestions = [
         answer: 2
     },
     {
-        question:"'Mefa, meje, mejo, mesan ati ____________'",//six, seven, eight, nine and ten.
+        question:"'Mefa, meje, mejo, mesan ati  ________ '",//six, seven, eight, nine and ten.
         option1:"Aadota",
         option2:"Meji",
         option3:"Mewa",
