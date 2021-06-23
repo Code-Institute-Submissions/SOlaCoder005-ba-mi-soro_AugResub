@@ -348,9 +348,10 @@ Reference material:
 	color: rgb(90, 87, 87, .8);	
 }
 
-.option-btn:hover {
+.optionsbl:hover {
 	border: 5px solid rgb(239, 130, 62);/*makes buttons round*/
 	box-shadow: 5px 5px 5px rgb(90, 87, 87, .5);
+	color: rgb(239, 130, 62);
 }
 
 /*INTERMEDIATE QUIZ PAGE*/
@@ -639,7 +640,7 @@ form > input:hover {
 		height: 75%;
 	}
 
-	.option-btn {
+	.optionsbl {
 		width: 150px;
 		height: 150px;
 	}

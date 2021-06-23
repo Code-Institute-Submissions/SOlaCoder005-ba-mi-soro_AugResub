@@ -10,37 +10,45 @@ let directoryQuestions = [];
 
 let listOfQuestions = [
     {
-        question:"fgvgftgtbg",
-        option1:"test",
-        option2:"test",
-        option3:"test",
-        option4:"test",
+        question:"How do you say Good morning in Yoruba?",
+        option1:"Ekaro",
+        option2:"Ekasan",
+        option3:"Ekale",
+        option4:"Bawo ni",
         answer: 1
     },
     {
-        question:"fgvgftgtbg",
-        option1:"test",
-        option2:"test",
-        option3:"test",
-        option4:"test",
+        question:"How do you say 'Orange'(fruit) in Yoruba?",
+        option1:"Ada",
+        option2:"Sibi",
+        option3:"Osan",
+        option4:"Aja",
         answer: 3
     },
     {
-        question:"fgvgftgtbg",
-        option1:"test",
-        option2:"test",
-        option3:"test",
-        option4:"test",
+        question:"Yoruba is a tribe in which African country?",
+        option1:"Ghana",
+        option2:"South Africa",
+        option3:"Nigeria",
+        option4:"South Sudan",
+        answer: 3
+    },
+    {
+        question:"How do you say Good afternoon in Yoruba?",
+        option1:"Bawo ni",
+        option2:"Ekasan",
+        option3:"Dada ni",
+        option4:"Ekale",
         answer: 4
     },
     {
-        question:"fgvgftgtbg",
-        option1:"test",
-        option2:"test",
-        option3:"test",
-        option4:"test",
+        question:"How do you say ‘Mother’ in Yoruba?",
+        option1:"Aburo",
+        option2:"Maami",
+        option3:"Egbon",
+        option4:"Baami",
         answer: 2
-    },
+    }
 ];
 
 startQuiz = () => {
