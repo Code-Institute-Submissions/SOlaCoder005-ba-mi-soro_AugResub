@@ -1,2 +1,3 @@
-// const question = document.getElementById('beginnerqs');
-// const options = document.getElementsByClassName('option-btn');
+const questionbl = document.getElementById('beginnerqs');
+const optionsbl = document.getElementsByClassName('option-btn');
+console.log(questionbl);
