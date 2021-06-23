@@ -5,7 +5,7 @@ const options = Array.from(document.getElementsByClassName("optionsil"));
 let liveQuestion = {}; //object
 let monitoringAnswers = true; //creates a delay 
 let tally = 0; 
-let questionblCounter = 0;
+let questionilCounter = 0;
 let directoryQuestions = [];
 
 let listOfQuestions = [
@@ -51,15 +51,21 @@ let listOfQuestions = [
     }//bonus question
 ];
 
+const directoryQuestionsMax = 5;
+
 startQuiz = () => {
     questionblCounter = 0;
     score = 0;
     directoryQuestions = [...listOfQuestions];
     console.log(directoryQuestions);
-    getNewQuestion();
+    fetchNextQuestion();
 };
 
-getNewQuestion = () => {
+fetchNextQuestion = () => {
+    if (directoryQuestions.length === 0 || questionilCounter > directoryQuestionsMax) {
+        return window.location.assign("/quiz-endil.html");
+    }
+
     questionblCounter++;
     const questionIndex = Math.floor(Math.random() * directoryQuestions.length);//this allow the reandom selection of answers
     liveQuestion = directoryQuestions[questionIndex];
@@ -68,8 +74,25 @@ getNewQuestion = () => {
     options.forEach( option => {
         const number = option.dataset['number'];
         option.innerText = liveQuestion['option' + number];
-    })
-}
+    });
+
+    directoryQuestions.splice(questionIndex, 1);//this removes the question that is used
+
+    monitoringAnswers = true; //corrolates with initial variable value (above)
+};
+
+options.forEach(option => {
+    option.addEventListener('click', e => {
+    // console.log(e.target);  
+    if(!monitoringAnswers) return;
+
+    monitoringAnswers = false; 
+    const selectedOption = e.target;
+    const selectedAnswer = selectedOption.dataset["number"];
+    fetchNextQuestion();
+
+    });// this tracks which answer is clicked in the console
+});
 
 
 

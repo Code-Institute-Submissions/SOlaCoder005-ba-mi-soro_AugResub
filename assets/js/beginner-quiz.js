@@ -51,6 +51,8 @@ let listOfQuestions = [
     }
 ];
 
+const directoryQuestionsMax = 5;
+
 startQuiz = () => {
     questionblCounter = 0;
     score = 0;
@@ -60,6 +62,10 @@ startQuiz = () => {
 };
 
 fetchNextQuestion = () => {
+    if (directoryQuestions.length === 0 || questionblCounter > directoryQuestionsMax) {
+        return window.location.assign("/quiz-endbl.html");
+    }
+
     questionblCounter++;
     const questionIndex = Math.floor(Math.random() * directoryQuestions.length);//this allow the reandom selection of answers
     liveQuestion = directoryQuestions[questionIndex];
