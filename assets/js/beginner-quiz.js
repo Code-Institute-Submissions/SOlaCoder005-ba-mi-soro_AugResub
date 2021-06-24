@@ -1,3 +1,8 @@
+/**
+ *Commented-out code below tells JavaScript Checkers like JShint that source code uses 'ECMAScript 6 specific syntax (Hibbard, 2014)
+ */
+/*jshint esversion: 6 */
+
 const question = document.getElementById("beginnerqs");
 const options = Array.from(document.getElementsByClassName("optionsbl"));
 // console.log(options);
@@ -7,6 +12,8 @@ let monitoringAnswers = false; //creates a dela, set tyo false so users can not 
 let tally = 0; 
 let questionblCounter = 0;
 let directoryQuestions = [];
+let fetchNextQuestion =  {};
+let startQuiz = {};
 
 let listOfQuestions = [
     {
@@ -55,7 +62,7 @@ const directoryQuestionsMax = 5;
 
 startQuiz = () => {
     questionblCounter = 0;
-    score = 0;
+    tally = 0;
     directoryQuestions = [...listOfQuestions];
     console.log(directoryQuestions);
     fetchNextQuestion();
@@ -72,7 +79,7 @@ fetchNextQuestion = () => {
     question.innerText = liveQuestion.question;
 
     options.forEach( option => {
-        const number = option.dataset['number'];
+        const number = option.dataset.number;
         option.innerText = liveQuestion['option' + number];
     });
 
@@ -88,7 +95,7 @@ options.forEach(option => {
 
     monitoringAnswers = false; 
     const selectedOption = e.target;
-    const selectedAnswer = selectedOption.dataset["number"];
+    const selectedAnswer = selectedOption.dataset.number;
     fetchNextQuestion();
 
     });// this tracks which answer is clicked in the console

@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 const question = document.getElementById("intermediateqs");
 const options = Array.from(document.getElementsByClassName("optionsil"));
 // console.log(options);
@@ -7,6 +9,8 @@ let monitoringAnswers = true; //creates a delay
 let tally = 0; 
 let questionilCounter = 0;
 let directoryQuestions = [];
+let fetchNextQuestion =  {};
+let startQuiz = {};
 
 let listOfQuestions = [
     {
@@ -54,8 +58,8 @@ let listOfQuestions = [
 const directoryQuestionsMax = 5;
 
 startQuiz = () => {
-    questionblCounter = 0;
-    score = 0;
+    questionilCounter = 0;
+    tally = 0;
     directoryQuestions = [...listOfQuestions];
     console.log(directoryQuestions);
     fetchNextQuestion();
@@ -66,7 +70,7 @@ fetchNextQuestion = () => {
         return window.location.assign("/quiz-endil.html");
     }
 
-    questionblCounter++;
+    questionilCounter++;
     const questionIndex = Math.floor(Math.random() * directoryQuestions.length);//this allow the reandom selection of answers
     liveQuestion = directoryQuestions[questionIndex];
     question.innerText = liveQuestion.question;
