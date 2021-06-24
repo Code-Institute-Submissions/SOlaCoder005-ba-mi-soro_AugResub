@@ -3,6 +3,8 @@
 
 const question = document.getElementById("beginnerqs");
 const options = Array.from(document.getElementsByClassName("optionsbl"));
+const questionTracker = document.getElementById('trackqs');
+const pointsTracker= document.getElementById('points');
 
 let liveQuestion = {};
 //false value used so users can not pick answer before page loads
@@ -73,6 +75,8 @@ fetchNextQuestion = () => {
     }
 
     questionblCounter++;
+    //affects the question tracker on the html
+    questionTracker.innerText = questionblCounter + "/" + directoryQuestionsMax
     const questionIndex = Math.floor(Math.random() * directoryQuestions.length);//this allow the reandom selection of answers
     liveQuestion = directoryQuestions[questionIndex];
     question.innerText = liveQuestion.question;
