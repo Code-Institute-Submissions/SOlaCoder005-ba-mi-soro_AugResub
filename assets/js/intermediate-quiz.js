@@ -78,7 +78,7 @@ fetchNextQuestion = () => {
     questionilCounter++;
 
     //question tracker increases on the html page
-    questionTracker.innerText = questionalCounter + "/" + directoryQuestionsMax;
+    questionTracker.innerText = questionilCounter + "/" + directoryQuestionsMax;
 
     //this allow the reandom selection of answers
     const questionIndex = Math.floor(Math.random() * directoryQuestions.length);

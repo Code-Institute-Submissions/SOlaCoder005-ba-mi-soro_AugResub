@@ -358,8 +358,6 @@ Reference material:
 .quiz-cont {
 	display: block;
 	text-align: center;
-	/* background-color: grey;
-	border: 3px solid red; */
 	margin: 60px 60px;
 }	
 
@@ -371,16 +369,15 @@ Reference material:
 
 #intermediateqs {
 	padding: 10px;
-	/* background-color: blueviolet; */
 	color: rgb(239, 130, 62);
 	font-size: 30px;
 	margin-bottom: 15px;
 }	
 
 .option-cont {
-	display: inline-block; /*aligns buttons into a row on desktop, square block  on smaller screens, 320px size needs amending*/
+	display: inline-block;
 	margin-bottom: 20px;
-	/* background-color: blue; */
+
 }	
 
 .optionsil {
@@ -392,18 +389,29 @@ Reference material:
 	margin-right: 20px;
 	margin: 20px 20px;
 	border: 6px solid rgb(90, 87, 87, .5);
-	border-radius: 50%;/*makes buttons round*/
+	border-radius: 50%;
 	font-size: 20px;
 	background-color: rgb(255, 255, 255);
 	color: rgb(90, 87, 87, .8);	
 }
 
 .optionsil:hover {
-	border: 5px solid rgb(239, 130, 62);/*makes buttons round*/
-	box-shadow: 5px 5px 5px rgb(239, 130, 62);
+	border: 5px solid rgb(239, 130, 62);
 	color: rgb(239, 130, 62);
+	box-shadow: 5px 5px 5px rgb(90, 87, 87, .5);
 }
 
+.right > .optionsil {
+	color: yellowgreen;
+	border: 8px solid yellowgreen;
+	box-shadow: none;
+}
+
+.wrong > .optionsil {
+	color: red;
+	border: 8px solid red;
+	box-shadow: none;
+}
 
 /*ADVANCED QUIZ PAGE*/
 
@@ -428,16 +436,14 @@ Reference material:
 
 #advancedqs {
 	padding: 10px;
-	/* background-color: blueviolet; */
 	color: rgb(239, 130, 62);
 	font-size: 30px;
 	margin-bottom: 15px;
 }	
 
 .option-cont {
-	display: inline-block; /*aligns buttons into a row on desktop, square block  on smaller screens, 320px size needs amending*/
+	display: inline-block;
 	margin-bottom: 20px;
-	/* background-color: blue; */
 }	
 
 .optionsal {
@@ -449,17 +455,37 @@ Reference material:
 	margin-right: 20px;
 	margin: 20px 20px;
 	border: 6px solid rgb(90, 87, 87, .5);
-	border-radius: 50%;/*makes buttons round*/
+	border-radius: 50%;
 	font-size: 20px;
 	background-color: rgb(255, 255, 255);
 	color: rgb(90, 87, 87, .8);	
 }
 
 .optionsal:hover {
-	border: 5px solid rgb(239, 130, 62);/*makes buttons round*/
+	border: 5px solid rgb(239, 130, 62);
 	box-shadow: 5px 5px 5px rgb(239, 130, 62);
 	color: rgb(239, 130, 62);
 }
+
+.optionsal:hover {
+	border: 5px solid rgb(239, 130, 62);
+	color: rgb(239, 130, 62);
+	box-shadow: 5px 5px 5px rgb(90, 87, 87, .5);
+}
+
+.right > .optionsal {
+	color: yellowgreen;
+	border: 8px solid yellowgreen;
+	box-shadow: none;
+}
+
+.wrong > .optionsal {
+	color: red;
+	border: 8px solid red;
+	box-shadow: none;
+}
+
+
 
 
 /*PHRASESHEET PAGE*/
