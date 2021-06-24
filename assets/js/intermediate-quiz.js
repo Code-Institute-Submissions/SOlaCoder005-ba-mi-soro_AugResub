@@ -1,3 +1,4 @@
+//Commented-out code below tells JavaScript Checkers like JShint that source code uses 'ECMAScript 6 specific syntax (Hibbard, 2014)
 /*jshint esversion: 6 */
 
 const question = document.getElementById("intermediateqs");
@@ -76,7 +77,8 @@ fetchNextQuestion = () => {
     question.innerText = liveQuestion.question;
 
     options.forEach( option => {
-        const number = option.dataset['number'];
+        //dot notation used to increase readability
+        const number = option.dataset.number;
         option.innerText = liveQuestion['option' + number];
     });
 
@@ -92,7 +94,8 @@ options.forEach(option => {
 
     monitoringAnswers = false; 
     const selectedOption = e.target;
-    const selectedAnswer = selectedOption.dataset["number"];
+    //dot notation used to increase readability
+    const selectedAnswer = selectedOption.dataset.number; 
     fetchNextQuestion();
 
     });// this tracks which answer is clicked in the console
