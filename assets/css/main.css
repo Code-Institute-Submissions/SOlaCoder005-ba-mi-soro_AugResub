@@ -347,12 +347,27 @@ Reference material:
 	font-size: 20px;
 	background-color: rgb(255, 255, 255);
 	color: rgb(90, 87, 87, .8);	
+	font-weight: 800;
 }
 
 .optionsbl:hover {
-	border: 5px solid rgb(239, 130, 62);/*makes buttons round*/
-	box-shadow: 5px 5px 5px rgb(239, 130, 62);
+	border: 5px solid rgb(239, 130, 62);
 	color: rgb(239, 130, 62);
+	box-shadow: 5px 5px 5px rgb(90, 87, 87, .5);
+}
+
+.right > .optionsbl {
+	/* background-color: yellowgreen; */
+	color: yellowgreen;
+	border: 8px solid yellowgreen;
+	box-shadow: none;
+}
+
+.wrong > .optionsbl {
+	color: red;
+	border: 8px solid red;
+	box-shadow: none;
+}
 }
 
 /*INTERMEDIATE QUIZ PAGE*/

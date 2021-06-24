@@ -44,7 +44,7 @@ let listOfQuestions = [
         option2:"Ekasan",
         option3:"Dada ni",
         option4:"Ekale",
-        answer: 4
+        answer: 2
     },
     {
         question:"Q: How do you say ‘Mother’ in Yoruba?",
@@ -62,12 +62,13 @@ startQuiz = () => {
     questionblCounter = 0;
     tally = 0;
     directoryQuestions = [...listOfQuestions];
-    console.log(directoryQuestions);
+    // console.log(directoryQuestions);
     fetchNextQuestion();
 };
 
 fetchNextQuestion = () => {
     if (directoryQuestions.length === 0 || questionblCounter > directoryQuestionsMax) {
+        //when user has completed all questions; they shall return to corresponding end page
         return window.location.assign("/quiz-endbl.html");
     }
 
@@ -100,7 +101,18 @@ options.forEach(option => {
 
     //dot notation used to increase readability
     const selectedAnswer = selectedOption.dataset.number;
-    fetchNextQuestion();
+
+    //using == rather than === as the data being pulled out are strings  
+    const classToApply = 
+        selectedAnswer == liveQuestion.answer ? "right" : "wrong";
+    // console.log(classToApply);
+    //classList.add is shorthand for adding and removing classes to code
+    selectedOption.parentElement.classList.add(classToApply);
+
+    setTimeout(() => {
+        selectedOption.parentElement.classList.remove(classToApply);
+        fetchNextQuestion();
+    }, 1500);
     });
 });
 
