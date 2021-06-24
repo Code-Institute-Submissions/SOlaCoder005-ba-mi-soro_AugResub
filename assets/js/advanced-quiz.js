@@ -3,10 +3,10 @@
 
 const question = document.getElementById("advancedqs");
 const options = Array.from(document.getElementsByClassName("optionsal"));
-// console.log(options);
 
-let liveQuestion = {}; //object
-let monitoringAnswers = true; //creates a delay 
+let liveQuestion = {};
+//false value used so users can not pick answer before page loads
+let monitoringAnswers = false;
 let tally = 0; 
 let questionalCounter = 0;
 let directoryQuestions = [];
@@ -77,31 +77,32 @@ fetchNextQuestion = () => {
     question.innerText = liveQuestion.question;
 
     options.forEach( option => {
+
         //dot notation used to increase readability
         const number = option.dataset.number;
         option.innerText = liveQuestion['option' + number];
     });
 
-    directoryQuestions.splice(questionIndex, 1);//this removes the question that is used
-
-    monitoringAnswers = true; //corrolates with initial variable value (above)
+    //removes the question that is used
+    directoryQuestions.splice(questionIndex, 1);
+    
+    //corrolates with initial variable value (above)
+    monitoringAnswers = true;
 };
 
 options.forEach(option => {
-    option.addEventListener('click', e => {
-    // console.log(e.target);  
+    option.addEventListener('click', e => {  
     if(!monitoringAnswers) return;
 
+    // this tracks which answer is clicked in the console
     monitoringAnswers = false; 
     const selectedOption = e.target;
+
     //dot notation used to increase readability
     const selectedAnswer = selectedOption.dataset.number;
     fetchNextQuestion();
 
     });// this tracks which answer is clicked in the console
 });
-
-
-
 
 startQuiz();//to start game
