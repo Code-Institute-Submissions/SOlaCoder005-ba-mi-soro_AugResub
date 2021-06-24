@@ -26,7 +26,7 @@ let listOfQuestions = [
     },
     {
         question:"Q: How many chickens and yams did Ade buy?",
-        option1:"Twelve cheickens and four yams",
+        option1:"Twelve chickens and four yams",
         option2:"Four chickens and nineteen yams",
         option3:"One chicken and 5 yams",
         option4:"Two chickens and three yams",

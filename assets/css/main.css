@@ -431,7 +431,12 @@ Reference material:
 
 #gameal-text {
 	margin-bottom: 30px;
-	font-size: 25px;
+	font-size: 20px;
+}
+
+#gameal-text > p > span {
+	color: rgb(239, 130, 62);
+	font-weight: 700;
 }
 
 #advancedqs {
@@ -450,7 +455,7 @@ Reference material:
 	width: 200px;
 	height: 200px;
 	text-align: center;
-	padding: 10px;
+	padding: 20px;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin: 20px 20px;
@@ -483,6 +488,10 @@ Reference material:
 	color: red;
 	border: 8px solid red;
 	box-shadow: none;
+}
+
+.box-container {
+	background-color: red;
 }
 
 
