@@ -59,14 +59,13 @@ let listOfQuestions = [
 ];
 
 const directoryQuestionsMax = 5;
-const bonusPoints = 15;
+const individualPoints = 15;
 const penaltyPoints = 5;
 
 startQuiz = () => {
     questionblCounter = 0;
     tally = 0;
     directoryQuestions = [...listOfQuestions];
-    // console.log(directoryQuestions);
     fetchNextQuestion();
 };
 
@@ -80,8 +79,9 @@ fetchNextQuestion = () => {
 
     //question tracker increases on the html page
     questionTracker.innerText = questionblCounter + "/" + directoryQuestionsMax;
-    
-    const questionIndex = Math.floor(Math.random() * directoryQuestions.length);//this allow the reandom selection of answers
+
+    //this allows the reandom selection of answers
+    const questionIndex = Math.floor(Math.random() * directoryQuestions.length);
     liveQuestion = directoryQuestions[questionIndex];
     question.innerText = liveQuestion.question;
 
@@ -114,11 +114,11 @@ options.forEach(option => {
     const classToApply = 
         selectedAnswer == liveQuestion.answer ? "right" : "wrong";
         if (classToApply === "right") {
-            tallyIncrease(bonusPoints);
+            tallyIncrease(individualPoints);
         } else {
             tallyDecrease(penaltyPoints);
         };
-    // console.log(classToApply);
+
     //classList.add is shorthand for adding and removing classes to code
     selectedOption.parentElement.classList.add(classToApply);
 

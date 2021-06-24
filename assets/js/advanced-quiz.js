@@ -3,6 +3,8 @@
 
 const question = document.getElementById("advancedqs");
 const options = Array.from(document.getElementsByClassName("optionsal"));
+const questionTracker = document.getElementById('trackqs');
+const pointsTracker = document.getElementById('points');
 
 let liveQuestion = {};
 //false value used so users can not pick answer before page loads
@@ -57,6 +59,8 @@ let listOfQuestions = [
 ];
 
 const directoryQuestionsMax = 5;
+const individualPoints = 15;
+const penaltyPoints = 5;
 
 startQuiz = () => {
     questionalCounter = 0;
@@ -72,7 +76,12 @@ fetchNextQuestion = () => {
     }
 
     questionalCounter++;
-    const questionIndex = Math.floor(Math.random() * directoryQuestions.length);//this allow the reandom selection of answers
+
+    //question tracker increases on the html page
+    questionTracker.innerText = questionalCounter + "/" + directoryQuestionsMax;
+
+    //this allows the reandom selection of answers
+    const questionIndex = Math.floor(Math.random() * directoryQuestions.length);
     liveQuestion = directoryQuestions[questionIndex];
     question.innerText = liveQuestion.question;
 
@@ -100,9 +109,34 @@ options.forEach(option => {
 
     //dot notation used to increase readability
     const selectedAnswer = selectedOption.dataset.number;
-    fetchNextQuestion();
 
-    });// this tracks which answer is clicked in the console
+    //using == rather than === as the data being pulled out are strings  
+    const classToApply = 
+        selectedAnswer == liveQuestion.answer ? "right" : "wrong";
+        if (classToApply === "right") {
+            tallyIncrease(individualPoints);
+        } else {
+            tallyDecrease(penaltyPoints);
+        };
+
+    //classList.add is shorthand for adding and removing classes to code
+    selectedOption.parentElement.classList.add(classToApply);
+
+    setTimeout(() => {
+        selectedOption.parentElement.classList.remove(classToApply);
+        fetchNextQuestion();
+    }, 500);
+    });
 });
+
+tallyIncrease = num => {
+    tally += num;
+    pointsTracker.innerText = tally;
+};
+
+tallyDecrease = num => {
+    tally -= num;
+    pointsTracker.innerText = tally;
+};
 
 startQuiz();//to start game
