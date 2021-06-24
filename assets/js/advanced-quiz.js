@@ -140,3 +140,5 @@ tallyDecrease = num => {
 };
 
 startQuiz();//to start game
+
+

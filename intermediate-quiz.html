@@ -26,44 +26,38 @@
 
         <main> 
             <div class="quiz-cont">
-                <!-- Reference material: 
+                <h3>Pick the correct word (below) to complete the following sentence.</h3>
+                <section>
+                    <!-- Reference material: 
                     * J. Q. Quick, 2019 [https://youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx]
                     * Code Institute|JavaScript Challenge 45: [https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+2021_T1/courseware/0a4bf408d10c4149bb686457ac11edf6/37e3becd93804fdf8bf586523f56ead5/]
                 -->
-                <div id="gameil">
-                    <h2>Pick the correct word (below) to complete the following sentence.</h2>
+                    <div id="game">
+                        <em><h2 id="intermediateqs">Question description</h2></em>
 
-                    <em><h2 id="intermediateqs">Question description</h2></em>
+                        <div class="option-cont">
+                            <button class="optionsil" data-number="1">Option 1</button>
+                        </div>
 
-                    <div class="option-cont">
-                        <button class="optionsil" data-number="1">Option 1</button>
-                    </div>
-
-                    <div class="option-cont">
-                        <button class="optionsil" data-number="2">Option 2</button>
-                    </div>
-                   
-                    <div class="option-cont">
-                        <button class="optionsil" data-number="3">Option 3</button>
-                    </div>
-                   
-                    <div class="option-cont">
-                        <button class="optionsil" data-number="4">Option 4</button>
+                        <div class="option-cont">
+                            <button class="optionsil" data-number="2">Option 2</button>
+                        </div>
+                    
+                        <div class="option-cont">
+                            <button class="optionsil" data-number="3">Option 3</button>
+                        </div>
+                    
+                        <div class="option-cont">
+                            <button class="optionsil" data-number="4">Option 4</button>
+                        </div>
                     </div>
 
                     <!-- Code below tracks progression through the quiz -->
-                    <div id="track">
-                        <div id="track-index">
-                            <h2 class="track-title">Question</h2>
-                            <h2 id="trackqs"></h2>
-                        </div>
-
-                        <div id="track-index">
-                            <h2 class="track-title">Points</h2>
-                            <h2 class="track-points" id="points">0</h2>
-                        </div>
+                    <div id="tracker">
+                        <h2 class="track-title"> Question <span id="trackqs">#</span></h2>
+                        <h2 class="track-title">Points <span class="track-points" id="points">0</span></h2>
                     </div>
-                </div>
+                </section>
             </div>
         </main>
                 
@@ -76,14 +70,15 @@
             </span>
         </footer>
     </div>
-
-
+    
     <!-- FontAwesome CDN is below -->
     <script src="https://kit.fontawesome.com/1699136767.js" crossorigin="anonymous"></script>
 
     <!--External Script element uses this syntax as advised. Source [https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+2021_T1/courseware/0a4bf408d10c4149bb686457ac11edf6/bff0041fe4e24c15b553355f17f5c7b9/?child=first]-->
     <script src="assets/js/main.js"></script>
+
     <script src="assets/js/intermediate-quiz.js"></script>
+
     <noscript>Sorry, but your browser does not support JavaScript.</noscript>
 </body>
 </html>
