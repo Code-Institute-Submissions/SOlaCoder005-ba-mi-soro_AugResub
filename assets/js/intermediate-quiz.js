@@ -72,7 +72,12 @@ startQuiz = () => {
 
 fetchNextQuestion = () => {
     if (directoryQuestions.length === 0 || questionilCounter > directoryQuestionsMax) {
-        return window.location.assign("/quiz-endil.html");
+
+        //allows points to appear on the respective quiz page
+        localStorage.setItem("totalPoints", tally);
+
+        //when user has completed all questions; they shall return to end page
+        return window.location.assign("/quiz-end.html");
     }
 
     questionilCounter++;

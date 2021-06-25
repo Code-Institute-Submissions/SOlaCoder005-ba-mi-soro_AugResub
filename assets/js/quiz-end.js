@@ -5,6 +5,8 @@ $(document).ready(function(){
     });
 });
 
+
+//Fetches points results from the respective quiz game played
 const tallyTotal = document.getElementById('tallyTotal');
 const totalPoints = localStorage.getItem('totalPoints');
 tallyTotal.innerText = totalPoints;
