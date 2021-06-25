@@ -71,19 +71,14 @@ startQuiz = () => {
 
 fetchNextQuestion = () => {
     if (directoryQuestions.length === 0 || questionilCounter > directoryQuestionsMax) {
-
         //allows points to appear on the respective quiz page
         localStorage.setItem("totalPoints", tally);
-
         //when user has completed all questions; they shall return to end page
-        return window.location.href = "/quizEnd.html", tally;
+        return window.location.assign("/quizEnd.html");
     }
-
     questionilCounter++;
-
     //question tracker increases on the html page
     questionTracker.innerText = questionilCounter + "/" + directoryQuestionsMax;
-
     //this allow the reandom selection of answers
     const questionIndex = Math.floor(Math.random() * directoryQuestions.length);
     liveQuestion = directoryQuestions[questionIndex];
