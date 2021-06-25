@@ -16,7 +16,7 @@ Reference Material: [codeSTACKr]
 /*CONTAINER*/
 /*
 Reference Material: 
-YouTubers - [codeSTACKr, A. Delise, Florin Pop] 
+* YouTubers - [codeSTACKr, A. Delise, Florin Pop] 
 */
 
 .main-cont {
@@ -127,8 +127,8 @@ footer {
 
 /*ENTER SITE PAGE*/
 /* Reference Material: 
-Box Shadow - [https://www.w3schools.com/css/css3_shadows.asp]
-Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/]
+* Box Shadow - [https://www.w3schools.com/css/css3_shadows.asp]
+* Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/]
 */
 
 #background {
@@ -372,18 +372,18 @@ Reference material:
 }
 
 .right > .optionsbl {
-	color: yellowgreen;
-	border: 8px solid yellowgreen;
+	color: rgb(154, 205, 50);
+	border: 8px solid rgb(154, 205, 50);
 	box-shadow: none;
 }
 
 .wrong > .optionsbl {
-	color: red;
-	border: 8px solid red;
+	color: rgb(255, 0, 0);
+	border: 8px solid rgb(255, 0, 0);
 	box-shadow: none;
 }
 
-/*INTERMEDIATE QUIZ PAGE*/
+/*INTERMEDIATE QUIZ*/
 
 .quiz-cont {
 	display: block;
@@ -438,13 +438,11 @@ Reference material:
 	box-shadow: none;
 }
 
-/*ADVANCED QUIZ PAGE*/
+/*ADVANCED QUIZ*/
 
 .quiz-cont {
 	display: block;
 	text-align: center;
-	/* background-color: grey;
-	border: 3px solid red; */
 	margin: 60px 60px;
 }	
 

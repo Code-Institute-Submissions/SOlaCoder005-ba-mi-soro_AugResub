@@ -1,4 +1,3 @@
-//Commented-out code below tells JavaScript Checkers like JShint that source code uses 'ECMAScript 6 specific syntax (Hibbard, 2014)
 /*jshint esversion: 6 */
 
 const question = document.getElementById("beginnerqs");
@@ -143,4 +142,10 @@ tallyDecrease = num => {
     pointsTracker.innerText = tally;
 };
 
-startQuiz();//to start game
+startQuiz();
+
+/** DEVELOPER NOTES
+ * 'jshint eversion...' tells JavaScript checkers like JShint that source code uses 'ECMAScript 6' specific syntax (Hibbard, 2014)
+ * Reference material: 
+        * J. Q. Quick, 2019 [https://youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx]
+*/ 
