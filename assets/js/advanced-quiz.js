@@ -76,7 +76,7 @@ fetchNextQuestion = () => {
        localStorage.setItem("totalPoints", tally);
 
        //when user has completed all questions; they shall return to end page
-        return window.location.assign("/quiz-end.html");
+       return window.location.assign("/quizEnd.html", tally);
     }
 
     questionalCounter++;
