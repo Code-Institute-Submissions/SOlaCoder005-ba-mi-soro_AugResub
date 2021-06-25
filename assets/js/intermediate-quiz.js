@@ -13,6 +13,8 @@ let questionilCounter = 0;
 let directoryQuestions = [];
 let fetchNextQuestion =  {};
 let startQuiz = {};
+let tallyIncrease = {};
+let tallyDecrease = {};
 
 let listOfQuestions = [
     {
@@ -74,7 +76,7 @@ fetchNextQuestion = () => {
         //allows points to appear on the respective quiz page
         localStorage.setItem("totalPoints", tally);
         //when user has completed all questions; they shall return to end page
-        return window.location.assign("/quizEnd.html");
+        return window.location(" + quizEnd.html");
     }
     questionilCounter++;
     //question tracker increases on the html page
@@ -116,7 +118,7 @@ options.forEach(option => {
             tallyIncrease(individualPoints);
         } else {
             tallyDecrease(penaltyPoints);
-        };
+        }
 
     //classList.add is shorthand for adding and removing classes to code
     selectedOption.parentElement.classList.add(classToApply);
@@ -139,6 +141,12 @@ tallyDecrease = num => {
 };
 
 startQuiz();
+
+/** DEVELOPER NOTES
+ * 'jshint eversion...' tells JavaScript checkers like JShint that source code uses 'ECMAScript 6' specific syntax (Hibbard, 2014)
+ * Reference material: 
+        * J. Q. Quick, 2019 [https://youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx]
+*/ 
 
 /** DEVELOPER NOTES
  * 'jshint eversion...' tells JavaScript checkers like JShint that source code uses 'ECMAScript 6' specific syntax (Hibbard, 2014)
