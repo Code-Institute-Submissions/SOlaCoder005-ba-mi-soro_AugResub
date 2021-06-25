@@ -5,3 +5,6 @@ $(document).ready(function(){
     });
 });
 
+const tallyTotal = document.getElementById('tallyTotal');
+const totalPoints = localStorage.getItem('totalPoints');
+tallyTotal.innerText = totalPoints;
