@@ -75,7 +75,7 @@ fetchNextQuestion = () => {
         localStorage.setItem("totalPoints", tally);
 
         //when user has completed all questions; they shall return to end page
-        return window.location.assign("quizEnd.html", tally);
+        return window.location.assign('https://solacoder005.github.io/ba-mi-soro/quizEnd.html', tally);
     }
 
     questionblCounter++;
