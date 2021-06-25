@@ -45,6 +45,13 @@ h1, h2, h3, h4 {
 a {
 	text-decoration: none;
 	color: rgb(90, 87, 87, .8);
+	font-family: 'Montserrat', sans-serif;
+}
+
+button {
+	text-decoration: none;
+	color: rgb(90, 87, 87, .8);
+	font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -190,24 +197,47 @@ Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything
     text-align: center;
 }
 
-.game-fin {
+#gamefin {
 	font-size: 50px;
 	text-align: center;
 	color: rgb(255, 255, 255);
 	flex-direction: column;
+	margin-bottom: 30px;
+}
+
+#gamefin.fade {
+	opacity: 0;
 }
 
 .return-btn {
 	width: 270px;
 	height: 50px;
-	font-family: 'Montserrat', sans-serif;
+	font-size: 27px;
+	font-weight: 700;
+	background-color: rgb(255, 255, 255);
+	border: 4px solid rgb(0, 0, 0);
+	border-radius: 70px; 
+	text-align: center;
+}
+
+.return-btn > a:hover {
+	color: rgb(239, 130, 62);	
+}
+
+#btnSeePoints {
+	width: 270px;
+	height: 50px;
 	font-size: 27px;
 	font-weight: 700;
 	background-color: rgb(255, 255, 255);
 	border: 4px solid black;
 	border-radius: 70px; 
 	text-align: center;
-	
+	margin-bottom: 30px;
+}
+
+#btnSeePoints:hover {
+	color: rgb(239, 130, 62);
 }
 
 /*MENU*/
