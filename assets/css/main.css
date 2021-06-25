@@ -558,14 +558,14 @@ Reference material:
 	color: rgb(239, 130, 62);	
 }
 
+#tallyTotal {
+	font-weight: 600;
+}
 
-/* #gamefin {
-
-} */
-
-
-
-
+.hidden{
+	display: none;
+	/* this ensures nothing displays */
+}
 /*PHRASESHEET PAGE*/
 #phrasesheet-descript {
 	box-shadow: 3.5px 3.5px 3.5px rgb(90, 87, 87, .5);
