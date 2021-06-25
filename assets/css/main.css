@@ -181,65 +181,6 @@ Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything
 	color: rgb(239, 130, 62);
 }
 
-/*END GAME PAGE*/
-.return-center {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.return-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#gamefin {
-	font-size: 50px;
-	text-align: center;
-	color: rgb(255, 255, 255);
-	flex-direction: column;
-	margin-bottom: 30px;
-}
-
-#gamefin.fade {
-	opacity: 0;
-}
-
-.return-btn {
-	width: 270px;
-	height: 50px;
-	font-size: 27px;
-	font-weight: 700;
-	background-color: rgb(255, 255, 255);
-	border: 4px solid rgb(0, 0, 0);
-	border-radius: 70px; 
-	text-align: center;
-}
-
-.return-btn > a:hover {
-	color: rgb(239, 130, 62);	
-}
-
-#btnSeePoints {
-	width: 270px;
-	height: 50px;
-	font-size: 27px;
-	font-weight: 700;
-	background-color: rgb(255, 255, 255);
-	border: 4px solid black;
-	border-radius: 70px; 
-	text-align: center;
-	margin-bottom: 30px;
-}
-
-#btnSeePoints:hover {
-	color: rgb(239, 130, 62);
-}
-
 /*MENU*/
 .nav-MU {
 	padding: 0 60px;
@@ -571,6 +512,59 @@ Reference material:
 	border: 8px solid red;
 	box-shadow: none;
 }
+
+/*END GAME PAGE*/
+.return-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.return-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.return-content > h1 {
+	font-size: 50px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+
+.return-content > button {
+	width: 270px;
+	height: 50px;
+	font-size: 27px;
+	font-weight: 700;
+	background-color: rgb(255, 255, 255);
+	border: 4px solid rgb(0, 0, 0);
+	border-radius: 70px; 
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.return-content > button:hover {
+	color: rgb(239, 130, 62);	
+	border: 4px solid rgb(239, 130, 62);	
+}
+
+.return-content, button > a:hover {
+	color: rgb(239, 130, 62);	
+}
+
+
+/* #gamefin {
+
+} */
+
+
+
 
 /*PHRASESHEET PAGE*/
 #phrasesheet-descript {
