@@ -62,11 +62,11 @@ If you **cannot speak** multiple languages, but would be interested in learning 
 
 3. Which type of resources would you like to engage with when learning another language: 
  
-- Conversation with others
-- Books
-- Applications (quizzes and games)
-- Videos (TV shows/ YouTube)
-- A mixture of the above
+    - Conversation with others
+    - Books
+    - Applications (quizzes and games)
+    - Videos (TV shows/ YouTube)
+    - A mixture of the above
 
 If you **can speak** multiple languages:
  
@@ -76,19 +76,19 @@ If you **can speak** multiple languages:
 
 6. Did you use any of the following resources to aid your learning? 
 
-- Conversation with others
-- Books
-- Applications (quizzes and games)
-- Videos (TV shows/ YouTube)
-- A mixture of the above
+    - Conversation with others
+    - Books
+    - Applications (quizzes and games)
+    - Videos (TV shows/ YouTube)
+    - A mixture of the above
 
 7. If you were to teach, or are teaching younger peers (e.g. your children) additional language(s) (e.g. ‘your native tongue’), which resources do you feel they would respond well to when learning the language:  
 
-- Conversation with others
-- Books
-- Applications (quizzes and games)
-- Videos (TV shows/ YouTube)
-- A mixture of the above
+    - Conversation with others
+    - Books
+    - Applications (quizzes and games)
+    - Videos (TV shows/ YouTube)
+    - A mixture of the above
 
 The users’ responses were documented in the table below:
 
