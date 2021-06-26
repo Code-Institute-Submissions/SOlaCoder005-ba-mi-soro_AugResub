@@ -31,7 +31,6 @@
 - Monserat (Header) 
 - Roboto (Text/Subtext) 
 
-
 ## 4. Features
 ## 5. Technologies Used
 ## 6. Testing
