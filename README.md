@@ -24,7 +24,7 @@ There are three quizzes which vary in difficulty and the variation in difficult 
 
 ## 2. User Experience (UX)
 
-The [‘5 Planes of UX Design Model’ (5PUXD)] (https://medium.com/designcentered/ux-design-5-planes-method-b1b1d6587c05#:~:text=The%20five%20planes%20%E2%80%94%20strategy%2C%20scope,the%20problem%20as%20a%20whole) provides **five** core principles used when creating websites and applications.These principles are: 
+The [‘5 Planes of UX Design Model’ (5PUXD)](https://medium.com/designcentered/ux-design-5-planes-method-b1b1d6587c05#:~:text=The%20five%20planes%20%E2%80%94%20strategy%2C%20scope,the%20problem%20as%20a%20whole) provides **five** core principles used when creating websites and applications.These principles are: 
 
 - Strategy
 - Scope
@@ -54,13 +54,13 @@ Below is a list of some of the websites and applications reviewed:
 Prior to creating the BMS website, some market research was conducted in the hopes to gain insight into users’ expectations when engaging with resources designed to assist in learning a language.  
 The following questions were sent to a group of users who have interest in and/or are actively learning language(s) aside from their mother tongue: 
 
-1) Do you and/or peers (e.g. friends, children, siblings, parents, partner) communicate more than one language?
+1. Do you and/or peers (e.g. friends, children, siblings, parents, partner) communicate more than one language?
 
 If you **cannot speak** multiple languages, but would be interested in learning to:
 
-2) Why would you like to learn another language? 
+2. Why would you like to learn another language? 
 
-3) Which type of resources would you like to engage with when learning another language: 
+3. Which type of resources would you like to engage with when learning another language: 
  
 - Conversation with others
 - Books
@@ -70,11 +70,11 @@ If you **cannot speak** multiple languages, but would be interested in learning 
 
 If you **can speak** multiple languages:
  
-4) What other language(s) can you speak?
+4. What other language(s) can you speak?
 
-5) How did you learn to speak other language(s)? 
+5. How did you learn to speak other language(s)? 
 
-6) Did you use any of the following resources to aid your learning? 
+6. Did you use any of the following resources to aid your learning? 
 
 - Conversation with others
 - Books
@@ -82,7 +82,7 @@ If you **can speak** multiple languages:
 - Videos (TV shows/ YouTube)
 - A mixture of the above
 
-7) If you were to teach, or are teaching younger peers (e.g. your children) additional language(s) (e.g. ‘your native tongue’), which resources do you feel they would respond well to when learning the language:  
+7. If you were to teach, or are teaching younger peers (e.g. your children) additional language(s) (e.g. ‘your native tongue’), which resources do you feel they would respond well to when learning the language:  
 
 - Conversation with others
 - Books
@@ -100,8 +100,9 @@ The users’ responses were documented in the table below:
 The key demographics and goals of users’ and site owners were identified through the findings derived from the market, competitor, and psychographic analysis. These factors are discussed in more detail below. 
 
 ### **2.4 Key Demographic(s)**
-•	Age: 8-50
-•	Sex: Men and Women
+
+- Age: 8-50
+- Sex: Men and Women
 
 
 
