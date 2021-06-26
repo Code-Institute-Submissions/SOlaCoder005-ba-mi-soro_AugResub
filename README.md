@@ -63,6 +63,7 @@ As the core aim of the BMS is to add to educational resources that teaches Yorub
 ### **2.3 Key Psychographic(s)**
 
 Prior to creating the BMS website, some market research was conducted in the hopes to gain insight into users’ expectations when engaging with resources designed to assist in learning a language.  
+
 The following questions were sent to a group of users who have interest in and/or are actively learning language(s) aside from their mother tongue: 
 
 1. Do you and/or peers (e.g. friends, children, siblings, parents, partner) communicate more than one language?
@@ -168,6 +169,32 @@ The key demographics and goals of users’ and site owners were identified throu
 ## 5. Technologies Used
 ## 6. Testing
 ## 7. Deployment
+
+### 7.1  Deployment: Local 
+
+- How code was run locally (e.g. commands (e.g. commit, push, pull, init clone etc.), opening local repo in live server)
+
+
+### 7.2 Deployment: GitHub Pages
+
+Below is an overview on how to deploy a project via GitHub’s GitHub Pages. This method was used to deploy the _____________________________:
+
+1. Create a project **repository** on [GitHub](https://github.com/) using a registered GitHub account.
+
+2. Once the repository is created, click on the repository, then the **Settings** tab, this is the last tab in the top right of the repository’s **navigation bar**. 
+
+3. Once on the settings page, navigate to and click on **Pages** (titled as ‘Pages’ as of May 2021) listed in the left-hand menu pane.
+
+4. Under the header - **Source**, select **master branch**  from the drop-down list. This will change the neighbouring selector box to **/(root)**.
+
+5. Then click **Save**.
+
+6. Wait for a minute and then **refresh** the webpage. 
+
+7. Once refreshing, a green box with the text and clickable link; **'Your site is published at...'**. 
+
+8. Clicking on the website’s hyperlink in the green box will direct to the live deployed website.
+
 ## 8. Credits
 ## 9. Acknowledgements
 ## 10. References
