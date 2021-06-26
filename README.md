@@ -49,6 +49,17 @@ Below is a list of some of the websites and applications reviewed:
 - [Yoruba 101 (Android & iOS App)](https://play.google.com/store/apps/details?id=air.yoruba101&hl=en&gl=US)
 - [Learn Yoruba in easy steps (Android & iOS App)](https://play.google.com/store/apps/details?id=com.tenacity.android.yoruba)
 
+**2.2.1 Valuableness of BMS** 
+
+While the Yoruba language is commonly spoken in Nigeria, it can be argued that compared to ‘Romance languages’ (e.g. Spanish, French, Italian etc.); there are considerably fewer resources (e.g. classes, applications certified courses) that teach the language outside of the country. As such BMS intends to: 
+
+- Add to the educational resources that teaches the Yoruba language. 
+- Provide a taster of the language through interactive learning. 
+
+**2.2.2 How does BMS differ competitors?**
+
+As the core aim of the BMS is to add to educational resources that teaches Yoruba, the BMS does not differ considerably from other applications and websites that teach the Yoruba language. 
+
 ### **2.3 Key Psychographic(s)**
 
 Prior to creating the BMS website, some market research was conducted in the hopes to gain insight into users’ expectations when engaging with resources designed to assist in learning a language.  
@@ -104,7 +115,37 @@ The key demographics and goals of users’ and site owners were identified throu
 - Age: 8-50
 - Sex: Men and Women
 
+### **2.5 User stories: Site Owner and User goals**
 
+#### **Goals: First-time user** 
+
+1. Play an online quiz that can be accessed anywhere on different devices.
+
+2. Test personal knowledge of the Yoruba language for leisure and educational purposes.
+
+#### **Goals: Re-occurring user** 
+
+3. Play an online quiz that can be accessed anywhere on different devices.
+
+4. Test personal knowledge of the Yoruba language for leisure and educational purposes.
+
+5. Strengthen ability in understanding the Yoruba language in more complex contexts (e.g. increased comprehension). 
+
+#### **Goals: Site Owner** 
+
+6. Provide a front-end accessible quiz. 
+
+7. Ensure that the quiz can be accessed by users on most devices (i.e phone, tablet, laptops, and desktops).
+
+8.  Provide content that:
+
+    - Assists user’s knowledge and development of the Yoruba language.
+    - Challenges users’ varying ability and/or understanding of the Yoruba language.
+    - Can help different age-groups learn Yoruba.
+
+9. Provide users with feedback on their quiz score.
+
+10. Gain users’ feedback on the usefulness of the application.
 
 ## 3. Content
 
