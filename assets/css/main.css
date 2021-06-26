@@ -221,6 +221,7 @@ section {
 	display: block;
 	border-radius: 20px;
 	background-color: rgb(93, 93, 93, .1);
+	margin-top: 20px;
 }
 
 section:hover {
