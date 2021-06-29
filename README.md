@@ -304,7 +304,7 @@ This section provides an overview of the features on the BMS  website, and where
 
 - **CSS**: This source code supported the core styling elements of the website.
 
-- **JavaScript**: This source code supported the dynamic features/capabilities of the website. For instance.
+- **JavaScript**: This source code supported the dynamic features/capabilities of the website. For instance;
     -  JS script was used to instigate the colour change of the quiz buttons when the right or wrong answers were clicked on.  
     - JS script was also used to enable the hiding and appearing function of the scores once the quizzes were completed. elements of the website. 
 
@@ -372,6 +372,7 @@ Below is an overview on how to deploy a project via GitHub’s GitHub Pages. Thi
 7. Once refreshing, a green box with the text and clickable link; **'Your site is published at...'**. 
 
 8. Clicking on the website’s hyperlink in the green box will direct to the live deployed website.
+
 ## 8. Credits
 ## 9. Acknowledgements
 ## 10. References
