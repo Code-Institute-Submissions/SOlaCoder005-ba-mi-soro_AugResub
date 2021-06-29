@@ -177,6 +177,11 @@ The logo for the site was created and illustrated through the following software
 - Adobe Photoshop
 - Adobe InDesign 
 
+Arguably, language is a salient factor of effective communication. With this in mind, the speech bubble has been used as the logo’s primary form as the shape is one of the most iconic and universally known symbols used to connote speech, language and communication. 
+
+With reference to colour choice, the orange shapes were used to convey the idea of ‘popping’/ lively conversation. This concept also influenced the decision to use the colour orange as it too is often used to convey liveliness and evoke positive moods. Further, orange is commonly used in learning resources (Shiftelearning.com, 2019). 
+
+
 ### **3.3 Fonts**
 
 ![](/docs/readme-content/fonts-used.PNG) 
