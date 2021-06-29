@@ -13,6 +13,8 @@
 
 ## 1. Overview
 
+# Ba Mi Soro! 
+
 In a country that speaks over 200 languages, Yoruba is one of most common spoken languages in Nigeria, (spoken by more than 15% of the country’s population).
 
 “Ba Mi Soro!” is a Yoruba phrase that translates to “Talk to me!”. The Ba Mi Soro (BMS) website provides interactive quizzes and phrase sheets designed to test users’ understanding of the Yoruba language. 
@@ -149,20 +151,38 @@ The key demographics and goals of users’ and site owners were identified throu
 
 ## 3. Content
 
-### 3.1 Wireframes 
+This section discusses various design elements of the BMS website. Formulating and executing such elements were integral the development of the BMS site. Arguably, consideration of these factors echoes the premises of the latter planes of the 5PUXD Model. For instance, when designing the BMS site, it was essential to identify the required information of the site (structure) and how users can access this content (skeleton).
 
-1.	[Wireframe – Overview Page](assets/docs/wireframes/ba-mi-soro-overview.png)
-2.	[Wireframe – Landing Page](assets/docs/wireframes/ba-mi-soro-landingpg.png)
-3.	[Wireframe – Quiz Landing Page](assets/docs/wireframes/ba-mi-soro-quiz-landingpg.png)
-4.	[Wireframe – Quizzes Page](assets/docs/wireframes/ba-mi-soro-quizzes.png)
-5.	[Wireframe – Factsheets Page](assets/docs/wireframes/ba-mi-soro-factsheets.png)
-6.	[Wireframe – Contact Us Page](assets/docs/wireframes/ba-mi-soro-contactuspg.png)
+### **3.1 Wireframes** 
+The wireframes below were drawn up before physically creating the BMS site. Each page shall be discussed in more detail in the features section of this README. Creating the preliminary mock-ups of the BMS site helped to highlight the limitations and strengths and weakness of the BMS design. It also allowed a more accurate analysis of which design elements were feasible to execute within the project time frame and which could be implemented if the BMS site could be expanded on if the project development were extended.   
+![]()
+![]()
 
-### 3.2 Fonts Used 
-![](/docs/readme-content/fonts-used.PNG)
+1.	[Wireframe – Overview Page](assets/docs/wireframes/)
+2.	[Wireframe – Landing Page](assets/docs/wireframes/)
+3.	[Wireframe – Quiz Landing Page](assets/docs/wireframes/)
+4.	[Wireframe – Quizzes Page](assets/docs/wireframes/)
+5.	[Wireframe – Factsheets Page](assets/docs/wireframes/)
+6.	[Wireframe – Contact Us Page](assets/docs/wireframes/)
 
-- Monserat (Header) 
-- Roboto (Text/Subtext) 
+### **3.2 BMS Logo**
+
+![](assets/images/BAMISOROLOGO.png)
+
+The logo for the site was created and illustrated through the following software:
+
+- Adobe Illustrator
+- Adobe Photoshop
+- Adobe InDesign 
+
+### **3.3 Fonts**
+
+![](/docs/readme-content/fonts-used.PNG) 
+
+- **Monserat**: To compliment the BMS logo, this san-serif font was used primarily for the headings included on the site. The letters are spaced out considerably and therefore likely to have greater readability than script typography. 
+
+- **Roboto**: When previewed on Google fonts, this font appeared to compliment Monserat the most and it too is rounded which often conveys soft tones and perceived approachableness.  
+
 
 ## 4. Features
 ## 5. Technologies Used
@@ -193,7 +213,6 @@ Below is an overview on how to deploy a project via GitHub’s GitHub Pages. Thi
 7. Once refreshing, a green box with the text and clickable link; **'Your site is published at...'**. 
 
 8. Clicking on the website’s hyperlink in the green box will direct to the live deployed website.
-
 ## 8. Credits
 ## 9. Acknowledgements
 ## 10. References
