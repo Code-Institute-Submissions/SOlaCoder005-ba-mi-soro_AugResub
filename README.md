@@ -188,8 +188,19 @@ With reference to colour choice, the orange shapes were used to convey the idea 
 
 - **Monserat**: To compliment the BMS logo, this san-serif font was used primarily for the headings included on the site. The letters are spaced out considerably and therefore likely to have greater readability than script typography. 
 
-- **Roboto**: When previewed on Google fonts, this font appeared to compliment Monserat the most and it too is rounded which often conveys soft tones and perceived approachableness.  
+- **Roboto**: When previewed on Google fonts, this font appeared to compliment Monserat the most and it too is rounded which often conveys soft tones and perceived approachableness. 
 
+### **3.4 Colour Pallet**
+
+![](/docs/readme-content/colourpallette.png)
+
+- [#FF0000](https://www.webfx.com/web-design/hex-to-rgb/#FF0000/)
+- [#EF823E](https://www.webfx.com/web-design/hex-to-rgb/#EF823E)
+- [#9ACD32](https://www.webfx.com/web-design/hex-to-rgb/#9ACD32)
+- [#9018F1](https://www.webfx.com/web-design/hex-to-rgb/#9018F1)
+- [#5D5D5D]( https://www.webfx.com/web-design/hex-to-rgb/#5D5D5D)
+- [#5A5757](https://www.webfx.com/web-design/hex-to-rgb/#5A5757)
+- [#FFFFFF](https://www.webfx.com/web-design/hex-to-rgb/)
 
 ## 4. Features
 
