@@ -154,7 +154,9 @@ The key demographics and goals of users’ and site owners were identified throu
 This section discusses various design elements of the BMS website. Formulating and executing such elements were integral the development of the BMS site. Arguably, consideration of these factors echoes the premises of the latter planes of the 5PUXD Model. For instance, when designing the BMS site, it was essential to identify the required information of the site (structure) and how users can access this content (skeleton).
 
 ### **3.1 Wireframes** 
+
 The wireframes below were drawn up before physically creating the BMS site. Each page shall be discussed in more detail in the features section of this README. Creating the preliminary mock-ups of the BMS site helped to highlight the limitations and strengths and weakness of the BMS design. It also allowed a more accurate analysis of which design elements were feasible to execute within the project time frame and which could be implemented if the BMS site could be expanded on if the project development were extended.   
+
 ![]()
 ![]()
 
@@ -167,7 +169,7 @@ The wireframes below were drawn up before physically creating the BMS site. Each
 
 ### **3.2 BMS Logo**
 
-![](assets/images/BAMISOROLOGO.png)
+![](assets/images/BAMISOROLOGO.jpg)
 
 The logo for the site was created and illustrated through the following software:
 
