@@ -192,6 +192,15 @@ With reference to colour choice, the orange shapes were used to convey the idea 
 
 
 ## 4. Features
+
+This section provides an overview of the features on the Coca Women Wellness website, and where relevant, the way in which theses feature(s) address the users’ stories, mentioned in prior sections.
+
+| User Type |User Story Number| Description| Supporting Statement|
+|-----|-----|-----|-----| 
+| -------------------|--------------| ----------------|-------------- | 
+
+
+
 ## 5. Technologies Used
 ## 6. Testing
 ## 7. Deployment
@@ -199,7 +208,6 @@ With reference to colour choice, the orange shapes were used to convey the idea 
 ### 7.1  Deployment: Local 
 
 - How code was run locally (e.g. commands (e.g. commit, push, pull, init clone etc.), opening local repo in live server)
-
 
 ### 7.2 Deployment: GitHub Pages
 
