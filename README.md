@@ -206,11 +206,93 @@ The following colours were use on the BMS site. The colours’ rgba values were 
 
 ## 4. Features
 
-This section provides an overview of the features on the Coca Women Wellness website, and where relevant, the way in which theses feature(s) address the users’ stories, mentioned in prior sections.
+This section provides an overview of the features on the BMS  website, and where relevant, the way in which theses feature(s) address the users’ stories, mentioned in prior sections.
+
+### **4.1 Enter Page**
+
+- logo hover 
+- enter site button 
 
 | User Type |User Story Number| Description| Supporting Statement|
 |-----|-----|-----|-----| 
 | -------------------|--------------| ----------------|-------------- | 
+
+### **4.2 Quiz Landing page**
+
+- Quiz links ( and hover) 
+- Internal links to internal pages
+- Social media icons in footer 
+- Logo in top left corner
+
+| User Type |User Story Number| Description| Supporting Statement|
+|-----|-----|-----|-----| 
+| -------------------|--------------| ----------------|-------------- | 
+
+#### **4.2.1 Beginner Quiz**
+
+- Question complexity 
+- Multiple choice buttons
+
+| User Type |User Story Number| Description| Supporting Statement|
+|-----|-----|-----|-----| 
+| -------------------|--------------| ----------------|-------------- | 
+
+#### **4.2.2 Intermediate Quiz**
+
+- Question complexity 
+- Multiple choice buttons
+
+| User Type |User Story Number| Description| Supporting Statement|
+|-----|-----|-----|-----| 
+| -------------------|--------------| ----------------|-------------- | 
+
+#### **4.2.3 Advanced Quiz**
+
+-  Question complexity 
+- Multiple choice buttons
+
+| User Type |User Story Number| Description| Supporting Statement|
+|-----|-----|-----|-----| 
+| -------------------|--------------| ----------------|-------------- | 
+
+
+#### **4.2.4 Quiz Results page**
+- Play again
+- Return Home 
+- Score Hidden 
+
+| User Type |User Story Number| Description| Supporting Statement|
+|-----|-----|-----|-----| 
+| -------------------|--------------| ----------------|-------------- | 
+
+### **4.3 Phrase Sheets page**
+- Beginner, intermediate, advanced 
+- Download function
+
+| User Type |User Story Number| Description| Supporting Statement|
+|-----|-----|-----|-----| 
+| -------------------|--------------| ----------------|-------------- | 
+
+### **4.4 Contact us form page**
+- Contact form 
+- Feedback box
+
+| User Type |User Story Number| Description| Supporting Statement|
+|-----|-----|-----|-----| 
+| -------------------|--------------| ----------------|-------------- | 
+
+### **4.5 404 page**
+
+| User Type |User Story Number| Description| Supporting Statement|
+|-----|-----|-----|-----| 
+| -------------------|--------------| ----------------|-------------- | 
+
+### **4.6 Future Features**
+
+- Quiz images, audio based questions provides learner with an additional learning mediums, for differing learning intelligences (e.g. visual and auditory learners) 
+- Playlist of video resources / link to amazon bookstore for further literary resources. 
+- Hide the quiz scores 
+- Mini animations when button is clicked (link relevant example) 
 
 
 
