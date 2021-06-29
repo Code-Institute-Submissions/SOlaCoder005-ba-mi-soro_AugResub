@@ -192,6 +192,8 @@ With reference to colour choice, the orange shapes were used to convey the idea 
 
 ### **3.4 Colour Pallet**
 
+The following colours were use on the BMS site. The colours’ rgba values were used in the source code rather than the hex values as the rgba values allowed the opacity of the colours to be adjusted where needed and reduce verboseness within in the css source-code. Moreover, the colours’ opacity was adjusted in some instances to convey depth and subtle differences.
+
 ![](/docs/readme-content/colourpallette.png)
 
 - [#FF0000](https://www.webfx.com/web-design/hex-to-rgb/#FF0000/)
@@ -213,7 +215,56 @@ This section provides an overview of the features on the Coca Women Wellness web
 
 
 ## 5. Technologies Used
+
+### **5.1 Languages**
+
+- **HTML**: This source code supported the fundamental structure of the website. 
+
+- **CSS**: This source code supported the core styling elements of the website.
+
+- **JavaScript**: This source code supported the dynamic features/capabilities of the website. For instance.
+    -  JS script was used to instigate the colour change of the quiz buttons when the right or wrong answers were clicked on.  
+    - JS script was also used to enable the hiding and appearing function of the scores once the quizzes were completed. elements of the website. 
+
+- **JQuery**: Supported specific functionalities (e.g. the scroll button) within the site through simplifying ‘Document Object Model’ (DOM) manipulation (Developer.mozilla.org, 2021).
+
+### **5.2 Applications, Libraries and Resources**
+
+-	[Adobe Creative Cloud](https://www.adobe.com/uk/creativecloud.html): 
+    - Illustrator (AI)
+    - Photoshop (PS) 
+-   [Balsamiq]( https://balsamiq.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Cite This for Me](https://www.citethisforme.com/)
+-   [Font Awesome](https://fontawesome.com)
+- [GitHub](https://github.com/)
+-   [GitPod](https://www.gitpod.io/)
+-   [Google (Chrome) Development Tools](https://developer.chrome.com/docs/devtools/open/)
+-   [Google Fonts](https://fonts.google.com/)
+- [Google Translate](https://translate.google.co.uk/)
+-   [Pexels](https://www.pexels.com/)
+-   [Pixabay](https://pixabay.com/) 
+-   [Pinterest](https://www.pinterest.co.uk/) 
+-   [Responsively](https://responsively.app/download) 
+-   [Stack Overflow](https://stackoverflow.com/)
+-   [VSCode](https://code.visualstudio.com/)
+-   [W3 Schools](https://www.w3schools.com/)
+-   [W3.CSS](https://www.w3schools.com/w3css/default.asp) 
+-   [Youtube](https://www.youtube.com/) 
+
+### **5.3 Testing Applications** 
+
+The following applications were used to test various aspects of the website. Meeting these requirements were essential to the BMS site complying with accessibility, coding and performance standards within the programming industry.
+
+-   [Dillinger](https://dillinger.io/)
+-   [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator)
+- [JSHint](https://jshint.com/)
+-   [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+-   [Wave](https://wave.webaim.org/)
+-   [W3C Validator](https://validator.w3.org/)
+
 ## 6. Testing
+
 ## 7. Deployment
 
 ### 7.1  Deployment: Local 
