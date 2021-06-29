@@ -295,7 +295,6 @@ This section provides an overview of the features on the BMS  website, and where
 - Mini animations when button is clicked (link relevant example) 
 
 
-
 ## 5. Technologies Used
 
 ### **5.1 Languages**
