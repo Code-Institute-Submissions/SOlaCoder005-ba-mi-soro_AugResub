@@ -13,6 +13,8 @@ let questionalCounter = 0;
 let directoryQuestions = [];
 let fetchNextQuestion =  {};
 let startQuiz = {};
+let tallyIncrease = {};
+let tallyDecrease = {};
 
 let listOfQuestions = [
     {
@@ -76,7 +78,7 @@ fetchNextQuestion = () => {
        localStorage.setItem("totalPoints", tally);
 
        //when user has completed all questions; they shall return to end page
-       window.location.assign("https://solacoder005.github.io/ba-mi-soro/quiz-end.html")
+       window.location.assign("https://solacoder005.github.io/ba-mi-soro/quiz-end.html");
     }
 
     questionalCounter++;
@@ -121,7 +123,7 @@ options.forEach(option => {
             tallyIncrease(individualPoints);
         } else {
             tallyDecrease(penaltyPoints);
-        };
+        }
 
     //classList.add is shorthand for adding and removing classes to code
     selectedOption.parentElement.classList.add(classToApply);
