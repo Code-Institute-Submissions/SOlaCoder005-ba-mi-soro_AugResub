@@ -159,9 +159,13 @@ The wireframes below were drawn up before physically creating the BMS site. Each
 
 ![](docs/wireframes/bamisoroinitial.jpg)
 
-#### **Initial wireframes** 
+#### **Initial wireframes (above)** 
 
-The initial wireframes above were greated for the BMS site. However, at later stages of the site's development, additional wireframes were created to conceptualise the current BMS UXD. The revisions were made based on the degree to which the website's design could be executed feasibly. Given the complex nature of the initial website design, factors such as programming skill level, and project timeframe greatly influnced the decison to amend the initial wireframe designs. 
+The initial wireframes above were greated for the BMS site. However, at later stages of the site's development, additional wireframes were created to clarify yhte current structure of the BMS website. 
+
+#### **Reviewed wireframes (below)** 
+
+Revisions were made to the wireframes after assesing the degree to which the website's design could be executed effictivel. Given the complex nature of the initial website design, factors such as programming skill level, and project timeframe informed the percived feasibility of creating the site. In turn, these considerations influnced the amendment of the website's initial wireframes. The wireframes for the website's current design are listed below: 
 
 1.	[Wireframe – Overview Page](assets/docs/wireframes/)
 2.	[Wireframe – Landing Page](assets/docs/wireframes/)
