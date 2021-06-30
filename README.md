@@ -157,7 +157,7 @@ This section discusses various design elements of the BMS website. Formulating a
 
 The wireframes below were drawn up before physically creating the BMS site. Each page shall be discussed in more detail in the features section of this README. Creating the preliminary mock-ups of the BMS site helped to highlight the limitations and strengths and weakness of the BMS design. It also allowed a more accurate analysis of which design elements were feasible to execute within the project time frame and which could be implemented if the BMS site could be expanded on if the project development were extended.   
 
-![](assets/docs/wireframes/bamisoroinitial.jpg)
+![](docs/wireframes/bamisoroinitial.jpg)
 
 1.	[Wireframe – Overview Page](assets/docs/wireframes/)
 2.	[Wireframe – Landing Page](assets/docs/wireframes/)
