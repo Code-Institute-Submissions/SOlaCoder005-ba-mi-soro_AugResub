@@ -18,15 +18,15 @@ let tallyDecrease = {};
 
 let listOfQuestions = [
     {
-        question:"Q: How do you say Good morning in Yoruba?",
+        question:"How do you say Good morning in Yoruba?",
         option1:"Ekaro",
         option2:"Ekasan",
         option3:"Ekale",
         option4:"Bawo ni",
         answer: 1
     },
-    {
-        question:"Q: How do you say 'Orange'(fruit) in Yoruba?",
+    
+        question:"How do you say 'Orange'(fruit) in Yoruba?",
         option1:"Ada",
         option2:"Sibi",
         option3:"Osan",
@@ -34,7 +34,7 @@ let listOfQuestions = [
         answer: 3
     },
     {
-        question:"Q: Yoruba is a tribe in which African country?",
+        question:"Yoruba is a tribe in which African country?",
         option1:"Ghana",
         option2:"South Africa",
         option3:"Nigeria",
@@ -42,7 +42,7 @@ let listOfQuestions = [
         answer: 3
     },
     {
-        question:"Q: How do you say Good afternoon in Yoruba?",
+        question:"How do you say Good afternoon in Yoruba?",
         option1:"Bawo ni",
         option2:"Ekasan",
         option3:"Dada ni",
@@ -50,7 +50,7 @@ let listOfQuestions = [
         answer: 2
     },
     {
-        question:"Q: How do you say ‘Mother’ in Yoruba?",
+        question:"How do you say ‘Mother’ in Yoruba?",
         option1:"Aburo",
         option2:"Maami",
         option3:"Egbon",
