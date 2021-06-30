@@ -542,34 +542,38 @@ Reference material:
 
 .return-content > button {
 	width: 270px;
-	height: 50px;
+	height: 60px;
 	font-size: 27px;
-	font-weight: 700;
+	font-weight: 600;
 	background-color: rgb(255, 255, 255);
 	border: 4px solid rgb(0, 0, 0);
 	border-radius: 70px; 
 	text-align: center;
 	margin-bottom: 20px;
+	padding: 10px 10px;
 }
+
 .return-content > a {
 	width: 270px;
-	height: 50px;
+	height: 60px;
 	font-size: 27px;
-	font-weight: 700;
+	font-weight: 600;
 	background-color: rgb(255, 255, 255);
 	border: 4px solid rgb(0, 0, 0);
 	border-radius: 70px; 
 	text-align: center;
 	margin-bottom: 20px;
+	padding: 10px 10px;
 }
 
 .return-content > button:hover {
-	color: rgb(239, 130, 62);	
-	border: 4px solid rgb(239, 130, 62);	
+	color: rgb(239, 130, 62);
+	border: 4px solid rgb(239, 130, 62);
 }
 
-.return-content, button > a:hover {
+.return-content > a:hover {
 	color: rgb(239, 130, 62);	
+	border: 4px solid rgb(239, 130, 62);
 }
 
 #tallyTotal {
