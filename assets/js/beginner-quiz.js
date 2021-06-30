@@ -25,7 +25,7 @@ let listOfQuestions = [
         option4:"Bawo ni",
         answer: 1
     },
-    
+    {
         question:"How do you say 'Orange'(fruit) in Yoruba?",
         option1:"Ada",
         option2:"Sibi",
