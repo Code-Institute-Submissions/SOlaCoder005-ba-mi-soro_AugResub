@@ -34,28 +34,28 @@ let listOfQuestions = [
         answer: 4
     },
     {
-    question:"Q: How did grace say she was?",
-    option1:"Grace said she was tierd",
-    option2:"Grace said she was angry",
-    option3:"Grace said she was fine",
-    option4:"Grace said she was sleepy",
-    answer: 3
+        question:"Q: How did grace say she was?",
+        option1:"Grace said she was tierd",
+        option2:"Grace said she was angry",
+        option3:"Grace said she was fine",
+        option4:"Grace said she was sleepy",
+        answer: 3
     },
     {
-    question:"Q: Where was Ade going after the town, before she met Grace?",
-    option1:"Ade was going to her friend's house",
-    option2:"Ade was going home",
-    option3:"Ade was going to the moon and back",
-    option4:"Ade was going to school",
-    answer:  2
+        question:"Q: Where was Ade going after the town, before she met Grace?",
+        option1:"Ade was going to her friend's house",
+        option2:"Ade was going home",
+        option3:"Ade was going to the moon and back",
+        option4:"Ade was going to school",
+        answer:  2
     },
     {
-    question:"Q: What did Ade ask Grace when they met?",
-    option1:"How old are you?",
-    option2:"What's your name?",
-    option3:"How are you?",
-    option4:"Where are you going?",
-    answer: 3
+        question:"Q: What did Ade ask Grace when they met?",
+        option1:"How old are you?",
+        option2:"What's your name?",
+        option3:"How are you?",
+        option4:"Where are you going?",
+        answer: 3
     }
 ];
 

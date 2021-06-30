@@ -13,8 +13,8 @@ let questionblCounter = 0;
 let directoryQuestions = [];
 let fetchNextQuestion =  {};
 let startQuiz = {};
-// let tallyIncrease = {};
-// let tallyDecrease = {};
+let tallyIncrease = {};
+let tallyDecrease = {};
 
 let listOfQuestions = [
     {
