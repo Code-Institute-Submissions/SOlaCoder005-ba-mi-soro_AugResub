@@ -438,4 +438,3 @@ Several resources have been referred to throughout the development of the 'Ba Mi
 - [W3schools.com. 2021. How To Create Responsive Images](https://www.w3schools.com/howto/howto_css_image_responsive.asp)
 
 - [W3schools.com. 2021. JavaScript Window Location](https://www.w3schools.com/js/js_window_location.asp)
-(https://github.com/SOlaCoder005/ba-mi-soro/blob/master/REFS.md).
