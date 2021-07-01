@@ -24,18 +24,32 @@
 
 - [Gallagher, J., 2021. Document.getElementByID is not a function Solution | Career Karma](https://careerkarma.com/blog/javascript-document-getelementbyid-is-not-a-function/#:~:text=The%20JavaScript%20getElementById%20method%20selects,function%20error%20in%20your%20program)
 
-- **GeneratePress. 2021.** Tom - Lead Developer | 15th April 2016 #187200 | Shadow under nav bar - GeneratePress. [online] Available at: <https://generatepress.com/forums/topic/shadow-under-nav-bar/> [Accessed 18 June 2021].
-- **Google Fonts. 2021.** Google Fonts. [online] Available at: <https://fonts.google.com/specimen/Montserrat?category=Sans+Serif,Display#standard-styles> [Accessed 17 June 2021].
-- **Hibbard, J., 2014.** Why does JSHint throw a warning if I am using const?. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const> [Accessed 12 December 2014].
-- **js.foundation, J., 2021.** jQuery CDN. [online] Code.jquery.com. Available at: <https://code.jquery.com/> [Accessed 25 June 2021].
-- **Media, T., 2016.** jQuery Crash Course [4] - Effects and Animation. [online] Youtube.com. Available at: <https://www.youtube.com/watch?v=kVc_XfZY0vI&t=69s> [Accessed 25 June 2021].
-- **Mylanguages.org. 2021.** Yoruba Phrases. [online] Available at: <http://mylanguages.org/yoruba_phrases.php> [Accessed 21 June 2021].
-- **Pop, F., 2020.** Responsive Navigation with Hamburger Menu - CSS And JavaScript Tutorial. [online] Youtube.com. Available at: <https://www.youtube.com/watch?v=ydZc17rlR5E> [Accessed 19 June 2021].
-- **Quick, J. Q., 2019.** Build a Quiz App with HTML, CSS, and JavaScript. [online] Youtube.com. Available at: <https://youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx> [Accessed 23 June 2021].
-- **Shiftelearning.com. 2019.** The Psychology of Color: How Do Colors Influence Learning?. [online] Available at: <https://www.shiftelearning.com/blog/how-do-colors-influence-learning> [Accessed 29 June 2021].
-- ** Worthington, J., 2021.** Hobbies and Interests - UK - February 2021. [online] Reports.mintel.com. Available at: <https://reports.mintel.com/display/1065935/?fromSearch=%3Ffreetext%3Dlearning%2520language> [Accessed 26 June 2021].
-- **W3schools.com. 2021.** CSS3 Media Queries - Examples. [online] Available at: <https://www.w3schools.com/css/css3_mediaqueries_ex.asp> [Accessed 19 June 2021].
-- **W3schools.com. 2021.** CSS Shadow Effects. [online] Available at: <https://www.w3schools.com/css/css3_shadows.asp> [Accessed 17 June 2021].
-- **W3schools.com. 2021.** How To Create a Download Link. [online] Available at: <https://www.w3schools.com/howto/howto_html_download_link.asp> [Accessed 21 June 2021].
-- **W3schools.com. 2021.** How To Create Responsive Images. [online] Available at: <https://www.w3schools.com/howto/howto_css_image_responsive.asp> [Accessed 17 June 2021].
-- **W3schools.com. 2021.** JavaScript Window Location. [online] Available at: <https://www.w3schools.com/js/js_window_location.asp> [Accessed 25 June 2021].
+- [GeneratePress. 2021. Tom - Lead Developer | 15th April 2016 #187200 | Shadow under nav bar - GeneratePress](https://generatepress.com/forums/topic/shadow-under-nav-bar)
+
+- [Google Fonts. 2021. Google Fonts](https://fonts.google.com/specimen/Montserrat?category=Sans+Serif,Display#standard-styles)
+ 
+- [Hibbard, J., 2014.Why does JSHint throw a warning if I am using const?](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const)
+
+- [js.foundation, J., 2021. Code.jquery.com.](https://code.jquery.com/)
+
+- [Media, T., 2016. jQuery Crash Course [4] - Effects and Animation](https://www.youtube.com/watch?v=kVc_XfZY0vI&t=69s)
+
+- [Mylanguages.org. 2021. Yoruba Phrases](http://mylanguages.org/yoruba_phrases.php)
+
+- [Pop, F., 2020. Responsive Navigation with Hamburger Menu - CSS And JavaScript Tutorial](https://www.youtube.com/watch?v=ydZc17rlR5E)
+
+- [Quick, J. Q., 2019. Build a Quiz App with HTML, CSS, and JavaScript](https://youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx)
+
+- [Shiftelearning.com. 2019.The Psychology of Color: How Do Colors Influence Learning?](https://www.shiftelearning.com/blog/how-do-colors-influence-learning)
+
+- [Worthington, J., 2021. Hobbies and Interests - UK - February 2021](https://reports.mintel.com/display/1065935/?fromSearch=%3Ffreetext%3Dlearning%2520language)
+
+- [W3schools.com. 2021. CSS3 Media Queries - Examples](https://www.w3schools.com/css/css3_mediaqueries_ex.asp)
+
+- [W3schools.com. 2021. CSS Shadow Effects](https://www.w3schools.com/css/css3_shadows.asp)
+
+- [W3schools.com. 2021. How To Create a Download Link](https://www.w3schools.com/howto/howto_html_download_link.asp)
+
+- [W3schools.com. 2021. How To Create Responsive Images](https://www.w3schools.com/howto/howto_css_image_responsive.asp)
+
+- [W3schools.com. 2021. JavaScript Window Location](https://www.w3schools.com/js/js_window_location.asp)
