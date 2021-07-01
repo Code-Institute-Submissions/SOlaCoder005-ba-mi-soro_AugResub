@@ -369,7 +369,7 @@ You will need this key to clone your repo to your local space (e.g. on your desk
 
 3.	Click your profile icon in the top-right corner of the GitHub webpage, click **Settings**.
 
-4.	Click ‘SSH and GPG Keys tab on the left-hand menu.
+4.	Click SSH and GPG Keys tab on the left-hand menu.
 
 5.	Click **‘New SSH Key’**, then copy and paste your key code (created via GitBash) into the box under the **’Key’** title. 
 
@@ -381,7 +381,7 @@ You will need this key to clone your repo to your local space (e.g. on your desk
 
 2.	Fill out the required areas.
 
--	Ensure the repository has been assigned a name and has a README.md created. The README file can be added by selecting the **'Add a README file'** option at the bottom of the ‘Create a new repository’ form.
+    -	Ensure the repository has been assigned a name and has a README.md created. The README file can be added by selecting the **'Add a README file'** option at the bottom of the ‘Create a new repository’ form.
 
 3.	Click **’Create repository’** to publish the repository
 
@@ -389,10 +389,10 @@ You will need this key to clone your repo to your local space (e.g. on your desk
 
 1.	Copy your SSH key from your repo. To do this:
 
-- Open GitHub and navigate to the repo you want to clone.
-- Click the **’Code’** button in the top-right corner of your repo window.
-- Click the SSH Key tab.
-- Copy the SSH key via right click and copy or clicking the clipboard icon. 
+    - Open GitHub and navigate to the repo you want to clone.
+    - Click the **’Code’** button in the top-right corner of your repo window.
+    - Click the SSH Key tab.
+    - Copy the SSH key via right click and copy or clicking the clipboard icon. 
 
 2.	On your desktop, open VSCode.
 
@@ -406,7 +406,7 @@ You will need this key to clone your repo to your local space (e.g. on your desk
 
 7.	The terminal should present the pathway to your cloned repository. For instance, this “Ba Mi Soro!” project will display the following in the VSCode’s terminal: 
 
-- **…C:\Users\missm\Documents\GIT\ba-mi-soro>**
+    - **…C:\Users\missm\Documents\GIT\ba-mi-soro>**
 
 
 8.	Once cloned, you will be able to edit your repo locally and commit, pull and push changes to your online GitHub repo (remote repository) using terminal commands (e.g. 'git push', 'git add .' and 'git pull'). 
