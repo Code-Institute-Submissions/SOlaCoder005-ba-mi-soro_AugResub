@@ -1,16 +1,29 @@
 # List of References 
 
-- [Code Institute, 2020. Anna Greaves README Video](https://www.youtube.com/watch?v=7BteidgLAyM&list=PLH7H7OKKWG3QDcR2PuS9_JGeh6Q_5EUWl&index=2&t=427s)
-- [codeSTACKr. 2019. Learn CSS Grid in 20 Minutes](https://www.youtube.com/watch?v=0-DY8J_skZ0)
+## Books
+
 - **C.P.A Inc., 2019.** The Computer Programming Bible. 1st ed. C.P.A INC.
-- [C., R., 2021. Arrow function syntax (=>) is only available in ES6 (use 'esversion: 6'](https://stackoverflow.com/questions/42866159/arrow-function-syntax-is-only-available-in-es6-use-esversion-6)
-- [Delise, A., 2020. Responsive CSS Grid Tutorial](https://www.youtube.com/watch?v=68O6eOGAGqA&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=16)
-- **Do, Q., 2016.** A table row was 2 columns wide, which is less than the column count established by the first row (3). [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/36951492/a-table-row-was-2-columns-wide-which-is-less-than-the-column-count-established> [Accessed 30 June 2021].
 - **Duckett, J., 2014.** JavaScript & JQuery: Interactive Front-End Web Development. John Wiley & Sons.
 - **DuRocher, D., 2020.** HTML and CSS QuickStart Guide. 1st ed. ClydeBank Media LLC.
-- **ESLint - Pluggable JavaScript linter. 2021.** Rule dot-notation. [online] Available at: <https://eslint.org/docs/2.0.0/rules/dot-notation> [Accessed 24 June 2021].
-- **freeCodeCamp.org. 2020.** How to Center Anything with CSS - Align a Div, Text, and More. [online] Available at: <https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/> [Accessed 18 June 2021].
--**Gallagher, J., 2021.** Document.getElementByID is not a function Solution | Career Karma. [online] Career Karma. Available at: <https://careerkarma.com/blog/javascript-document-getelementbyid-is-not-a-function/#:~:text=The%20JavaScript%20getElementById%20method%20selects,function%20error%20in%20your%20program.> [Accessed 25 June 2021].
+
+## Online Resources 
+
+- [Code Institute, 2020. Anna Greaves README Video](https://www.youtube.com/watch?v=7BteidgLAyM&list=PLH7H7OKKWG3QDcR2PuS9_JGeh6Q_5EUWl&index=2&t=427s)
+
+- [codeSTACKr. 2019. Learn CSS Grid in 20 Minutes](https://www.youtube.com/watch?v=0-DY8J_skZ0)
+
+- [C., R., 2021. Arrow function syntax (=>) is only available in ES6 (use 'esversion: 6'](https://stackoverflow.com/questions/42866159/arrow-function-syntax-is-only-available-in-es6-use-esversion-6)
+
+- [Delise, A., 2020. Responsive CSS Grid Tutorial](https://www.youtube.com/watch?v=68O6eOGAGqA&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=16)
+
+- [Do, Q., 2016. A table row was 2 columns wide, which is less than the column count established by the first row (3)](https://stackoverflow.com/questions/36951492/a-table-row-was-2-columns-wide-which-is-less-than-the-column-count-established)
+
+- [ESLint - Pluggable JavaScript linter. 2021. Rule dot-notation](https://eslint.org/docs/2.0.0/rules/dot-notation)
+
+- [freeCodeCamp.org. 2020. How to Center Anything with CSS - Align a Div, Text, and More](https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more)
+
+- [Gallagher, J., 2021. Document.getElementByID is not a function Solution | Career Karma](https://careerkarma.com/blog/javascript-document-getelementbyid-is-not-a-function/#:~:text=The%20JavaScript%20getElementById%20method%20selects,function%20error%20in%20your%20program)
+
 - **GeneratePress. 2021.** Tom - Lead Developer | 15th April 2016 #187200 | Shadow under nav bar - GeneratePress. [online] Available at: <https://generatepress.com/forums/topic/shadow-under-nav-bar/> [Accessed 18 June 2021].
 - **Google Fonts. 2021.** Google Fonts. [online] Available at: <https://fonts.google.com/specimen/Montserrat?category=Sans+Serif,Display#standard-styles> [Accessed 17 June 2021].
 - **Hibbard, J., 2014.** Why does JSHint throw a warning if I am using const?. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const> [Accessed 12 December 2014].
