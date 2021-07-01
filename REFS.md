@@ -1,10 +1,10 @@
 # List of References 
 
-- **Code Institute, 2020.** Anna Greaves README Video. [online] Available at: <https://www.youtube.com/watch?v=7BteidgLAyM&list=PLH7H7OKKWG3QDcR2PuS9_JGeh6Q_5EUWl&index=2&t=427s> [Accessed 4 June 2021].
-- **codeSTACKr. 2019.** Learn CSS Grid in 20 Minutes. [online] Available at: <https://www.youtube.com/watch?v=0-DY8J_skZ0> [Accessed 17 June 2021].
+- [Code Institute, 2020. Anna Greaves README Video](https://www.youtube.com/watch?v=7BteidgLAyM&list=PLH7H7OKKWG3QDcR2PuS9_JGeh6Q_5EUWl&index=2&t=427s)
+- [codeSTACKr. 2019. Learn CSS Grid in 20 Minutes](https://www.youtube.com/watch?v=0-DY8J_skZ0)
 - **C.P.A Inc., 2019.** The Computer Programming Bible. 1st ed. C.P.A INC.
-- **C., R., 2021.** arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6'). [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/42866159/arrow-function-syntax-is-only-available-in-es6-use-esversion-6> [Accessed 18 March 2017].
-- **Delise, A., 2020.** Responsive CSS Grid Tutorial. [online] Youtube.com. Available at: <https://www.youtube.com/watch?v=68O6eOGAGqA&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=16> [Accessed 1 April 2020].
+- [C., R., 2021. Arrow function syntax (=>) is only available in ES6 (use 'esversion: 6'](https://stackoverflow.com/questions/42866159/arrow-function-syntax-is-only-available-in-es6-use-esversion-6)
+- [Delise, A., 2020. Responsive CSS Grid Tutorial](https://www.youtube.com/watch?v=68O6eOGAGqA&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=16)
 - **Do, Q., 2016.** A table row was 2 columns wide, which is less than the column count established by the first row (3). [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/36951492/a-table-row-was-2-columns-wide-which-is-less-than-the-column-count-established> [Accessed 30 June 2021].
 - **Duckett, J., 2014.** JavaScript & JQuery: Interactive Front-End Web Development. John Wiley & Sons.
 - **DuRocher, D., 2020.** HTML and CSS QuickStart Guide. 1st ed. ClydeBank Media LLC.
