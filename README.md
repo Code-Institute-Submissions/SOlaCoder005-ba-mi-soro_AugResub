@@ -355,13 +355,65 @@ The following applications were used to test various aspects of the website. Mee
 
 ## 7. Deployment
 
-### 7.1  Deployment: Local 
+### 7.1 Deployment: Local Clone 
 
-- How code was run locally (e.g. commands (e.g. commit, push, pull, init clone etc.), opening local repo in live server)
+The Ba Mi Soro website was deployed locally via the use of GitHub (web application), Git Bash, an IDE such as VS Code (desktop application, and the use of a ‘repo’ - specific SSH Key. An overview of how the site was deployed locally is discussed in more detail below: 
+
+#### **Step 1: Create SSH Key**
+
+You will need this key to clone your repo to your local space (e.g. on your desktop).
+
+1.	Download the GitBash application and create a SSH key. How to create a SSH key can be found [here]( https://inchoo.net/dev-talk/how-to-generate-ssh-keys-for-git-authorization/).
+
+2.	Sign into [GitHub](https://github.com/).
+
+3.	Click your profile icon in the top-right corner of the GitHub webpage, click **Settings**.
+
+4.	Click ‘SSH and GPG Keys tab on the left-hand menu.
+
+5.	Click **‘New SSH Key’**, then copy and paste your key code (created via GitBash) into the box under the **’Key’** title. 
+
+6.	Click **’Add SSH Key’**., your key will then be ready to use!
+
+#### **Step 2: Create repository**
+
+1.	Click the **’+’** icon in the top-right icon on the web browser and select **‘New Repository’**. You will then be directed to a webpage titled ‘Create a new repository’. 
+
+2.	Fill out the required areas.
+
+-	Ensure the repository has been assigned a name and has a README.md created. The README file can be added by selecting the **'Add a README file'** option at the bottom of the ‘Create a new repository’ form.
+
+3.	Click **’Create repository’** to publish the repository
+
+#### **Step 3: Clone repository to local space**
+
+1.	Copy your SSH key from your repo. To do this:
+
+- Open GitHub and navigate to the repo you want to clone.
+- Click the **’Code’** button in the top-right corner of your repo window.
+- Click the SSH Key tab.
+- Copy the SSH key via right click and copy or clicking the clipboard icon. 
+
+2.	On your desktop, open VSCode.
+
+3.	On the taskbar at the top of tab, click the **File** tab.
+
+4.	Select the folder you want to clone your repo to. 
+
+5.	In the terminal box, type **‘git clone’**.
+
+6.	Then copy your SSH key after the git clone command. Then press enter. 
+
+7.	The terminal should present the pathway to your cloned repository. For instance, this “Ba Mi Soro!” project will display the following in the VSCode’s terminal: 
+
+- **…C:\Users\missm\Documents\GIT\ba-mi-soro>**
+
+
+8.	Once cloned, you will be able to edit your repo locally and commit, pull and push changes to your online GitHub repo (remote repository) using terminal commands (e.g. 'git push', 'git add .' and 'git pull'). 
 
 ### 7.2 Deployment: GitHub Pages
 
-Below is an overview on how to deploy a project via GitHub’s GitHub Pages. This method was used to deploy the _____________________________:
+Below is an overview on how to deploy a project via GitHub’s GitHub Pages. This method was used to deploy the “Ba Mi Soro!” website:
 
 1. Create a project **repository** on [GitHub](https://github.com/) using a registered GitHub account.
 
@@ -378,6 +430,7 @@ Below is an overview on how to deploy a project via GitHub’s GitHub Pages. Thi
 7. Once refreshing, a green box with the text and clickable link; **'Your site is published at...'**. 
 
 8. Clicking on the website’s hyperlink in the green box will direct to the live deployed website.
+
 
 ## 8. Credits
 ## 9. Acknowledgements
