@@ -165,7 +165,12 @@ The initial wireframes above were greated for the BMS site. However, at later st
 
 #### **Reviewed wireframes (below)** 
 
-Revisions were made to the wireframes after assesing the degree to which the website's design could be executed effictivel. Given the complex nature of the initial website design, factors such as programming skill level, and project timeframe informed the percived feasibility of creating the site. In turn, these considerations influnced the amendment of the website's initial wireframes. The wireframes for the website's current design can be found in the following [directory](assets/docs/wireframes).
+Revisions were made to the wireframes after assessing the degree to which the website's design could be executed effectively. 
+
+Given the complexity of the initial website design, factors such as programming skill level, and project timeframe informed the perceived feasibility of creating the site. In turn, these considerations influenced the amendment of the website's initial wireframes. 
+
+The wireframes for the website's current design can be found in the following [directory](assets/docs/wireframes).
+
 
 ### **3.2 BMS Logo**
 
