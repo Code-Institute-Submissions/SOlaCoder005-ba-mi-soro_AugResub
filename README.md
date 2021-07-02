@@ -169,7 +169,7 @@ Revisions were made to the wireframes after assessing the degree to which the we
 
 Given the complexity of the initial website design, factors such as programming skill level, and project timeframe informed the perceived feasibility of creating the site. In turn, these considerations influenced the amendment of the website's initial wireframes. 
 
-The wireframes for the website's current design can be found in the following [directory](assets/docs/wireframes).
+The wireframes for the website's current design can be found in the following [directory](docs/wireframes).
 
 
 ### **3.2 BMS Logo**
