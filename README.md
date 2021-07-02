@@ -382,9 +382,7 @@ The Ba Mi Soro website was deployed locally via the use of GitHub (web applicati
 |14. Then copy your SSH key after the git clone command. Then press enter.|
 |15. The terminal should present the pathway to your cloned repository. For instance, this “Ba Mi Soro!” project will display the following in the VSCode’s terminal:| 
 |- **…C:\Users\missm\Documents\GIT\ba-mi-soro>**|
-
-
-|8.	Once cloned, you will be able to edit your repo locally and commit, pull and push changes to your online GitHub repo (remote repository) using terminal commands (e.g. 'git push', 'git add .' and 'git pull').| 
+|16. Once cloned, you will be able to edit your repo locally and commit, pull and push changes to your online GitHub repo (remote repository) using terminal commands (e.g. 'git push', 'git add .' and 'git pull').| 
 
 ### 7.2 Deployment: GitHub Pages
 
