@@ -172,7 +172,6 @@ footer {
 	display: inline-block;
 	margin-top: 30px;
 	text-align: center;
-	/* padding: 20px; */
 }
 
 .enter-site-btn > p {
@@ -229,7 +228,6 @@ section {
 	margin: 70px 70px;
 	box-shadow: 9px 9px 9px rgb(144, 24, 241, .5); 
 }
-
 
 .quiz-lp {
 	padding: 20px;
@@ -547,9 +545,9 @@ Reference material:
 	font-weight: 600;
 }
 
+/*disables the display of points until prompted*/
 .hidden {
 	display: none;
-	/*disables the display of points until prompted*/
 }
 
 #gamefin{
@@ -649,6 +647,7 @@ tr {
 }
  
 /*CONTACT US PAGE*/
+
 /*This centers the whole form*/
 .form-center {
 	display: block;
