@@ -416,7 +416,7 @@ You will need this key to clone your repo to your local space (e.g. on your desk
 Below is an overview on how to deploy a project via GitHub’s GitHub Pages. This method was used to deploy the “Ba Mi Soro!” website:
 
 |The Process| 
-|-------------|
+|-------------|:-------------
 | 
 1. Create a project **repository** on [GitHub](https://github.com/) using a registered GitHub account.
 
