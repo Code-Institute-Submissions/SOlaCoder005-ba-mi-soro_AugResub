@@ -1,16 +1,24 @@
 /*jshint esversion: 6 */
 
-//Nav bar collapse and expand feature 
-const ham = document.getElementById('ham');
-const navMU = document.getElementById('nav-MU');
+const ham = document.querySelector('.ham');
+const navMU = document.querySelector('#nav-MU');
+let hamExpand = false;
 
-ham.addEventListener('click', () => {
-    navMU.classList.toggle('show');
+ham.addEventListener('click', () =>{
+    if(!hamExpand) {
+        ham.classList.add('open');
+        navMU.classList.toggle('show');
+        hamExpand = true;
+    } else {
+        ham.classList.remove('open');
+        navMU.classList.remove('show');
+        hamExpand = false;
+    }
 });
-
 /** DEVELOPER NOTES
  * 'jshint eversion...' tells JavaScript checkers like JShint that source code uses 'ECMAScript 6' specific syntax (Hibbard, 2014)
  * Reference material: 
         * J. Q. Quick, 2019 [https://youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx]
-        * Florin Pop [https://www.youtube.com/watch?v=ydZc17rlR5E] 
+        * Florin Pop, 2020  [https://www.youtube.com/watch?v=ydZc17rlR5E] 
+        * codeSTACKr, 2019 [https://youtu.be/dIyVTjJAkLw]
 */ 

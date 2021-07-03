@@ -216,13 +216,55 @@ footer {
 }
 
 .ham {
-	background-color: transparent;
-	color: rgb(255, 255, 255);
-	font-size: 30px;
-	border: 0;
+	position: relative;
+	border: none;
 	cursor: pointer;
-	/*ensures hamburger icon does not appear on screens > 768px*/
+	align-items: center;
+	justify-content: center;
 	display: none; 
+	transition: all .20s ease-in-out;
+	margin-top: 60px;
+}
+
+.ham-burger-btn {
+	width: 50px; 
+	height: 6px;
+	background: rgb(255, 255, 255);
+	border-radius: 6px;
+	transition: all .20s ease-in-out;
+	margin: 6px 6px;
+}
+
+.ham-burger-btn::before,
+.ham-burger-btn::after {
+	content: '';
+	position: absolute;
+	width: 50px; 
+	height: 6px;
+	background: rgb(255, 255, 255);
+	border-radius: 6px;
+} 
+
+.ham-burger-btn::before {
+	transform: translateY(-16px);	
+} 
+
+.ham-burger-btn::after {
+	transform: translateY(16px);
+} 
+
+/* nav animation below */
+.ham.open .ham-burger-btn {
+	transform: translateX(-50px); 
+	background: transparent;
+}
+
+.ham.open .ham-burger-btn::before {
+	transform: rotate(45deg) translate(45px, -45px); 
+}
+
+.ham.open .ham-burger-btn::after {
+	transform: rotate(-45deg) translate(45px, 45px); 
 }
 
 /*QUIZ HOMEPAGE*/
