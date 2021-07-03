@@ -445,9 +445,10 @@ In review of the BMS the project could be improved through a plethora of feature
 - **JavaScript**: This source code supported the dynamic features/capabilities of the website. 
 
 For instance;
-    -  JS script was used to instigate the colour change of the quiz buttons when the right or wrong answers were clicked on.  
 
-    - JS script was also used to enable the hiding and appearing function of the scores once the quizzes were completed. elements of the website. 
+-  JS script was used to instigate the colour change of the quiz buttons when the right or wrong answers were clicked on.  
+
+- JS script was also used to enable the hiding and appearing function of the scores once the quizzes were completed. elements of the website. 
 
 - **JQuery**: Supported specific functionalities (e.g. the scroll button) within the site through simplifying ‘Document Object Model’ (DOM) manipulation (Developer.mozilla.org, 2021).
 
@@ -542,8 +543,10 @@ Several resources have been referred to throughout the development of the 'Ba Mi
 
 ### Books
 
-- **C.P.A Inc., 2019.** The Computer Programming Bible. 1st ed. C.P.A INC.
+- **C.P.A Inc., 2019.** The Computer Programming Bible. 1st ed. C.P.A Inc.
+
 - **Duckett, J., 2014.** JavaScript & JQuery: Interactive Front-End Web Development. John Wiley & Sons.
+
 - **DuRocher, D., 2020.** HTML and CSS QuickStart Guide. 1st ed. ClydeBank Media LLC.
 
 ### Online Resources 
@@ -557,6 +560,8 @@ Several resources have been referred to throughout the development of the 'Ba Mi
 - [C., R., 2021. Arrow function syntax (=>) is only available in ES6 (use 'esversion: 6'](https://stackoverflow.com/questions/42866159/arrow-function-syntax-is-only-available-in-es6-use-esversion-6)
 
 - [Delise, A., 2020. Responsive CSS Grid Tutorial](https://www.youtube.com/watch?v=68O6eOGAGqA&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=16)
+
+- [DesignCourse, 2021. Add AMAZING Animations with LottieFiles - SO EASY](https://www.youtube.com/watch?v=x8WW0DDXZ4w&t=549s)
 
 - [Do, Q., 2016. A table row was 2 columns wide, which is less than the column count established by the first row (3)](https://stackoverflow.com/questions/36951492/a-table-row-was-2-columns-wide-which-is-less-than-the-column-count-established)
 
@@ -573,6 +578,9 @@ Several resources have been referred to throughout the development of the 'Ba Mi
 - [Hibbard, J., 2014.Why does JSHint throw a warning if I am using const?](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const)
 
 - [js.foundation, J., 2021. Code.jquery.com.](https://code.jquery.com/)
+
+- [Marenus, M., 2020., Gardner's Theory of Multiple Intelligences]
+(https://www.simplypsychology.org/multiple-intelligences.html)
 
 - [Media, T., 2016. jQuery Crash Course [4] - Effects and Animation](https://www.youtube.com/watch?v=kVc_XfZY0vI&t=69s)
 
