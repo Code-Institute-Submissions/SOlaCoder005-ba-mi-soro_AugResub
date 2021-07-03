@@ -286,7 +286,7 @@ This section provides an overview of the features on the BMS  website, and where
 |-----|-----|-----|-----| 
 | -------------------|--------------| ----------------|-------------- | 
 
-### **4.4 Contact us form page**
+### **4.4 Contact Us form page**
 ![](docs/screenshots/contactus-GenericLaptop.jpg)
 - Contact form 
 - Feedback box
