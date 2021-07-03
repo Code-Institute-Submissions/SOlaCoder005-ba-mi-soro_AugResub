@@ -608,6 +608,17 @@ Reference material:
 	padding: 30px;
 }
 
+/* .svg {
+	width: 100%;
+	position: absolute;
+	pointer-events: none;
+	z-index: -1;
+}
+	
+.hide {
+	display: none;
+} */
+
 /*PHRASESHEET PAGE*/
 .phrasesheet-cont {
 	border-radius: 10px;

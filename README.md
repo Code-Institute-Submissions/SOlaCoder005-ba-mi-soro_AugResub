@@ -397,8 +397,6 @@ Below is an overview on how to deploy a project via GitHub’s GitHub Pages. Thi
 |7. Once refreshing, a green box with the text and clickable link; **'Your site is published at...'**.| 
 |8. Clicking on the website’s hyperlink in the green box will direct to the live deployed website.|
 
-
-
 ## 8. Credits
 ## 9. Acknowledgements
 ## 10. References
