@@ -286,21 +286,27 @@ This section provides an overview of the features on the BMS  website, and where
 
 **Level: Beginner**
 - Purpose: Test the user’s trivia knowledge of the Yoruba language. 
+
 - How: The questions are written in English where the user, is asked to identify the correct Yoruba syntax. 
+
 - Knowledge capability: The user would have no and/or limited knowledge of the Yoruba language.
 
 ![](docs/screenshots/intermediateqz-GenericLaptop.jpg)
 
 **Level: Intermediate**
 - Purpose: To test the user’s understanding and comprehension of some Yoruba sentences.
+
 - How: The user is asked to complete the presented sentence with the correct Yoruba word. To do this correctly, the user will likely have a deeper understanding of Yoruba grammar. 
+
 - Knowledge capability: The user would have a basic understanding and knowledge of the Yoruba language and grammar. 
 
 ![](docs/screenshots/advancedqz-GenericLaptop.jpg)
 
 **Level: Advanced**
-- Purpose: To test the user’s understanding and comprehension of conversation spoken in a Yoruba language. 
+- Purpose: To test the user’s understanding and comprehension of conversation spoken in a Yoruba language.  
+
 - How: The user is asked to pick the correct answers in relation to the story presented. The story is written in Yoruba, however, to aid users understanding – the answers are written in English. This quiz is also designed to test Yoruba language and grammar.
+
 - Knowledge capability: The user is likely to be more accustomed to auditory and verbal interactions with the Yoruba language.  
 
 2. Multiple choice buttons
@@ -326,10 +332,7 @@ This section provides an overview of the features on the BMS  website, and where
 | 1.| Play an online quiz that can be accessed anywhere on different devices.
 |N/A | 
 |6. | Provide a front-end accessible quiz. | N/A|  
-| 8. | Provide content that:
-    - Assists user’s knowledge and development of the Yoruba language.
-    - Challenges users’ varying ability and/or understanding of the Yoruba language.
-    - Can help different age-groups learn Yoruba.| N/A| 
+| 8. | Provide content that: (1)Assists user’s knowledge and development of the Yoruba language. (2) Challenges users’ varying ability and/or understanding of the Yoruba language. (3) Can help different age-groups learn Yoruba.| N/A| 
 |9. | Provide users with feedback on their quiz score. |N/A | 
 |4. | Test personal knowledge of the Yoruba language for leisure and educational purposes.
 | N/A| 
@@ -337,15 +340,25 @@ This section provides an overview of the features on the BMS  website, and where
 
 
 #### **4.2.4 Score page**
+
 ![](docs/screenshots/scoreanim-GenericLaptop.jpg)
 
-- Play again
-- Return Home 
-- Score Hidden 
+1. Buttons 
 
-| User Type |User Story Number| Description| Supporting Statement|
-|-----|-----|-----|-----| 
-| -------------------|--------------| ----------------|-------------- | 
+    - Each button serves a function such as returning users to the homepage or quiz landing page to play the quizzes again.
+
+    - Akin to the other buttons on the site, the buttons presented on this page turn orange when thew user hovers over it. 
+
+    - The ‘VIEW SCORE’ button reveals the user’s total points gained throughout the quiz. Clicking on the button. 
+
+2. Confetti feature
+
+    - This feature is activated once the user completes the quiz and then active again once the ‘VIEW SCORE’ button. This has been added to increase the informal tone of the overall BMS site. 
+
+| Goal Number| Description| User Stories - Supporting Statement|
+|-----|-----|-----| 
+|N/A|N/A|N/A | 
+
 
 ### **4.3 Phrase Sheets page**
 ![](docs/screenshots/phrasesheets-GenericLaptop.jpg)
