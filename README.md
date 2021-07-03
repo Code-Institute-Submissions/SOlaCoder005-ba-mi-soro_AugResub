@@ -216,10 +216,6 @@ This section provides an overview of the features on the BMS  website, and where
 ### **4.1 Enter Page**
 
 ![](docs/screenshots/enter-site-GenericLaptop.jpg)
-![](docs/screenshots/enter-site-iPad.jpg)
-![](docs/screenshots/enter-site-iPhone4.jpg)
-
-
 - logo hover 
 - enter site button 
 
@@ -228,6 +224,8 @@ This section provides an overview of the features on the BMS  website, and where
 | -------------------|--------------| ----------------|-------------- | 
 
 ### **4.2 Quiz Landing page**
+
+![](docs/screenshots/-GenericLaptop.jpg)
 
 - Quiz links ( and hover) 
 - Internal links to internal pages
@@ -240,6 +238,8 @@ This section provides an overview of the features on the BMS  website, and where
 
 #### **4.2.1 Beginner Quiz**
 
+![](docs/screenshots/beginnerqz-GenericLaptop.jpg)
+
 - Question complexity 
 - Multiple choice buttons
 
@@ -248,6 +248,7 @@ This section provides an overview of the features on the BMS  website, and where
 | -------------------|--------------| ----------------|-------------- | 
 
 #### **4.2.2 Intermediate Quiz**
+![](docs/screenshots/intermediateqz-GenericLaptop.jpg)
 
 - Question complexity 
 - Multiple choice buttons
@@ -257,6 +258,7 @@ This section provides an overview of the features on the BMS  website, and where
 | -------------------|--------------| ----------------|-------------- | 
 
 #### **4.2.3 Advanced Quiz**
+![](docs/screenshots/advancedqz-GenericLaptop.jpg)
 
 -  Question complexity 
 - Multiple choice buttons
@@ -265,8 +267,8 @@ This section provides an overview of the features on the BMS  website, and where
 |-----|-----|-----|-----| 
 | -------------------|--------------| ----------------|-------------- | 
 
-
-#### **4.2.4 Quiz Results page**
+#### **4.2.4 Score page**
+![](docs/screenshots/score-GenericLaptop.jpg)
 - Play again
 - Return Home 
 - Score Hidden 
@@ -276,6 +278,7 @@ This section provides an overview of the features on the BMS  website, and where
 | -------------------|--------------| ----------------|-------------- | 
 
 ### **4.3 Phrase Sheets page**
+![](docs/screenshots/phrasesheets-GenericLaptop.jpg)
 - Beginner, intermediate, advanced 
 - Download function
 
@@ -284,6 +287,7 @@ This section provides an overview of the features on the BMS  website, and where
 | -------------------|--------------| ----------------|-------------- | 
 
 ### **4.4 Contact us form page**
+![](docs/screenshots/contactus-GenericLaptop.jpg)
 - Contact form 
 - Feedback box
 
@@ -292,6 +296,7 @@ This section provides an overview of the features on the BMS  website, and where
 | -------------------|--------------| ----------------|-------------- | 
 
 ### **4.5 404 page**
+![](docs/screenshots/404e-GenericLaptop.jpg)
 
 | User Type |User Story Number| Description| Supporting Statement|
 |-----|-----|-----|-----| 
