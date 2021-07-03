@@ -4,7 +4,7 @@ const ham = document.querySelector('.ham');
 const navMU = document.querySelector('#nav-MU');
 let hamExpand = false;
 
-ham.addEventListener('click', () =>{
+ham.addEventListener('click', () => {
     if(!hamExpand) {
         ham.classList.add('open');
         navMU.classList.toggle('show');
