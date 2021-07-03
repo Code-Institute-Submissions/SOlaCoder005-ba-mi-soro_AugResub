@@ -417,6 +417,8 @@ Several resources have been referred to throughout the development of the 'Ba Mi
 
 - [codeSTACKr. 2019. Learn CSS Grid in 20 Minutes](https://www.youtube.com/watch?v=0-DY8J_skZ0)
 
+- [codeSTACKr. 2019. Animated Hamburger Menu Tutorial – CSS Effects](https://youtu.be/dIyVTjJAkLw)
+
 - [C., R., 2021. Arrow function syntax (=>) is only available in ES6 (use 'esversion: 6'](https://stackoverflow.com/questions/42866159/arrow-function-syntax-is-only-available-in-es6-use-esversion-6)
 
 - [Delise, A., 2020. Responsive CSS Grid Tutorial](https://www.youtube.com/watch?v=68O6eOGAGqA&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=16)
