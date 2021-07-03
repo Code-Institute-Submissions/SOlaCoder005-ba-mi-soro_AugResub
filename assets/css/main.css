@@ -187,6 +187,13 @@ footer {
 	color: rgb(239, 130, 62);
 }
 
+.error-text{
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 20px;
+	margin: 20px
+}
+
 /*NAVIGATION MENU*/
 .nav-MU {
 	padding: 0 60px;
@@ -265,8 +272,6 @@ section {
 	width: 350px;
 	height: 350px;
 }
-
-
 
 /*QUIZ - GENERAL*/
 .quiz-cont > section {
