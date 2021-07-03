@@ -180,7 +180,7 @@ footer {
 }
 
 .enter-site-btn:hover {
-	box-shadow: 5px 5px 5px rgb(90, 87, 87, .5);
+	box-shadow: 7px 7px 7px rgb(90, 87, 87, .8);
 }
 
 .enter-site-btn > p:hover {
