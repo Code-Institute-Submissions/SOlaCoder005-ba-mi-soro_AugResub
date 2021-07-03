@@ -579,8 +579,7 @@ Several resources have been referred to throughout the development of the 'Ba Mi
 
 - [js.foundation, J., 2021. Code.jquery.com.](https://code.jquery.com/)
 
-- [Marenus, M., 2020., Gardner's Theory of Multiple Intelligences]
-(https://www.simplypsychology.org/multiple-intelligences.html)
+- [Marenus, M., 2020., Gardner's Theory of Multiple Intelligences](https://www.simplypsychology.org/multiple-intelligences.html)
 
 - [Media, T., 2016. jQuery Crash Course [4] - Effects and Animation](https://www.youtube.com/watch?v=kVc_XfZY0vI&t=69s)
 
