@@ -241,11 +241,13 @@ This section provides an overview of the features on the BMS  website, and where
 
 1. Central Logo 
 
-    – The logo is static and is only used to establish the name of the site. 
+    - The logo is static and is only used to establish the name of the site. 
 
 2. ‘Enter’ Button
 
-    - This feature has been centred intentionally and under the logo to communicate clear instructions to the user. For instance, to ‘enter’ the site they need to click the button. To bolster this message, the button’s text turns to orange and the cursor turns into a pointer when the user hovers over the button. 
+    - This feature has been centred intentionally and under the logo to communicate clear instructions to the user. 
+    
+    For instance, to ‘enter’ the site they need to click the button. To bolster this message, the button’s text turns to orange and the cursor turns into a pointer when the user hovers over the button. 
 
 | Goal Number| Description| User Stories - Supporting Statement|
 |-----|-----|-----| 
@@ -255,45 +257,84 @@ This section provides an overview of the features on the BMS  website, and where
 
 ![](docs/screenshots/quizlp-GenericLaptop.jpg)
 
-- Quiz links ( and hover) 
-- Internal links to internal pages
-- Social media icons in footer 
-- Logo in top left corner
+1. Quiz Icons
 
-| User Type |User Story Number| Description| Supporting Statement|
-|-----|-----|-----|-----| 
-| -------------------|--------------| ----------------|-------------- | 
+    - The quiz icon links; ‘Beginner’, ‘Intermediate’ and ‘Advanced’ link to separate quizzes which content varies difficulty. This shall be discussed in latter sections. 
 
-#### **4.2.1 Beginner Quiz**
+    - When hovered over, the icons enlarger slightly to communicate that the links are active and clickable. To add to this the cursor changes to a pointer when the user hovers over each. 
+
+    - The icons are presented in a horizontal line on devices that have a screen width size larger than 800px.  
+
+    - Devices that have a screen-size smaller than 768px will present the icons vertically to aid user experience and support the site’s responsiveness capabilities. 
+    
+2. Icons 
+
+    - The icons presented int the latter part of the page links to additional sections and pages on the site.  
+
+| Goal Number| Description| User Stories - Supporting Statement|
+|-----|-----|-----| 
+| 7. | Ensure that the quiz can be accessed by users on most devices (i.e phone, tablet, laptops, and desktops)| N/A| 
+
+
+#### **4.2.1 The Quizzes - Beginner, Intermediate and Advanced Quiz**
+
+1. Question complexity
+
+    - Each level presents 5 questions that vary in complexity. For instance:
 
 ![](docs/screenshots/beginnerqz-GenericLaptop.jpg)
 
-- Question complexity 
-- Multiple choice buttons
+**Level: Beginner**
+Purpose: Test the user’s trivia knowledge of the Yoruba language. 
+How: The questions are written in English where the user, is asked to identify the correct Yoruba syntax. 
+Knowledge capability: The user would have no and/or limited knowledge of the Yoruba language.
 
-| User Type |User Story Number| Description| Supporting Statement|
-|-----|-----|-----|-----| 
-| -------------------|--------------| ----------------|-------------- | 
-
-#### **4.2.2 Intermediate Quiz**
 ![](docs/screenshots/intermediateqz-GenericLaptop.jpg)
 
-- Question complexity 
-- Multiple choice buttons
+**Level: Intermediate**
+Purpose: To test the user’s understanding and comprehension of some Yoruba sentences.
+How: The user is asked to complete the presented sentence with the correct Yoruba word. To do this correctly, the user will likely have a deeper understanding of Yoruba grammar. 
+Knowledge capability: The user would have a basic understanding and knowledge of the Yoruba language and grammar. 
 
-| User Type |User Story Number| Description| Supporting Statement|
-|-----|-----|-----|-----| 
-| -------------------|--------------| ----------------|-------------- | 
-
-#### **4.2.3 Advanced Quiz**
 ![](docs/screenshots/advancedqz-GenericLaptop.jpg)
 
--  Question complexity 
-- Multiple choice buttons
+**Level: Advanced**
+Purpose: To test the user’s understanding and comprehension of conversation spoken in a Yoruba language. 
+How: The user is asked to pick the correct answers in relation to the story presented. The story is written in Yoruba, however, to aid users understanding – the answers are written in English. This quiz is also designed to test Yoruba language and grammar.
+Knowledge capability: The user is likely to be more accustomed to auditory and verbal interactions with the Yoruba language.  
 
-| User Type |User Story Number| Description| Supporting Statement|
-|-----|-----|-----|-----| 
-| -------------------|--------------| ----------------|-------------- | 
+2. Multiple choice buttons
+
+    - Each question is presented within a box, where each option is presented in a circular-button. 
+
+    - The button lights up, forming an orange ring when the user hovers over the element.
+    
+    - Once clicked the buttons turn either red or green depending whether the answer is correct.
+
+3. Question Tracker
+
+    - Once each button is clicked, the questions tracker increases. Based on the JavaScript code, each question is randomised, therefore the questions will be presented in a different order each time the quiz is loaded/refreshed in the browser window. 
+
+4. Points tally tracker
+
+    - Depending on the answers chosen, each correct answer is awarded 5 points, if incorrect, x points are deducted. The points tally records the user’s points accumulated over the course of the quiz. 
+    
+    - At the end of the quiz, the user will be directed to the score page. This shall be discussed in latter sections. 
+
+| Goal Number| Description| User Stories - Supporting Statement|
+|-----|-----|-----| 
+| 1.| Play an online quiz that can be accessed anywhere on different devices.
+|N/A | 
+|6. | Provide a front-end accessible quiz. | N/A|  
+| 8. | Provide content that:
+    - Assists user’s knowledge and development of the Yoruba language.
+    - Challenges users’ varying ability and/or understanding of the Yoruba language.
+    - Can help different age-groups learn Yoruba.| N/A| 
+|9. | Provide users with feedback on their quiz score. |N/A | 
+|4. | Test personal knowledge of the Yoruba language for leisure and educational purposes.
+| N/A| 
+| 5. | Strengthen ability in understanding the Yoruba language in more complex contexts (e.g. increased comprehension).  | N/A| 
+
 
 #### **4.2.4 Score page**
 ![](docs/screenshots/scoreanim-GenericLaptop.jpg)

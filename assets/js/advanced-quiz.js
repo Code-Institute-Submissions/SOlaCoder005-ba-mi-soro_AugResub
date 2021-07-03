@@ -60,7 +60,7 @@ let listOfQuestions = [
 ];
 
 const directoryQuestionsMax = 5;
-const individualPoints = 15;
+const individualPoints = 15; 
 const penaltyPoints = 5;
 
 startQuiz = () => {
