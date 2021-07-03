@@ -8,14 +8,14 @@ $(document).ready(function(){
 });
 
 //Fetches score results from the respective quiz user has played
-const tallyTotal = document.getElementById('tallyTotal');
+const tallyTotal = document.querySelector('#tallyTotal');
 const totalPoints = localStorage.getItem('totalPoints');
 
 tallyTotal.innerText = totalPoints;
 
 //Animation Feature
 const play = document.querySelector('#btnSeePoints');
-const svgTag = document.getElementById('svg');
+const svgTag = document.querySelector('#svg');
 let animate = bodymovin.loadAnimation ({
     wrapper: svgTag, 
     animType: 'svg',
