@@ -285,23 +285,23 @@ This section provides an overview of the features on the BMS  website, and where
 ![](docs/screenshots/beginnerqz-GenericLaptop.jpg)
 
 **Level: Beginner**
-Purpose: Test the user’s trivia knowledge of the Yoruba language. 
-How: The questions are written in English where the user, is asked to identify the correct Yoruba syntax. 
-Knowledge capability: The user would have no and/or limited knowledge of the Yoruba language.
+- Purpose: Test the user’s trivia knowledge of the Yoruba language. 
+- How: The questions are written in English where the user, is asked to identify the correct Yoruba syntax. 
+- Knowledge capability: The user would have no and/or limited knowledge of the Yoruba language.
 
 ![](docs/screenshots/intermediateqz-GenericLaptop.jpg)
 
 **Level: Intermediate**
-Purpose: To test the user’s understanding and comprehension of some Yoruba sentences.
-How: The user is asked to complete the presented sentence with the correct Yoruba word. To do this correctly, the user will likely have a deeper understanding of Yoruba grammar. 
-Knowledge capability: The user would have a basic understanding and knowledge of the Yoruba language and grammar. 
+- Purpose: To test the user’s understanding and comprehension of some Yoruba sentences.
+- How: The user is asked to complete the presented sentence with the correct Yoruba word. To do this correctly, the user will likely have a deeper understanding of Yoruba grammar. 
+- Knowledge capability: The user would have a basic understanding and knowledge of the Yoruba language and grammar. 
 
 ![](docs/screenshots/advancedqz-GenericLaptop.jpg)
 
 **Level: Advanced**
-Purpose: To test the user’s understanding and comprehension of conversation spoken in a Yoruba language. 
-How: The user is asked to pick the correct answers in relation to the story presented. The story is written in Yoruba, however, to aid users understanding – the answers are written in English. This quiz is also designed to test Yoruba language and grammar.
-Knowledge capability: The user is likely to be more accustomed to auditory and verbal interactions with the Yoruba language.  
+- Purpose: To test the user’s understanding and comprehension of conversation spoken in a Yoruba language. 
+- How: The user is asked to pick the correct answers in relation to the story presented. The story is written in Yoruba, however, to aid users understanding – the answers are written in English. This quiz is also designed to test Yoruba language and grammar.
+- Knowledge capability: The user is likely to be more accustomed to auditory and verbal interactions with the Yoruba language.  
 
 2. Multiple choice buttons
 
@@ -318,7 +318,7 @@ Knowledge capability: The user is likely to be more accustomed to auditory and v
 4. Points tally tracker
 
     - Depending on the answers chosen, each correct answer is awarded 5 points, if incorrect, x points are deducted. The points tally records the user’s points accumulated over the course of the quiz. 
-    
+
     - At the end of the quiz, the user will be directed to the score page. This shall be discussed in latter sections. 
 
 | Goal Number| Description| User Stories - Supporting Statement|
