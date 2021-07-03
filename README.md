@@ -233,19 +233,23 @@ This section provides an overview of the features on the BMS  website, and where
 
 | Goal Number| Description| User Stories - Supporting Statement|
 |-----|-----|-----| 
-| 7. | Ensure that the quiz can be accessed by users on most devices (i.e phone, tablet, laptops, and desktops).| N/A| 
-
-
+| 7. | Ensure that the quiz can be accessed by users on most devices (i.e phone, tablet, laptops, and desktops)| N/A| 
 
 ### **4.1 Enter Page**
 
 ![](docs/screenshots/enter-site-GenericLaptop.jpg)
-- logo hover 
-- enter site button 
 
-| User Type |User Story Number| Description| Supporting Statement|
-|-----|-----|-----|-----| 
-| -------------------|--------------| ----------------|-------------- | 
+1. Central Logo 
+
+    – The logo is static and is only used to establish the name of the site. 
+
+2. ‘Enter’ Button
+
+    - This feature has been centred intentionally and under the logo to communicate clear instructions to the user. For instance, to ‘enter’ the site they need to click the button. To bolster this message, the button’s text turns to orange and the cursor turns into a pointer when the user hovers over the button. 
+
+| Goal Number| Description| User Stories - Supporting Statement|
+|-----|-----|-----| 
+| 7. | Ensure that the quiz can be accessed by users on most devices (i.e phone, tablet, laptops, and desktops)| N/A| 
 
 ### **4.2 Quiz Landing page**
 
