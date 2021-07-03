@@ -229,7 +229,12 @@ This section provides an overview of the features on the BMS  website, and where
 
     - The navigation menu is presented in a horizontal line on devices that have a screen width size larger than 800px.  
 
-    - Devices that have a screen-size smaller than 768px will present an expandable and collapsing menu, often titled as a ‘Hamburger menu’. The menu has been created this way to aid user experience and support effective UXD and UI functionalities (e.g. device responsivity).  
+    - Devices that have a screen-size smaller than 768px will present an expandable and collapsing menu, often titled as a ‘Hamburger menu’. The menu has been created this way to aid user experience and support effective UXD and UI functionalities (e.g. device responsivity). 
+
+| Goal Number| Description| User Stories - Supporting Statement|
+|-----|-----|-----| 
+| 7. | Ensure that the quiz can be accessed by users on most devices (i.e phone, tablet, laptops, and desktops).| N/A| 
+
 
 
 ### **4.1 Enter Page**
