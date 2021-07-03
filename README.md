@@ -225,7 +225,7 @@ This section provides an overview of the features on the BMS  website, and where
 
 ### **4.2 Quiz Landing page**
 
-![](docs/screenshots/-GenericLaptop.jpg)
+![](docs/screenshots/quizlp-GenericLaptop.jpg)
 
 - Quiz links ( and hover) 
 - Internal links to internal pages
