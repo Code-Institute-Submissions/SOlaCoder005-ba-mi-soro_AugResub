@@ -215,6 +215,11 @@ This section provides an overview of the features on the BMS  website, and where
 
 ### **4.1 Enter Page**
 
+![](docs/screenshots/enter-site-GenericLaptop.jpg)
+![](docs/screenshots/enter-site-iPad.jpg)
+![](docs/screenshots/enter-site-iPhone4.jpg)
+
+
 - logo hover 
 - enter site button 
 
