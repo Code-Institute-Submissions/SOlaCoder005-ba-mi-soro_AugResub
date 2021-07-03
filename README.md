@@ -217,7 +217,7 @@ This section provides an overview of the features on the BMS  website, and where
 
 1. Logo 
 
-    - The logo is static on the enter-site landing page and has been included to establish the name of the site. The logo in the top right of BMS’ header allows the user to return back to the homepage.
+    - The logo is static on the enter-site landing page and has been included to establish the name of the site.The logo in the top right of BMS’ header allows the user to return back to the homepage.
 
 2. Social Media links (Footer) 
 
@@ -225,7 +225,7 @@ This section provides an overview of the features on the BMS  website, and where
 
 3. Navigation Menu
 
-        - The navigation menu has been placed on the primary sites and the quiz sites to aid easier navigation for the user. 
+    - The navigation menu has been placed on the primary sites and the quiz sites to aid easier navigation for the user. 
 
     - The navigation menu is presented in a horizontal line on devices that have a screen width size larger than 800px.  
 
