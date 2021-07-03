@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 
-//Quiz-end fade out feature
+//Quiz-end points fade-in feature
 $(document).ready(function(){
     $('#btnSeePoints').click(function(){
         $('#pointsDisplay').fadeIn(1000);
