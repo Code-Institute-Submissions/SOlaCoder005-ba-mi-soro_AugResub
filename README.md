@@ -323,7 +323,7 @@ This section provides an overview of the features on the BMS  website, and where
 
 4. Points tally tracker
 
-    - Depending on the answers chosen, each correct answer is awarded 5 points, if incorrect, x points are deducted. The points tally records the user’s points accumulated over the course of the quiz. 
+    - Depending on the answers chosen, each correct answer is awarded 15 points, if incorrect, 5  points are deducted. The points tally records the user’s points accumulated over the course of the quiz. 
 
     - At the end of the quiz, the user will be directed to the score page. This shall be discussed in latter sections. 
 
@@ -336,9 +336,7 @@ This section provides an overview of the features on the BMS  website, and where
 |8. | Provide content that: (1) Assists user’s knowledge and development of the Yoruba language, (2) Challenges users’ varying ability and/or understanding of the Yoruba language and (3) Can help different age-groups learn Yoruba.| N/A| 
 |9. | Provide users with feedback on their quiz score. |N/A | 
 
-
-
-#### **4.2.4 Score page**
+#### **4.2.1 Score page**
 
 ![](docs/screenshots/scoreanim-GenericLaptop.jpg)
 
@@ -361,28 +359,50 @@ This section provides an overview of the features on the BMS  website, and where
 
 ### **4.3 Phrase Sheets page**
 ![](docs/screenshots/phrasesheets-GenericLaptop.jpg)
-- Beginner, intermediate, advanced 
-- Download function
 
-| User Type |User Story Number| Description| Supporting Statement|
-|-----|-----|-----|-----| 
-| -------------------|--------------| ----------------|-------------- | 
+1. Beginner, Intermediate and Advanced Phrase Sheets
+
+    - Akin to the quiz levels, this page provides users with phrase sheets. Each sheet provides useful phrases that can be used in Yoruba spoken conversations. 
+
+    - As the language is complex and the BMS site is designed to provide users with a taster of the language through quizzes, the sheets provide a small selection of phrases. 
+
+    - While these can help the user answer some of the the quiz questions, it is highly advised that users develop their knowledge with certified and supplementary learning resources (e.g. videos, lessons, and conversions) to develop their knowledge further. 
+
+2. Download function
+
+    - Akin to the other button functions on this page, the download buttons change colour, in this case to purple, when hovered over. 
+
+    - Once the buttons are clicked, the phrase sheets automatically download to the persons device. This works on desktop, android, and mobile devices.
+
+| Goal Number| Description| User Stories - Supporting Statement|
+|-----|-----|-----| 
+|5. | Strengthen ability in understanding the Yoruba language in more complex contexts (e.g. increased comprehension). |N/A | 
+|8. | (3) Can help different age-groups learn Yoruba. |N/A | 
 
 ### **4.4 Contact Us form page**
 ![](docs/screenshots/contactus-GenericLaptop.jpg)
-- Contact form 
-- Feedback box
 
-| User Type |User Story Number| Description| Supporting Statement|
-|-----|-----|-----|-----| 
-| -------------------|--------------| ----------------|-------------- | 
+- The form has been created to receive users’ feedback. A text box has been used rather thank multiple choice questions as it allows the user to provide qualitative feedback. Feedback of this nature can help the site owner analyse how the site and its quizzes can be developed to bolster users’ experience.
+
+- The form has been tested and submits successfully. 
+
+| Goal Number| Description| User Stories - Supporting Statement|
+|-----|-----|-----| 
+|10. | Gain users’ feedback on the usefulness of the application. |N/A | 
 
 ### **4.5 404 page**
 ![](docs/screenshots/404e-GenericLaptop.jpg)
 
-| User Type |User Story Number| Description| Supporting Statement|
-|-----|-----|-----|-----| 
-| -------------------|--------------| ----------------|-------------- | 
+1. Central Logo 
+
+    - The logo is static and is only used to establish the name of the site. 
+
+2. ‘Enter’ Button
+
+    - This feature has been centred intentionally and under the logo to communicate clear instructions to the user. For instance, to ‘return’ to the site they need to click the button. 
+
+    - To bolster this message, the button’s text turns to orange and the cursor turns into a pointer when the user hovers over the button. 
+
 
 ### **4.6 Future Features**
 
