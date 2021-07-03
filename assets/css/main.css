@@ -603,21 +603,11 @@ Reference material:
 
 #pointsDisplay{
 	font-size: 50px;
-	border: 6px solid rgb(239, 130, 62);
+	text-decoration: 6px underline rgb(239, 130, 62);
 	border-radius: 50px;	
 	padding: 30px;
+	transition: .5s ease-in;
 }
-
-/* .svg {
-	width: 100%;
-	position: absolute;
-	pointer-events: none;
-	z-index: -1;
-}
-	
-.hide {
-	display: none;
-} */
 
 /*PHRASESHEET PAGE*/
 .phrasesheet-cont {
