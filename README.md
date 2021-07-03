@@ -403,13 +403,35 @@ This section provides an overview of the features on the BMS  website, and where
 
     - To bolster this message, the button’s text turns to orange and the cursor turns into a pointer when the user hovers over the button. 
 
-
 ### **4.6 Future Features**
 
-- Quiz images, audio based questions provides learner with an additional learning mediums, for differing learning intelligences (e.g. visual and auditory learners) 
-- Playlist of video resources / link to amazon bookstore for further literary resources. 
-- Hide the quiz scores 
-- Mini animations when button is clicked (link relevant example) 
+In review of the BMS the project could be improved through a plethora of features. These could be implemented in future developments of the BMS site. Some of these features have been listed below: 
+
+**Quiz images**
+
+- Images included with the questions can aid users’ learning. This would be particularly beneficial to users who have a stronger spatial intelligence, as outlined in [Gardener’s Multiple intelligence theory](https://www.simplypsychology.org/multiple-intelligences.html)(Marenus, 2020).
+
+**Auditory Questions**
+
+- Similarly, audio-based questions could not only present another challenging aspect of the quiz, it may also benefit users that have stronger musical and linguistic intelligences. 
+
+**Playlist of video resources** 
+
+- Akin to the feedback from user stories, including an online playlist (e.g. hosted via YouTube) could make the BMS site more useful. / link to amazon bookstore for further literary resources. 
+
+**Increasing the quantity of quiz questions** 
+
+- Arguably, increasing the amount of questions for each quiz would create more of a challenge for the users. Based on the averages person’s short-term memory abilities, it is not difficult to memorise small chunks of simple information (e.g. answers). 
+
+- As such, a key limitation of the current quizzes is that, 5 questions per quiz will typically allow re-occurring users to memorise the correct answers. 
+
+**Hiding the quiz score and including a High score page**
+
+- Implementing these features could make the quiz more challenging. Arguably, these features would cause users to rely more of their knowledge and determine their understanding based on the end results.
+
+**Adding additional animations**
+
+- Adding animations to elements such as the quiz buttons when clicked could make the quiz look more appealing specifically for users of younger age groups. 
 
 
 ## 5. Technologies Used
@@ -420,8 +442,11 @@ This section provides an overview of the features on the BMS  website, and where
 
 - **CSS**: This source code supported the core styling elements of the website.
 
-- **JavaScript**: This source code supported the dynamic features/capabilities of the website. For instance;
+- **JavaScript**: This source code supported the dynamic features/capabilities of the website. 
+
+For instance;
     -  JS script was used to instigate the colour change of the quiz buttons when the right or wrong answers were clicked on.  
+
     - JS script was also used to enable the hiding and appearing function of the scores once the quizzes were completed. elements of the website. 
 
 - **JQuery**: Supported specific functionalities (e.g. the scroll button) within the site through simplifying ‘Document Object Model’ (DOM) manipulation (Developer.mozilla.org, 2021).
