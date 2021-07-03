@@ -269,6 +269,8 @@ This section provides an overview of the features on the BMS  website, and where
 
 #### **4.2.4 Score page**
 ![](docs/screenshots/score-GenericLaptop.jpg)
+![](docs/screenshots/scoreanim-GenericLaptop.jpg)
+
 - Play again
 - Return Home 
 - Score Hidden 
