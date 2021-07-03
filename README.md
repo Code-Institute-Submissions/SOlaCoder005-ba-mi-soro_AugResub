@@ -329,14 +329,13 @@ This section provides an overview of the features on the BMS  website, and where
 
 | Goal Number| Description| User Stories - Supporting Statement|
 |-----|-----|-----| 
-| 1.| Play an online quiz that can be accessed anywhere on different devices.
-|N/A | 
+|1. | Play an online quiz that can be accessed anywhere on different devices.|N/A |
+|4. |Test personal knowledge of the Yoruba language for leisure and educational purposes.| N/A| 
+|5. |Strengthen ability in understanding the Yoruba language in more complex contexts (e.g. increased comprehension) | N/A| 
 |6. | Provide a front-end accessible quiz. | N/A|  
-| 8. | Provide content that: (1)Assists user’s knowledge and development of the Yoruba language. (2) Challenges users’ varying ability and/or understanding of the Yoruba language. (3) Can help different age-groups learn Yoruba.| N/A| 
+|8. | Provide content that: (1) Assists user’s knowledge and development of the Yoruba language, (2) Challenges users’ varying ability and/or understanding of the Yoruba language and (3) Can help different age-groups learn Yoruba.| N/A| 
 |9. | Provide users with feedback on their quiz score. |N/A | 
-|4. | Test personal knowledge of the Yoruba language for leisure and educational purposes.
-| N/A| 
-| 5. | Strengthen ability in understanding the Yoruba language in more complex contexts (e.g. increased comprehension).  | N/A| 
+
 
 
 #### **4.2.4 Score page**
