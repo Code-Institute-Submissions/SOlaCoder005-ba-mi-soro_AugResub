@@ -606,6 +606,64 @@ Below is an overview on how to deploy a project via GitHub’s GitHub Pages. Thi
 |8. Clicking on the website’s hyperlink in the green box will direct to the live deployed website.|
 
 ## 8. Credits
+
+### **8.1 The Project** 
+
+#### **8.1.1 Project Goals**
+
+- This website is the final product of the Portfolio Project 2: JavaScript Essentials (a.k.a. Milestone Project 2, MS2).  It is part of the Code Institutes’ (CI) Diploma in Full Stack Software Development Diploma (5P).
+
+#### **8.1.2 Chosen Project Idea** 
+
+- Out of several ideas presented, Project Idea 0 was chosen. However, to provide more conceptual structure to the project, the website uses the concepts presented in Project Idea Example 2 as a point of reference as it asked to ‘Build an Online Quiz’. Specifically, the quiz was designed to test ‘literary knowledge’ of the Yoruba language.
+
+### **8.2 Content** 
+Although some of the resources credited below are already listed in the [5. Technologies Used](#5-Technologies-Used) section of the README and [References section](#10-References); the credits listed here are relative to specific content that has been incorporated into the Ba Mi Soro website:
+
+- Nav Menu  
+
+Tutorials created by [Pop (2020)](https://www.youtube.com/watch?v=ydZc17rlR5E&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=19) and [codeSTACKr (2019)](https://www.youtube.com/watch?v=dIyVTjJAkLw&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=7) influenced the structure of the Navigation menu code was influenced by the YouTube tutorials presented by Direct references can be found in the References section [below](#10-References).
+
+- CSS Grid 
+
+Tutorial created by [Angela Delise(2020)](https://www.youtube.com/watch?v=68O6eOGAGqA&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=16&t=681s) and [codeSTACKEr (2019)](https://www.youtube.com/watch?v=0-DY8J_skZ0&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=15&t=971s) assisted the develpers understanding and implementation of CSS grids. 
+
+- Quiz functional logistics
+
+[Traversy Media’s (2016)](https://www.youtube.com/watch?v=kVc_XfZY0vI&t=69s) and [J. Q. Quick’s (2019)](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx) tutorial informed influenced the construction of the Ba Mi Soro quizzes. Direct references to this tutorial can be found in the   References section [below](#10-References). 
+
+- [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecommerce): The Code Institute's lesson and challenges has been referred to help with the construction and functionality of the site. For instance: 
+
+    - Form validation URL: The Code Institute’s URL (https://formdump.codeinstitute.net) has been incorporated into the form on the ‘Contact Us’ page of the website. The tutorial can be found [here](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/ee2afa91c35e4268b7de2ea21fe311dd/9?activate_block_id=block-v1%3ACodeInstitute%2BHE101%2B2020%2Btype%40vertical%2Bblock%4004ae28359c4340048efdeeacf3363eb0).
+
+-   [Font Awesome](https://fontawesome.com/): The icons used on the website has been sourced from Font Awesome.
+
+-   [Google Fonts](https://fonts.google.com/): This was used to select and import the desired font into the website’s stylesheet. 
+
+-   [Stack Overflow](https://stackoverflow.com/): This was used as a reference tool to assist with troubleshooting both HTML, CSS and JavaScript code issues. 
+
+-   [W3 Schools](https://www.w3schools.com/): This was used as a reference tool to assist with HTML coding techniques. 
+
+-   [Youtube](https://www.youtube.com/): This was used to refer to useful coding and UXD tips and tutorials. Including: 
+
+### **8.3 Language and Scripts**
+
+- **JavaScript:** The JavaScript used within the source-code assists with specific functionalities (e.g. Navigation Menu, Scroll button, and Icons). The scripts have been sourced from the following sites: 
+
+- Font Awesome: https://kit.fontawesome.com/1699136767.js
+
+- bodymovin: https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js
+
+Similarly, The jQuery used within the source-code assists with specific functionalities as mentioned earlier. The script has been sourced from jQuery.com. A direct reference to how to use the jQuery in source-code can be found in the References section [below](#10-References):
+
+- Jquery.com: https://code.jquery.com/jquery-3.6.0.min.js
+
+### **8.4 Media** 
+
+- [LottieFiles.com](https://lottiefiles.com/): Score Page animation
+
+Specifically the animation used on the BMS’ score page was created by [Arvind Lakhani](https://lottiefiles.com/7434-confetti). The **colour scheme and speed** of the animation was adapted by the developer to fulfil the needs of the BMS website. Further, a tutorial by [DesignCourse (2021)](https://www.youtube.com/watch?v=x8WW0DDXZ4w&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=22) provided an example of how to implement the animation into HTML and JS code. 
+
 ## 9. Acknowledgements
 ## 10. References
 
@@ -644,10 +702,14 @@ Several resources have been referred to throughout the development of the 'Ba Mi
 - [GeneratePress. 2021. Tom - Lead Developer | 15th April 2016 #187200 | Shadow under nav bar - GeneratePress](https://generatepress.com/forums/topic/shadow-under-nav-bar)
 
 - [Google Fonts. 2021. Google Fonts](https://fonts.google.com/specimen/Montserrat?category=Sans+Serif,Display#standard-styles)
+
+- [Hayani, S., 2018. JavaScript ES6 — write less, do more](https://www.freecodecamp.org/news/write-less-do-more-with-javascript-es6-5fd4a8e50ee2/#:~:text=JavaScript%20ES6%20brings%20new%20syntax,destruction%2C%20Modules%E2%80%A6%20and%20more)
  
 - [Hibbard, J., 2014.Why does JSHint throw a warning if I am using const?](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const)
 
 - [js.foundation, J., 2021. Code.jquery.com.](https://code.jquery.com/)
+
+- [Krossing, D., 2017. 2: How to add jQuery to your website | Learn jQuery | jQuery tutorial](https://www.youtube.com/watch?v=EwUOsRlDTLQ)
 
 - [Marenus, M., 2020., Gardner's Theory of Multiple Intelligences](https://www.simplypsychology.org/multiple-intelligences.html)
 
@@ -669,6 +731,8 @@ Several resources have been referred to throughout the development of the 'Ba Mi
 
 - [W3schools.com. 2021. How To Create a Download Link](https://www.w3schools.com/howto/howto_html_download_link.asp)
 
-- [W3schools.com. 2021. How To Create Responsive Images](https://www.w3schools.com/howto/howto_css_image_responsive.asp)
+- [W3schools.com. 2021. How To Create Responsive Images](https://www.w3schools.com/howto/howto_css_image_responsive.asp) 
+
+- [W3schools.com. 2021. JavaScript Arrow Function](https://www.w3schools.com/js/js_arrow_function.asp)
 
 - [W3schools.com. 2021. JavaScript Window Location](https://www.w3schools.com/js/js_window_location.asp)
