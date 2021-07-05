@@ -547,10 +547,9 @@ While there were several bugs that arose through the duration of the project, th
 
 - **Context:** The primary unfixed bug that should be addressed if this project is developed is reducing the amount of JS code sheets included in the repo. 
 
-
 - **Reason:** 
 
-- The repo has multiple JS files for a few reasons: 
+    The repo has multiple JS files for a few reasons: 
 
     (1) During the initial stages of writing the script, the functions were created and ran on the site individually. It was then combined into one sheet where possible.
 
@@ -559,10 +558,6 @@ While there were several bugs that arose through the duration of the project, th
     (3) The developer was unable to find a solution to successfully run multiple functions from one JavaScript. While each worked individually, when combined into one file; some functions would not execute successfully, whereas others would. 
 
 - **Potential Fix:** Implement the fetch() method with the use of a Web API to the JS source code. This will be considered and implemented in future projects. 
-
-
-
-
 
 ## 7. Deployment
 
