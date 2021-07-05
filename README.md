@@ -395,7 +395,7 @@ This section provides an overview of the features on the BMS  website, and where
 
 1. Central Logo 
 
-    - The logo is static and is only used to establish the name of the site. 
+    - The logo is static and is only used to establish the website's brand and that the user has tryied to access an incorrect page. 
 
 2. ‘Enter’ Button
 
