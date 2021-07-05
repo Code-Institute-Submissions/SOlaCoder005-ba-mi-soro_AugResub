@@ -489,6 +489,25 @@ The following applications were used to test various aspects of the website. Mee
 
 ## 6. Testing
 
+### 6.1 **HTML, CSS and JS Validator Tests**
+
+To ensure that the HTML, CSS and JS source-code adhered to industry standards, each were ran through respective validators – [W3C Validator](https://validator.w3.org/), [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator) and the [JShint Validator](https://jshint.com/). All the tests produced **0 errors**. Evidence of the tests can be found in the testing repository directory, [here]().
+
+### **6.2 WAVE: Website Accessibility Test**
+
+The [WAVE Accessibility Evaluation Tool](https://wave.webaim.org) was used to evaluate the overall accessibility of the BMS site. It considered factors such as the quantity and suitability of accessibility features used on the website (e.g. aria-labels, degree of contrast). The results produced **0 errors**, thus passing the overall test. However, there were some contrast errors which have not been altered due to design preferences. Evidence for the results of each page can be found [here](docs/testing/wave-results). 
+
+### **6.3 LIGHTHOUSE: Website Performance test**
+
+The [Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) was used to test the performance of the BMS website. In relation to performance, the tests indicated that the website will operate at an optimal level on desktop devices where each page achieved a score between **91-99 out of 100**. Evidence for the results of each page can be found [here](docs/testing/lighthouse-results).
+
+### **6.4 Website Responsiveness**
+
+Regarding the website’s degree of responsiveness, the site was accessed on multiple devices (incl. mobile, tablets, desktop, and larger devices) and multiple browsers (incl. FireFox, Google Chrome and Microsoft edge). The BMS site appears to respond appropriately to the changing device screen sizes and altering of browser’s size. Evidence of this is provided below: 
+
+![](docs/screenshots/bms-responsiveness.PNG)
+
+
 ## 7. Deployment
 
 ### 7.1 Deployment: Local Clone 
