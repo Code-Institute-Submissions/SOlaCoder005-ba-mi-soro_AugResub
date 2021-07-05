@@ -506,7 +506,7 @@ The [Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) wa
 Regarding the website’s degree of responsiveness, the site was accessed on multiple devices (incl. mobile, tablets, desktop, and larger devices) and multiple browsers (incl. FireFox, Google Chrome and Microsoft edge). The BMS site appears to respond appropriately to the changing device screen sizes and altering of browser’s size. Evidence of this is provided below: 
 
 ![](docs/screenshots/bms-responsiveness.PNG)
-![](docs/screenshots/bms-responsiveness.PNG)
+![](docs/screenshots/bms-responsiveness(1).PNG)
 
 
 ## 7. Deployment
