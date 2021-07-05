@@ -533,13 +533,34 @@ While there were several bugs that arose through the duration of the project, th
 
     **_window.location(“/quizEnd.html”);_**
 
-Running this page locally hosted port (Port: 5500) successfully directed to the score page once the game was completed. However, this code continually produced an error when the site was deployed to the live published page, via Github.com. 
+    Running this page locally hosted port (Port: 5500) successfully directed to the score page once the game was completed. However, this code continually produced an error when the site was deployed to the live published page, via Github.com. 
 
 - **Reason:** This bug was arising as the code was running on the local repository and therefor was able to run the local quizEnd.html file. 
 
 - **Fix:** This error was resolved by changing the pathway of the page to redirect to. To do this, the following code was used and redirected to the official deployed URL: 
 
 **_window.location.assign(“https://solacoder005.github.io/ba-mi-soro/quiz-end.html”);_**
+
+#### **6.5.2 Unfixed bugs**
+
+1. Multiple JS Code functions will not run on one page 
+
+- **Context:** The primary unfixed bug that should be addressed if this project is developed is reducing the amount of JS code sheets included in the repo. 
+
+
+- **Reason:** 
+
+- The repo has multiple JS files for a few reasons: 
+
+    (1) During the initial stages of writing the script, the functions were created and ran on the site individually. It was then combined into one sheet where possible.
+
+    (2) As the quizzes vary in difficultly, the structure of questions varied also. As such it became a conscious decision for the questions not to be combined into one quiz. In reflection, the use of ‘fetch ()’ method and web APIs would provide a more sufficient and effective solution to presenting differing question based on difficulty. 
+
+    (3) The developer was unable to find a solution to successfully run multiple functions from one JavaScript. While each worked individually, when combined into one file; some functions would not execute successfully, whereas others would. 
+
+- **Potential Fix:** Implement the fetch() method with the use of a Web API to the JS source code. This will be considered and implemented in future projects. 
+
+
 
 
 
