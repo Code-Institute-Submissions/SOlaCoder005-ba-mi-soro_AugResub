@@ -16,6 +16,7 @@ tallyTotal.innerText = totalPoints;
 //Animation Feature
 const play = document.querySelector('#btnSeePoints');
 const svgTag = document.querySelector('#svg');
+
 let animate = bodymovin.loadAnimation ({
     wrapper: svgTag, 
     animType: 'svg',
@@ -24,14 +25,14 @@ let animate = bodymovin.loadAnimation ({
     path: 'https://assets2.lottiefiles.com/packages/lf20_awltzwnj.json', 
 });
 
-play.addEventListener('click', () =>{
-    svgTag.classList.remove('hide');
-    animate.goToAndPlay(0, true);
-});
+// play.addEventListener('click', () =>{
+//     svgTag.classList.remove('hide');
+//     animate.goToAndPlay(0, true);
+// });
 
-animate.addEventListener('complete', () => {
-    svgTag.classList.add('hide');
-});
+// animate.addEventListener('complete', () => {
+//     svgTag.classList.add('hide');
+// });
 
 
 /** DEVELOPER NOTES
