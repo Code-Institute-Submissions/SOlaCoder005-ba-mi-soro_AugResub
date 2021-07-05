@@ -409,7 +409,7 @@ In review of the BMS the project could be improved through a plethora of feature
 
 **Quiz images**
 
-- Images included with the questions can aid users’ learning. This would be particularly beneficial to users who have a stronger spatial intelligence, as outlined in [Gardener’s Multiple intelligence theory](https://www.simplypsychology.org/multiple-intelligences.html)(Marenus, 2020).
+- Images included with the questions can aid users’ learning. This would be particularly beneficial to users who have a stronger spatial intelligence, as outlined in [Gardener’s Multiple intelligence theory](https://www.simplypsychology.org/multiple-intelligences.html) (Marenus, 2020).
 
 **Auditory Questions**
 
@@ -458,14 +458,14 @@ For instance;
     - Illustrator (AI)
     - Photoshop (PS) 
 -   [Balsamiq]( https://balsamiq.com/)
-- [Bootstrap](https://getbootstrap.com/)
-- [Cite This for Me](https://www.citethisforme.com/)
+-   [Bootstrap](https://getbootstrap.com/)
+-   [Cite This for Me](https://www.citethisforme.com/)
 -   [Font Awesome](https://fontawesome.com)
-- [GitHub](https://github.com/)
+-   [GitHub](https://github.com/)
 -   [GitPod](https://www.gitpod.io/)
 -   [Google (Chrome) Development Tools](https://developer.chrome.com/docs/devtools/open/)
 -   [Google Fonts](https://fonts.google.com/)
-- [Google Translate](https://translate.google.co.uk/)
+-   [Google Translate](https://translate.google.co.uk/)
 -   [Pexels](https://www.pexels.com/)
 -   [Pixabay](https://pixabay.com/) 
 -   [Pinterest](https://www.pinterest.co.uk/) 
@@ -482,7 +482,7 @@ The following applications were used to test various aspects of the website. Mee
 
 -   [Dillinger](https://dillinger.io/)
 -   [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator)
-- [JSHint](https://jshint.com/)
+-   [JSHint](https://jshint.com/)
 -   [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 -   [Wave](https://wave.webaim.org/)
 -   [W3C Validator](https://validator.w3.org/)
@@ -506,6 +506,7 @@ The [Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) wa
 Regarding the website’s degree of responsiveness, the site was accessed on multiple devices (incl. mobile, tablets, desktop, and larger devices) and multiple browsers (incl. FireFox, Google Chrome and Microsoft edge). The BMS site appears to respond appropriately to the changing device screen sizes and altering of browser’s size. Evidence of this is provided below: 
 
 ![](docs/screenshots/bms-responsiveness.PNG)
+![](docs/screenshots/bms-responsiveness(1).PNG)
 
 
 ## 7. Deployment
