@@ -508,11 +508,15 @@ Regarding the website’s degree of responsiveness, the site was accessed on mul
 ![](docs/screenshots/bms-responsiveness.PNG)
 
 ### **6.5 Bugs**
+
 While there were several bugs that arose through the duration of the project, the most notably fixed and unfixed bugs are discussed in more detail below. 
+
 #### **6.5.1 Fixed bugs**
 
 
- 1. Error message:  **_”arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6')”_**
+ 1. Error message:  
+ 
+    **_”arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6')”_**
 
 - **Context:** While testing the JavaScript through the JShint validator, the following error kept arising: **_”arrow function syntax (=>)' is only available in ES6…”_**.
 
@@ -520,7 +524,7 @@ While there were several bugs that arose through the duration of the project, th
 
 - **Fix:** This error was resolved by using the following syntax:
 
-/*jshint esversion: 6 */
+    /*jshint esversion: 6 */
 
 This was placed at the top of the JavaScript source-code as it communicates to the validator that ES6 syntax is being used intentionally.
 
