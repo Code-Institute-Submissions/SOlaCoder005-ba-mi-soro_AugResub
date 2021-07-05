@@ -506,7 +506,23 @@ The [Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) wa
 Regarding the website’s degree of responsiveness, the site was accessed on multiple devices (incl. mobile, tablets, desktop, and larger devices) and multiple browsers (incl. FireFox, Google Chrome and Microsoft edge). The BMS site appears to respond appropriately to the changing device screen sizes and altering of browser’s size. Evidence of this is provided below: 
 
 ![](docs/screenshots/bms-responsiveness.PNG)
-![](docs/screenshots/bms-responsiveness(1).PNG)
+
+### **6.5 Bugs**
+While there were several bugs that arose through the duration of the project, the most notably fixed and unfixed bugs are discussed in more detail below. 
+#### **6.5.1 Fixed bugs**
+
+
+ 1. Error message:  **_”arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6')”_**
+
+- **Context:** While testing the JavaScript through the JShint validator, the following error kept arising: **_”arrow function syntax (=>)' is only available in ES6…”_**.
+
+- **Reason:** The JavaScript code uses new ECMAScript 6 (ES6) abbreviations of traditional JS code. While it is not supported by all browsers, it is supported by many. As such, ES6 was designed to help programmers reduce code verbosity. For instance, in this case the ‘=>’ function in JS code is often used to shorten the function syntax. Similarly, rather than using bracket notation;  property accessors such as  dot notation is often used to shorten code (W3Schools.com, 2021, Hayani, 2018 & Rafael, 2017).  
+
+- **Fix:** This error was resolved by using the following syntax:
+
+/*jshint esversion: 6 */
+
+This was placed at the top of the JavaScript source-code as it communicates to the validator that ES6 syntax is being used intentionally.
 
 
 ## 7. Deployment
