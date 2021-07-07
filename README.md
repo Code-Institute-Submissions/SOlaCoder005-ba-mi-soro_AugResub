@@ -513,9 +513,9 @@ While there were several bugs that arose through the duration of the project, th
 
 #### **6.5.1 Fixed bugs**
 
- 1. Error message:  
+**1. JShint Error message**
  
-    **_”arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6')”_**
+    |**_”arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6')”_**|
 
 - **Context:** While testing the JavaScript through the JShint validator, the following error kept arising: **_”arrow function syntax (=>)' is only available in ES6…”_**.
 
@@ -523,15 +523,15 @@ While there were several bugs that arose through the duration of the project, th
 
 - **Fix:** This error was resolved by using the following syntax:
 
-    /*jshint esversion: 6 */
+    |/*jshint esversion: 6 */|
 
     This was placed at the top of the JavaScript source-code as it communicates to the validator that ES6 syntax is being used intentionally.
 
-2. Redirecting users to another page via JavaScript
+**2. Redirecting users to another page via JavaScript**
 
 - **Context:** As part of the quiz, it was essential for the users to be directed to the Score page on the BMS once the quiz had been completed. Initially, the following JS syntax was used: 
 
-    **_window.location(“/quizEnd.html”);_**
+   | _window.location(“/quizEnd.html”);_|
 
     Running this page locally hosted port (Port: 5500) successfully directed to the score page once the game was completed. However, this code continually produced an error when the site was deployed to the live published page, via Github.com. 
 
@@ -539,9 +539,9 @@ While there were several bugs that arose through the duration of the project, th
 
 - **Fix:** This error was resolved by changing the pathway of the page to redirect to. To do this, the following code was used and redirected to the official deployed URL: 
 
-**_window.location.assign(“https://solacoder005.github.io/ba-mi-soro/quiz-end.html”);_**
+    |_window.location.assign(“https://solacoder005.github.io/ba-mi-soro/quiz-end.html”);_|
 
-3. JShint Error message: “_____________ undefined variable”
+**3. JShint Error message: “_____________ undefined variable”**
 
 - **Context:** When running script through the JShint validator the variables ‘bodymovin’ and ‘$’ operator produce returned values as ‘undefined’. When attempting to define the variables in the script, the animation and jQuery features are deactivated. 
 
@@ -552,7 +552,7 @@ While there were several bugs that arose through the duration of the project, th
 
 #### **6.5.2 Unfixed bugs**
 
-1. Multiple JS Code functions will not run on one page 
+**1. Multiple JS Code functions will not run on one page**
 
 - **Context:** The primary unfixed bug that should be addressed if this project is developed is reducing the amount of JS code sheets included in the repo. 
 
