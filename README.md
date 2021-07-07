@@ -515,9 +515,9 @@ While there were several bugs that arose through the duration of the project, th
 
 **1. JShint Error message**
 
-    |Error Message|
-    |------|
-    | "arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6')” |
+|Error Message|
+|------|
+| "arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6')” |
 
 - **Context:** While testing the JavaScript through the JShint validator, the following error kept arising: **_”arrow function syntax (=>)' is only available in ES6…”_**.
 
