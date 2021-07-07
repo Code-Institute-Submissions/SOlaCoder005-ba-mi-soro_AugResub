@@ -4,10 +4,20 @@ const question = document.getElementById("advancedqs");
 const options = Array.from(document.getElementsByClassName("optionsal"));
 const questionTracker = document.getElementById('trackqs');
 const pointsTracker = document.getElementById('points');
+const directoryQuestionsMax = 5;
+const individualPoints = 15; 
+const penaltyPoints = 5;
+
+const startQuiz = () => {
+    questionalCounter = 0;
+    tally = 0;
+    directoryQuestions = [...listOfQuestions];
+    console.log(directoryQuestions);
+    fetchNextQuestion();
+};
 
 let liveQuestion = {};
-//false value used so users can not pick answer before page loads
-let monitoringAnswers = false;
+let monitoringAnswers = false; //false value used so users can not pick answer before page loads
 let tally = 0; 
 let questionalCounter = 0;
 let directoryQuestions = [];
@@ -59,74 +69,45 @@ let listOfQuestions = [
     }
 ];
 
-const directoryQuestionsMax = 5;
-const individualPoints = 15; 
-const penaltyPoints = 5;
-
-startQuiz = () => {
-    questionalCounter = 0;
-    tally = 0;
-    directoryQuestions = [...listOfQuestions];
-    console.log(directoryQuestions);
-    fetchNextQuestion();
-};
 
 fetchNextQuestion = () => {
     if (directoryQuestions.length === 0 || questionalCounter > directoryQuestionsMax) {
-
-       //allows points to appear on the respective quiz page
-       localStorage.setItem("totalPoints", tally);
-
-       //when user has completed all questions; they shall return to end page
-       window.location.assign("https://solacoder005.github.io/ba-mi-soro/quiz-end.html");
+       localStorage.setItem("totalPoints", tally); //allows points to appear on the respective quiz page
+       window.location.assign("https://solacoder005.github.io/ba-mi-soro/quiz-end.html");//when user has completed all questions; they shall return to end page
     }
 
     questionalCounter++;
-
-    //question tracker increases on the html page
-    questionTracker.innerText = questionalCounter + "/" + directoryQuestionsMax;
-
-    //this allows the reandom selection of answers
-    const questionIndex = Math.floor(Math.random() * directoryQuestions.length);
+    questionTracker.innerHTML = questionalCounter + "/" + directoryQuestionsMax; //question tracker increases on the html page
+    const questionIndex = Math.floor(Math.random() * directoryQuestions.length); //this allows the reandom selection of answers
     liveQuestion = directoryQuestions[questionIndex];
-    question.innerText = liveQuestion.question;
+    question.innerHTML = liveQuestion.question;
 
     options.forEach( option => {
-
-        //dot notation used to increase readability
         const number = option.dataset.number;
-        option.innerText = liveQuestion['option' + number];
+        option.innerHTML = liveQuestion['option' + number];
     });
 
-    //removes the question that is used
-    directoryQuestions.splice(questionIndex, 1);
-    
-    //corrolates with initial variable value (above)
-    monitoringAnswers = true;
+    directoryQuestions.splice(questionIndex, 1); //removes the question that is used
+    monitoringAnswers = true; //corrolates with initial variable value (above)
 };
 
 options.forEach(option => {
     option.addEventListener('click', e => {  
     if(!monitoringAnswers) return;
 
-    // this tracks which answer is clicked in the console
-    monitoringAnswers = false; 
+    monitoringAnswers = false;// this tracks which answer is clicked in the console
+
     const selectedOption = e.target;
-
-    //dot notation used to increase readability
     const selectedAnswer = selectedOption.dataset.number;
-
-    //using == rather than === as the data being pulled out are strings  
     const classToApply = 
-        selectedAnswer == liveQuestion.answer ? "right" : "wrong";
+        selectedAnswer == liveQuestion.answer ? "right" : "wrong"; //using == rather than === as the data being pulled out are strings  
         if (classToApply === "right") {
             tallyIncrease(individualPoints);
         } else {
             tallyDecrease(penaltyPoints);
-        }
+        };
 
-    //classList.add is shorthand for adding and removing classes to code
-    selectedOption.parentElement.classList.add(classToApply);
+    selectedOption.parentElement.classList.add(classToApply); //classList.add is shorthand for adding and removing classes to code
 
     setTimeout(() => {
         selectedOption.parentElement.classList.remove(classToApply);
@@ -137,15 +118,17 @@ options.forEach(option => {
 
 tallyIncrease = num => {
     tally += num;
-    pointsTracker.innerText = tally;
+    pointsTracker.innerHTML = tally;
 };
 
 tallyDecrease = num => {
     tally -= num;
-    pointsTracker.innerText = tally;
+    pointsTracker.innerHTML = tally;
 };
 
 startQuiz();
+
+
 
 /** DEVELOPER NOTES
  * 'jshint eversion...' tells JavaScript checkers like JShint that source code uses 'ECMAScript 6' specific syntax (Hibbard, 2014)

@@ -1,10 +1,10 @@
 /*jshint esversion: 6 */
 
-//Nav exapnd and collapse feature
 const ham = document.querySelector('.ham');
 const navMU = document.querySelector('#nav-MU');
 let hamExpand = false;
 
+//Nav exapnd and collapse feature
 ham.addEventListener('click', () => {
     if(!hamExpand) {
         ham.classList.add('open');

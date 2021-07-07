@@ -11,7 +11,7 @@ $(document).ready(function(){
 const tallyTotal = document.querySelector('#tallyTotal');
 const totalPoints = localStorage.getItem('totalPoints');
 
-tallyTotal.innerText = totalPoints;
+tallyTotal.innerHTML = totalPoints;
 
 //Animation Feature
 const play = document.querySelector('#btnSeePoints');

@@ -80,17 +80,17 @@ fetchNextQuestion = () => {
     }
     questionilCounter++;
     //question tracker increases on the html page
-    questionTracker.innerText = questionilCounter + "/" + directoryQuestionsMax;
+    questionTracker.innerHTML = questionilCounter + "/" + directoryQuestionsMax;
     //this allow the reandom selection of answers
     const questionIndex = Math.floor(Math.random() * directoryQuestions.length);
     liveQuestion = directoryQuestions[questionIndex];
-    question.innerText = liveQuestion.question;
+    question.innerHTML = liveQuestion.question;
 
     options.forEach( option => {
 
         //dot notation used to increase readability
         const number = option.dataset.number;
-        option.innerText = liveQuestion['option' + number];
+        option.innerHTML = liveQuestion['option' + number];
     });
 
     //removes the question that is used
@@ -132,12 +132,12 @@ options.forEach(option => {
 
 tallyIncrease = num => {
     tally += num;
-    pointsTracker.innerText = tally;
+    pointsTracker.innerHTML = tally;
 };
 
 tallyDecrease = num => {
     tally -= num;
-    pointsTracker.innerText = tally;
+    pointsTracker.innerHTML = tally;
 };
 
 startQuiz();
