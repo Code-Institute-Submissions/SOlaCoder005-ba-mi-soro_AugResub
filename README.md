@@ -491,7 +491,13 @@ The following applications were used to test various aspects of the website. Mee
 
 ### 6.1 **HTML, CSS and JS Validator Tests**
 
-To ensure that the HTML, CSS and JS source-code adhered to industry standards, each were ran through respective validators – [W3C Validator](https://validator.w3.org/), [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator) and the [JShint Validator](https://jshint.com/). All the tests produced **0 errors**. Evidence of the tests can be found in the testing repository directory, [here]().
+To ensure that the HTML, CSS and JS source-code adhered to industry standards, each were ran through respective validators:
+
+- [W3C Validator](https://validator.w3.org/)
+- [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator)
+- [JShint Validator](https://jshint.com/). 
+
+All the tests produced **0 errors**. Evidence of the tests can be found in the testing repository directory, [here](docs/testing).
 
 ### **6.2 WAVE: Website Accessibility Test**
 
