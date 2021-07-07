@@ -1,11 +1,6 @@
-/*Font has been imported from Google Fonts. Source: [https://fonts.google.com/specimen/Montserrat?category=Sans+Serif,Display#standard-styles]*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&family=Roboto&family=Rock+Salt&display=swap');
 
 /*SITE SETTINGS*/
-/*
-Reference Material: [codeSTACKr] 
-*/
-
 * {
 	margin: 0; 
 	padding: 0;
@@ -14,11 +9,6 @@ Reference Material: [codeSTACKr]
 }
 
 /*CONTAINER*/
-/*
-Reference Material: 
-* YouTubers - [codeSTACKr, A. Delise, Florin Pop] 
-*/
-
 .main-cont {
 	display: grid;
 	height:  auto;
@@ -58,8 +48,7 @@ nav {
 	grid-area: nav; 
 	box-shadow: 0 5px 5px 0 rgb(128, 128, 128, .5);
 	background-color: rgb(144, 24, 241); 
-	/*flex-wrap property impacts the nave bar, do not remove*/
-	display: flex;
+	display: flex; /*flex-wrap property impacts the nave bar, do not remove*/
 	flex-wrap: wrap;
 }
 
@@ -126,11 +115,6 @@ footer {
 }
 
 /*ENTER SITE PAGE*/
-/* Reference Material: 
-* Box Shadow - [https://www.w3schools.com/css/css3_shadows.asp]
-* Center object in div - [https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/]
-*/
-
 #background {
 	background-color: rgb(144, 24, 241); 
 	height: 100vh;
@@ -344,12 +328,6 @@ section {
 }
 
 /*BEGGINER QUIZ*/
-/*
-Reference material: 
-* J. Q. Quick, 2019 [https://youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx]
-* Code Institute|JavaScript Challenge 45: [https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+2021_T1/courseware/0a4bf408d10c4149bb686457ac11edf6/37e3becd93804fdf8bf586523f56ead5/]
-*/
-
 .quiz-cont {
 	display: block;
 	text-align: center;
@@ -404,7 +382,6 @@ Reference material:
 }
 
 /*INTERMEDIATE QUIZ*/
-
 .quiz-cont {
 	display: block;
 	text-align: center;
@@ -459,7 +436,6 @@ Reference material:
 }
 
 /*ADVANCED QUIZ*/
-
 .quiz-cont {
 	display: block;
 	text-align: center;
@@ -593,8 +569,7 @@ Reference material:
 }
 
 .hidden {
-	/*disables the display of points until prompted*/
-	display: none;
+	display: none; 	/*disables the display of points until prompted*/
 }
 
 #gamefin{
@@ -640,8 +615,6 @@ Reference material:
 	margin-bottom: 20px;
 	padding: 15px;
 }
-
-
 
 .phrasesheet-descript > ul  {
 	padding-left: 50px;
@@ -706,7 +679,6 @@ tr {
 }
  
 /*CONTACT US PAGE*/
-
 /*This centers the whole form*/
 .form-center {
 	display: block;
@@ -801,300 +773,300 @@ form > input:hover {
 /*For extra small screens*/
 @media only screen and (max-width: 320px) {
 
-.main-cont {
+	.main-cont {
 
-	display: grid;
-	width: 100%;
-	height: auto; /*auto makes the content adjust to viewport so elements dont overlap*/
-	grid-template-columns: 1fr;
-	grid-template-rows: auto;
-	grid-template-areas:
-	"nav"
-	"main"
-	"box1" 
-	"box2" 
-	"box3"
-	"footer";
-}  
-	
-#enter-bamisoro-logo {
-	width: 70%;
-	height: 70%;
-}
+		display: grid;
+		width: 100%;
+		height: auto; /*auto makes the content adjust to viewport so elements dont overlap*/
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		grid-template-areas:
+		"nav"
+		"main"
+		"box1" 
+		"box2" 
+		"box3"
+		"footer";
+	}  
 		
-#enter-bamisoro-logo:hover {
-	width: 75%;
-	height: 75%;
-}
-	
-.enter-site-btn {
-	width: 200px;
-	height: 80px;
-}
+	#enter-bamisoro-logo {
+		width: 70%;
+		height: 70%;
+	}
+			
+	#enter-bamisoro-logo:hover {
+		width: 75%;
+		height: 75%;
+	}
+		
+	.enter-site-btn {
+		width: 200px;
+		height: 80px;
+	}
 
-.enter-site-btn > p {
-	padding-top: 25px;
-	text-align: center;
-	font-size: 20px;
-}
+	.enter-site-btn > p {
+		padding-top: 25px;
+		text-align: center;
+		font-size: 20px;
+	}
+			
+	.nav-MU {
+		display: none;
+		width: 100%;
+		flex-direction: column;
+	}
 		
-.nav-MU {
-	display: none;
-	width: 100%;
-	flex-direction: column;
-}
-	
-.nav-MU > li {
-	line-height: 20px;
-	padding-bottom: 50px;
-	font-size: 20px;
-}
-	
-.nav-MU.show {
-		display: flex;
-}
-	
-#bamisoro-logo {
-	width: 120px;
-	height: 120px;
-	margin: 10px;
-}
-	
-#bamisoro-logo:hover {
-	width: 150px;
-	height: 150px;
-}
+	.nav-MU > li {
+		line-height: 20px;
+		padding-bottom: 50px;
+		font-size: 20px;
+	}
 		
-.ham {
-	display: block;
-	margin-left: auto;
-	font-size: 30px;
-	margin-right: 50px;
-}
+	.nav-MU.show {
+			display: flex;
+	}
+		
+	#bamisoro-logo {
+		width: 120px;
+		height: 120px;
+		margin: 10px;
+	}
+		
+	#bamisoro-logo:hover {
+		width: 150px;
+		height: 150px;
+	}
+			
+	.ham {
+		display: block;
+		margin-left: auto;
+		font-size: 30px;
+		margin-right: 50px;
+	}
 
-section {
-	margin-left: auto;
-	margin-right: auto;
-}
-	
-.quiz-lvl-boxes {
-	text-align: center;
-	display: block;
-}
-	
-.quiz-lvl-logo {
-	width: 70%;
-	height: 70%;
-	margin: auto;
-}
+	section {
+		margin-left: auto;
+		margin-right: auto;
+	}
 		
-.quiz-lvl-logo:hover {
-	width: 75%;
-	height: 75%;
-}
-	
-.quiz-cont {
-	margin-left: auto;
-	margin-right:auto;
-}
-	
-.optionsbl {
-	width: 150px;
-	height: 150px;
-}
-	
-.optionsil {
-	width: 150px;
-	height: 150px;
-}
+	.quiz-lvl-boxes {
+		text-align: center;
+		display: block;
+	}
 		
-.optionsal {
-	width: 200px;
-	height: 200px;
-}
-	
-#gameal-text {
-	margin-bottom: 30px;
-	font-size: 25px;
-}
+	.quiz-lvl-logo {
+		width: 70%;
+		height: 70%;
+		margin: auto;
+	}
+			
+	.quiz-lvl-logo:hover {
+		width: 75%;
+		height: 75%;
+	}
+		
+	.quiz-cont {
+		margin-left: auto;
+		margin-right:auto;
+	}
+		
+	.optionsbl {
+		width: 150px;
+		height: 150px;
+	}
+		
+	.optionsil {
+		width: 150px;
+		height: 150px;
+	}
+			
+	.optionsal {
+		width: 200px;
+		height: 200px;
+	}
+		
+	#gameal-text {
+		margin-bottom: 30px;
+		font-size: 25px;
+	}
 
-.phrasesheet-cont > span {
-	display: block;
-	width:auto;
-}
-	
-form > img {
-	width: 50%;
-	height: 50%;
-}
-	
-form > span {
-	margin-bottom: 30px;
-	font-weight: 400;
-	display: block;
-}
-	
-.logo-footer {
-	width: 55px;
-	height: 55px;
-	margin-right: 20px;
-}
+	.phrasesheet-cont > span {
+		display: block;
+		width:auto;
+	}
 		
-.footer-links > a {
-	position: relative;
-	top: -15px;
-	font-size: 20px;
-	padding: 10px;
-	margin-right: 10px
-}
-	
-.footer-links > a:hover {
-	font-size: 25px;
-}	
+	form > img {
+		width: 50%;
+		height: 50%;
+	}
+		
+	form > span {
+		margin-bottom: 30px;
+		font-weight: 400;
+		display: block;
+	}
+		
+	.logo-footer {
+		width: 55px;
+		height: 55px;
+		margin-right: 20px;
+	}
+			
+	.footer-links > a {
+		position: relative;
+		top: -15px;
+		font-size: 20px;
+		padding: 10px;
+		margin-right: 10px
+	}
+		
+	.footer-links > a:hover {
+		font-size: 25px;
+	}	
 }
 
 /*For small screens*/
 @media screen and (max-width: 411px) and (min-width: 321px) {
 
-.main-cont {
-	display: grid;
-	width: 100%;
-	height: auto; /*auto makes the content adjust to viewport so elements dont overlap*/
-	grid-template-columns: 1fr;
-	grid-template-rows: auto;
-	grid-template-areas:
-	"nav"
-	"main"
-	"box1" 
-	"box2" 
-	"box3"
-	"footer";
-}  
+	.main-cont {
+		display: grid;
+		width: 100%;
+		height: auto; /*auto makes the content adjust to viewport so elements dont overlap*/
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		grid-template-areas:
+		"nav"
+		"main"
+		"box1" 
+		"box2" 
+		"box3"
+		"footer";
+	}  
 
-#enter-bamisoro-logo {
-	width: 70%;
-	height: 70%;
-}
-	
-#enter-bamisoro-logo:hover {
-	width: 75%;
-	height: 75%;
-}
+	#enter-bamisoro-logo {
+		width: 70%;
+		height: 70%;
+	}
+		
+	#enter-bamisoro-logo:hover {
+		width: 75%;
+		height: 75%;
+	}
 
-.enter-site-btn {
-	width: 200px;
-	height: 80px;
-}
-	
-.nav-MU {
-	display: none;
-	width: 100%;
-	flex-direction: column;
-}
+	.enter-site-btn {
+		width: 200px;
+		height: 80px;
+	}
+		
+	.nav-MU {
+		display: none;
+		width: 100%;
+		flex-direction: column;
+	}
 
-.nav-MU > li {
-	line-height: 20px;
-	padding-bottom: 50px;
-	font-size: 20px;
-}
+	.nav-MU > li {
+		line-height: 20px;
+		padding-bottom: 50px;
+		font-size: 20px;
+	}
 
-.nav-MU.show {
-	display: flex;
-}
+	.nav-MU.show {
+		display: flex;
+	}
 
-#bamisoro-logo {
-	width: 200px;
-	height: 200px;
-	margin: 20px;
-}
+	#bamisoro-logo {
+		width: 200px;
+		height: 200px;
+		margin: 20px;
+	}
 
-#bamisoro-logo:hover {
-	width: 220px;
-	height: 220px;
-}
-	
-.ham {
-	display: block;
-	margin-left: auto;
-	font-size: 30px;
-	margin-right: 70px;
-	margin-top: 120px;
-}
+	#bamisoro-logo:hover {
+		width: 220px;
+		height: 220px;
+	}
+		
+	.ham {
+		display: block;
+		margin-left: auto;
+		font-size: 30px;
+		margin-right: 70px;
+		margin-top: 120px;
+	}
 
-.quiz-lvl-boxes {
-	text-align: center;
-	display: block;
-}
+	.quiz-lvl-boxes {
+		text-align: center;
+		display: block;
+	}
 
-.quiz-lvl-logo {
-	width: 70%;
-	height: 70%;
-	margin: auto;
-}
-	
-.quiz-lvl-logo:hover {
-	width: 75%;
-	height: 75%;
-}
+	.quiz-lvl-logo {
+		width: 70%;
+		height: 70%;
+		margin: auto;
+	}
+		
+	.quiz-lvl-logo:hover {
+		width: 75%;
+		height: 75%;
+	}
 
-.quiz-cont {
-	margin-left: auto;
-	margin-right:auto;
-}
+	.quiz-cont {
+		margin-left: auto;
+		margin-right:auto;
+	}
 
-.optionsbl {
-	width: 150px;
-	height: 150px;
-}
+	.optionsbl {
+		width: 150px;
+		height: 150px;
+	}
 
-.optionsil {
-	width: 150px;
-	height: 150px;
-}
-	
-.optionsal {
-	width: 200px;
-	height: 200px;
-}
+	.optionsil {
+		width: 150px;
+		height: 150px;
+	}
+		
+	.optionsal {
+		width: 200px;
+		height: 200px;
+	}
 
-#gameal-text {
-	margin-bottom: 30px;
-	font-size: 25px;
-}
+	#gameal-text {
+		margin-bottom: 30px;
+		font-size: 25px;
+	}
 
-.phrasesheet-cont > span {
-	display: block;
-	width:auto;
-}
+	.phrasesheet-cont > span {
+		display: block;
+		width:auto;
+	}
 
-form > img {
-	width: 50%;
-	height: 50%;
-}
+	form > img {
+		width: 50%;
+		height: 50%;
+	}
 
-form > span {
-	margin-bottom: 30px;
-	font-weight: 400;
-	display: block;
-}
+	form > span {
+		margin-bottom: 30px;
+		font-weight: 400;
+		display: block;
+	}
 
-.logo-footer {
-	width: 70px;
-	height: 70px;
-	margin-right: 20px;
-}
-	
-.footer-links > a {
-	position: relative;
-	top: -15px;
-	font-size: 30px;
-	padding: 10px;
-	margin-right: 10px
-}
+	.logo-footer {
+		width: 70px;
+		height: 70px;
+		margin-right: 20px;
+	}
+		
+	.footer-links > a {
+		position: relative;
+		top: -15px;
+		font-size: 30px;
+		padding: 10px;
+		margin-right: 10px
+	}
 
-.footer-links > a:hover {
-	font-size: 25px;
-}
+	.footer-links > a:hover {
+		font-size: 25px;
+	}
 }
 	
 /*For medium screens*/
