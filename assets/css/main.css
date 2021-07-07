@@ -578,7 +578,7 @@ section {
 
 #pointsDisplay{
 	font-size: 50px;
-	text-decoration: 6px underline rgb(239, 130, 62);
+	text-decoration: underline rgb(239, 130, 62);
 	border-radius: 50px;	
 	padding: 30px;
 	transition: .5s ease-in;
@@ -767,9 +767,7 @@ form > input:hover {
 	border: 4px solid rgb(144, 24, 241, .5); 
 }
 
-
 /*MEDIA QUERIES*/
-
 /*For extra small screens*/
 @media only screen and (max-width: 320px) {
 
@@ -1154,6 +1152,21 @@ form > input:hover {
 		display: block;
 	}	
 }
+
+/* DEVELOPER NOTES
+Reference Material: 
+	* Following YouTubers'Tutorials served as CSS styling reference: 
+
+		* codeSTACKr, 
+		* A. Delise, 
+		* Florin Pop
+		* J. Q. Quick
+
+	* Font has been imported from Google Fonts - Source: [https://fonts.google.com/specimen/Montserrat?category=Sans+Serif,Display#standard-styles]
+	* Box Shadow feature - Source: [https://www.w3schools.com/css/css3_shadows.asp]
+	* Centering object in div feature - Source: [https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/]
+	* Code Institute|JavaScript Challenge 45: [https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+2021_T1/courseware/0a4bf408d10c4149bb686457ac11edf6/37e3becd93804fdf8bf586523f56ead5/]
+*/
 
 
 
