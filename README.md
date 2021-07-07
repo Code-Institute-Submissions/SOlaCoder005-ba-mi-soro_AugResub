@@ -514,8 +514,10 @@ While there were several bugs that arose through the duration of the project, th
 #### **6.5.1 Fixed bugs**
 
 **1. JShint Error message**
- 
-|_”arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6')”_|
+
+|Error Message|
+|------|
+| "arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6')” |
 
 - **Context:** While testing the JavaScript through the JShint validator, the following error kept arising: **_”arrow function syntax (=>)' is only available in ES6…”_**.
 
@@ -523,7 +525,9 @@ While there were several bugs that arose through the duration of the project, th
 
 - **Fix:** This error was resolved by using the following syntax:
 
-|/*jshint esversion: 6 */|
+|JS Comment|
+|------|
+| /*jshint esversion: 6 */ |
 
     This was placed at the top of the JavaScript source-code as it communicates to the validator that ES6 syntax is being used intentionally.
 
@@ -541,7 +545,9 @@ While there were several bugs that arose through the duration of the project, th
 
 - **Fix:** This error was resolved by changing the pathway of the page to redirect to. To do this, the following code was used and redirected to the official deployed URL: 
 
-_window.location.assign(“https://solacoder005.github.io/ba-mi-soro/quiz-end.html”);_
+|JS Statement|
+|------|
+| window.location.assign(“https://solacoder005.github.io/ba-mi-soro/quiz-end.html”); |
 
 **3. JShint Error message: “_____________ undefined variable”**
 
