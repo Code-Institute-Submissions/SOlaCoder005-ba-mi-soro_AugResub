@@ -515,9 +515,9 @@ While there were several bugs that arose through the duration of the project, th
 
 **1. JShint Error message**
 
-|Error Message|
-|------|
-| "arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6')” |
+    |Error Message|
+    |------|
+    | "arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6')” |
 
 - **Context:** While testing the JavaScript through the JShint validator, the following error kept arising: **_”arrow function syntax (=>)' is only available in ES6…”_**.
 
@@ -529,7 +529,7 @@ While there were several bugs that arose through the duration of the project, th
 |------|
 | /*jshint esversion: 6 */ |
 
-    This was placed at the top of the JavaScript source-code as it communicates to the validator that ES6 syntax is being used intentionally.
+This was placed at the top of the JavaScript source-code as it communicates to the validator that ES6 syntax is being used intentionally.
 
 **2. Redirecting users to another page via JavaScript**
 
@@ -539,7 +539,7 @@ While there were several bugs that arose through the duration of the project, th
 |------|
 | window.location(“/quizEnd.html”); |
 
-    Running this page locally hosted port (Port: 5500) successfully directed to the score page once the game was completed. However, this code continually produced an error when the site was deployed to the live published page, via Github.com. 
+Running this page locally hosted port (Port: 5500) successfully directed to the score page once the game was completed. However, this code continually produced an error when the site was deployed to the live published page, via Github.com. 
 
 - **Reason:** This bug was arising as the code was running on the local repository and therefor was able to run the local quizEnd.html file. 
 
