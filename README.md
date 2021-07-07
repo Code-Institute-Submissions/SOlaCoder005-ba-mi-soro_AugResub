@@ -530,7 +530,7 @@ While there were several bugs that arose through the duration of the project, th
 **2. Redirecting users to another page via JavaScript**
 
 - **Context:** As part of the quiz, it was essential for the users to be directed to the Score page on the BMS once the quiz had been completed. Initially, the following JS syntax was used: 
-
+|JS Statement|
 |------|
 | _window.location(“/quizEnd.html”);_|
 
