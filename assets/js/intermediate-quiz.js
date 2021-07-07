@@ -5,20 +5,23 @@ const options = Array.from(document.getElementsByClassName("optionsil"));
 const questionTracker = document.getElementById('trackqs');
 const pointsTracker = document.getElementById('points');
 
+const directoryQuestionsMax = 5;
+const individualPoints = 15;
+const penaltyPoints = 5;
+
 let liveQuestion = {};
-//false value used so users can not pick answer before page loads
-let monitoringAnswers = false;
+let monitoringAnswers = false; //false value used so users can not pick answer before page loads
 let tally = 0; 
 let questionilCounter = 0;
 let directoryQuestions = [];
 let fetchNextQuestion =  {};
 let startQuiz = {};
-let tallyIncrease = {};
-let tallyDecrease = {};
+let pointsIncrease = {};
+let pointsDecrease = {};
 
 let listOfQuestions = [
     {
-        question:"'Mo ti ra  ________ '",//I have bought an orange.
+        question:"Question: 'Mo ti ra  ________ '",//I have bought an orange.
         option1:"Osan",
         option2:"Maami",
         option3:"Oja",
@@ -26,7 +29,7 @@ let listOfQuestions = [
         answer: 1
     },
     {
-        question:"'Mo fe lo  ________ '", //I want to sleep.
+        question:"Question: 'Mo fe lo  ________ '", //I want to sleep.
         option1:"Sun",
         option2:"Ejo",
         option3:"Bawo ni",
@@ -34,7 +37,7 @@ let listOfQuestions = [
         answer: 1
     },
     {
-        question:"'Se o ti  ________ '",//Have you eaten?
+        question:"Question: 'Se o ti  ________ '",//Have you eaten?
         option1:"Awo",
         option2:"Tabili",
         option3:"Oja",
@@ -42,7 +45,7 @@ let listOfQuestions = [
         answer: 4
     },
     {
-        question:"'  ________ ni mi'",//I am a boy.
+        question:"Question: '  ________ ni mi'",//I am a boy.
         option1:"Aja",
         option2:"Okunrin",
         option3:"Oko ayokele",
@@ -50,7 +53,7 @@ let listOfQuestions = [
         answer: 2
     },
     {
-        question:"'Mefa, meje, mejo, mesan ati  ________ '",//six, seven, eight, nine and ten.
+        question:"Question: 'Mefa, meje, mejo, mesan ati  ________ '",//six, seven, eight, nine and ten.
         option1:"Aadota",
         option2:"Meji",
         option3:"Mewa",
@@ -58,10 +61,6 @@ let listOfQuestions = [
         answer: 3
     }//bonus question
 ];
-
-const directoryQuestionsMax = 5;
-const individualPoints = 15;
-const penaltyPoints = 5;
 
 startQuiz = () => {
     questionilCounter = 0;
@@ -73,55 +72,41 @@ startQuiz = () => {
 
 fetchNextQuestion = () => {
     if (directoryQuestions.length === 0 || questionilCounter > directoryQuestionsMax) {
-        //allows points to appear on the respective quiz page
-        localStorage.setItem("totalPoints", tally);
-        //when user has completed all questions; they shall return to end page
-        window.location.assign("https://solacoder005.github.io/ba-mi-soro/quiz-end.html");
+        localStorage.setItem("totalPoints", tally);//allows points to appear on the respective quiz page
+        window.location.assign("https://solacoder005.github.io/ba-mi-soro/quiz-end.html");//when user has completed all questions; they shall return to end page
     }
+
     questionilCounter++;
-    //question tracker increases on the html page
-    questionTracker.innerHTML = questionilCounter + "/" + directoryQuestionsMax;
-    //this allow the reandom selection of answers
-    const questionIndex = Math.floor(Math.random() * directoryQuestions.length);
+    questionTracker.innerHTML = questionilCounter + "/" + directoryQuestionsMax;//question tracker increases on the html page
+    const questionIndex = Math.floor(Math.random() * directoryQuestions.length);//this allow the reandom selection of answers
     liveQuestion = directoryQuestions[questionIndex];
     question.innerHTML = liveQuestion.question;
 
     options.forEach( option => {
-
-        //dot notation used to increase readability
         const number = option.dataset.number;
         option.innerHTML = liveQuestion['option' + number];
     });
 
-    //removes the question that is used
-    directoryQuestions.splice(questionIndex, 1);
-
-    //corrolates with initial variable value (above)
-    monitoringAnswers = true; 
+    directoryQuestions.splice(questionIndex, 1);//removes the question that is used
+    monitoringAnswers = true;//corrolates with initial variable value (above)
 };
 
 options.forEach(option => {
     option.addEventListener('click', e => { 
     if(!monitoringAnswers) return;
 
-    // this tracks which answer is clicked in the console
-    monitoringAnswers = false; 
+    monitoringAnswers = false; // this tracks which answer is clicked in the console
     const selectedOption = e.target;
-
-    //dot notation used to increase readability
     const selectedAnswer = selectedOption.dataset.number; 
-    
-    //using == rather than === as the data being pulled out are strings  
     const classToApply = 
-        selectedAnswer == liveQuestion.answer ? "right" : "wrong";
+        selectedAnswer == liveQuestion.answer ? "right" : "wrong"; //using == rather than === as the data being pulled out are strings  
         if (classToApply === "right") {
-            tallyIncrease(individualPoints);
+            pointsIncrease(individualPoints);
         } else {
-            tallyDecrease(penaltyPoints);
+            pointsDecrease(penaltyPoints);
         }
 
-    //classList.add is shorthand for adding and removing classes to code
-    selectedOption.parentElement.classList.add(classToApply);
+    selectedOption.parentElement.classList.add(classToApply); //classList.add is shorthand for adding and removing classes to statements
 
     setTimeout(() => {
         selectedOption.parentElement.classList.remove(classToApply);
@@ -130,12 +115,12 @@ options.forEach(option => {
     });
 });
 
-tallyIncrease = num => {
+pointsIncrease = num => {
     tally += num;
     pointsTracker.innerHTML = tally;
 };
 
-tallyDecrease = num => {
+pointsDecrease = num => {
     tally -= num;
     pointsTracker.innerHTML = tally;
 };

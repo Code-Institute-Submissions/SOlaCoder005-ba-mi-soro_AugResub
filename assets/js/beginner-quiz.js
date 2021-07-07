@@ -5,20 +5,23 @@ const options = Array.from(document.getElementsByClassName("optionsbl"));
 const questionTracker = document.getElementById('trackqs');
 const pointsTracker = document.getElementById('points');
 
+const directoryQuestionsMax = 5;
+const individualPoints = 15;
+const penaltyPoints = 5;
+
 let liveQuestion = {};
-//false value used so users can not pick answer before page loads
-let monitoringAnswers = false; 
+let monitoringAnswers = false; //false value used so users can not pick answer before page loads
 let tally = 0; 
-let questionblCounter = 0;
+let questionalCounter = 0;
 let directoryQuestions = [];
 let fetchNextQuestion =  {};
 let startQuiz = {};
-let tallyIncrease = {};
-let tallyDecrease = {};
+let pointsIncrease = {};
+let pointsDecrease = {};
 
 let listOfQuestions = [
     {
-        question:"How do you say Good morning in Yoruba?",
+        question:"Question: How do you say Good morning in Yoruba?",
         option1:"Ekaro",
         option2:"Ekasan",
         option3:"Ekale",
@@ -26,7 +29,7 @@ let listOfQuestions = [
         answer: 1
     },
     {
-        question:"How do you say 'Orange'(fruit) in Yoruba?",
+        question:"Question: How do you say 'Orange'(fruit) in Yoruba?",
         option1:"Ada",
         option2:"Sibi",
         option3:"Osan",
@@ -34,7 +37,7 @@ let listOfQuestions = [
         answer: 3
     },
     {
-        question:"Yoruba is a tribe in which African country?",
+        question:"Question: Yoruba is a tribe in which African country?",
         option1:"Ghana",
         option2:"South Africa",
         option3:"Nigeria",
@@ -42,7 +45,7 @@ let listOfQuestions = [
         answer: 3
     },
     {
-        question:"How do you say Good afternoon in Yoruba?",
+        question:"Question: How do you say Good afternoon in Yoruba?",
         option1:"Bawo ni",
         option2:"Ekasan",
         option3:"Dada ni",
@@ -50,7 +53,7 @@ let listOfQuestions = [
         answer: 2
     },
     {
-        question:"How do you say ‘Mother’ in Yoruba?",
+        question:"Question: How do you say ‘Mother’ in Yoruba?",
         option1:"Aburo",
         option2:"Maami",
         option3:"Egbon",
@@ -58,10 +61,6 @@ let listOfQuestions = [
         answer: 2
     }
 ];
-
-const directoryQuestionsMax = 5;
-const individualPoints = 15;
-const penaltyPoints = 5;
 
 startQuiz = () => {
     questionblCounter = 0;
@@ -72,58 +71,41 @@ startQuiz = () => {
 
 fetchNextQuestion = () => {
     if (directoryQuestions.length === 0 || questionblCounter > directoryQuestionsMax) {
-        //allows points to appear on the respective quiz page
-        localStorage.setItem("totalPoints", tally);
-        //when user has completed all questions; they shall return to end page
-        window.location.assign("https://solacoder005.github.io/ba-mi-soro/quiz-end.html");
+        localStorage.setItem("totalPoints", tally);//allows points to appear on the respective quiz page
+        window.location.assign("https://solacoder005.github.io/ba-mi-soro/quiz-end.html"); //when user has completed all questions; they shall return to end page
     }
 
     questionblCounter++;
-
-    //question tracker increases on the html page
-    questionTracker.innerHTML= questionblCounter + "/" + directoryQuestionsMax;
-
-    //this allows the reandom selection of answers
-    const questionIndex = Math.floor(Math.random() * directoryQuestions.length);
+    questionTracker.innerHTML= questionblCounter + "/" + directoryQuestionsMax; //question tracker increases on the html page
+    const questionIndex = Math.floor(Math.random() * directoryQuestions.length); //this allows the reandom selection of answers
     liveQuestion = directoryQuestions[questionIndex];
     question.innerHTML= liveQuestion.question;
 
     options.forEach( option => {
-
-        //dot notation used to increase readability
         const number = option.dataset.number;
         option.innerHTML= liveQuestion['option' + number];
     });
 
-    //removes the question that is used
-    directoryQuestions.splice(questionIndex, 1);
-
-    //corrolates with initial variable value (above)
-    monitoringAnswers = true; 
+    directoryQuestions.splice(questionIndex, 1);//removes the question that is used
+    monitoringAnswers = true; //corrolates with initial variable value (above)
 };
 
 options.forEach(option => {
     option.addEventListener('click', e => {
     if(!monitoringAnswers) return;
 
-    // this tracks which answer is clicked in the console
-    monitoringAnswers = false;
+    monitoringAnswers = false; // this tracks which answer is clicked in the console
     const selectedOption = e.target;
-
-    //dot notation used to increase readability
     const selectedAnswer = selectedOption.dataset.number;
-
-    //using == rather than === as the data being pulled out are strings  
     const classToApply = 
-        selectedAnswer == liveQuestion.answer ? "right" : "wrong";
+        selectedAnswer == liveQuestion.answer ? "right" : "wrong"; //using == rather than === as the data being pulled out are strings  
         if (classToApply === "right") {
-            tallyIncrease(individualPoints);
+            pointsIncrease(individualPoints);
         } else {
-            tallyDecrease(penaltyPoints);
+            pointsDecrease(penaltyPoints);
         }
 
-    //classList.add is shorthand for adding and removing classes to code
-    selectedOption.parentElement.classList.add(classToApply);
+    selectedOption.parentElement.classList.add(classToApply); //classList.add is shorthand for adding and removing classes to statements
 
     setTimeout(() => {
         selectedOption.parentElement.classList.remove(classToApply);
@@ -132,12 +114,12 @@ options.forEach(option => {
     });
 });
 
-tallyIncrease = num => {
+pointsIncrease = num => {
     tally += num;
     pointsTracker.innerHTML= tally;
 };
 
-tallyDecrease = num => {
+pointsDecrease = num => {
     tally -= num;
     pointsTracker.innerHTML= tally;
 };

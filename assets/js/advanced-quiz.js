@@ -15,12 +15,12 @@ let questionalCounter = 0;
 let directoryQuestions = [];
 let fetchNextQuestion =  {};
 let startQuiz = {};
-let tallyIncrease = {};
-let tallyDecrease = {};
+let pointsIncrease = {};
+let pointsDecrease = {};
 
 let listOfQuestions = [
     {
-        question:"Q: Where did Ade go to in town?",
+        question:"Question: Where did Ade go to in town?",
         option1:"Market",
         option2:"Church",
         option3:"Salon",
@@ -28,7 +28,7 @@ let listOfQuestions = [
         answer: 1
     },
     {
-        question:"Q: How many chickens and yams did Ade buy?",
+        question:"Question: How many chickens and yams did Ade buy?",
         option1:"Twelve chickens and four yams",
         option2:"Four chickens and nineteen yams",
         option3:"One chicken and 5 yams",
@@ -36,7 +36,7 @@ let listOfQuestions = [
         answer: 4
     },
     {
-        question:"Q: How did grace say she was?",
+        question:"Question: How did grace say she was?",
         option1:"Grace said she was tierd",
         option2:"Grace said she was angry",
         option3:"Grace said she was fine",
@@ -44,7 +44,7 @@ let listOfQuestions = [
         answer: 3
     },
     {
-        question:"Q: Where was Ade going after the town, before she met Grace?",
+        question:"Question: Where was Ade going after the town, before she met Grace?",
         option1:"Ade was going to her friend's house",
         option2:"Ade was going home",
         option3:"Ade was going to the moon and back",
@@ -52,7 +52,7 @@ let listOfQuestions = [
         answer:  2
     },
     {
-        question:"Q: What did Ade ask Grace when they met?",
+        question:"Question: What did Ade ask Grace when they met?",
         option1:"How old are you?",
         option2:"What's your name?",
         option3:"How are you?",
@@ -101,13 +101,12 @@ options.forEach(option => {
     const classToApply = 
         selectedAnswer == liveQuestion.answer ? "right" : "wrong"; //using == rather than === as the data being pulled out are strings  
         if (classToApply === "right") {
-            tallyIncrease(individualPoints);
+            pointsIncrease(individualPoints);
         } else {
             tallyDecrease(penaltyPoints);
-        };
+        }
 
-    selectedOption.parentElement.classList.add(classToApply); //classList.add is shorthand for adding and removing classes to code
-
+    selectedOption.parentElement.classList.add(classToApply); //classList.add is shorthand for adding and removing classes to statements
     setTimeout(() => {
         selectedOption.parentElement.classList.remove(classToApply);
         fetchNextQuestion();
@@ -115,7 +114,7 @@ options.forEach(option => {
     });
 });
 
-tallyIncrease = num => {
+pointsIncrease = num => {
     tally += num;
     pointsTracker.innerHTML = tally;
 };
@@ -127,12 +126,8 @@ tallyDecrease = num => {
 
 startQuiz();
 
-
-
 /** DEVELOPER NOTES
  * 'jshint eversion...' tells JavaScript checkers like JShint that source code uses 'ECMAScript 6' specific syntax (Hibbard, 2014)
  * Reference material: 
     * J. Q. Quick, 2019 [https://youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx]
 */ 
-
-
