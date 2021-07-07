@@ -531,6 +531,7 @@ While there were several bugs that arose through the duration of the project, th
 
 - **Context:** As part of the quiz, it was essential for the users to be directed to the Score page on the BMS once the quiz had been completed. Initially, the following JS syntax was used: 
 
+|------|
 | _window.location(“/quizEnd.html”);_|
 
     Running this page locally hosted port (Port: 5500) successfully directed to the score page once the game was completed. However, this code continually produced an error when the site was deployed to the live published page, via Github.com. 
@@ -539,7 +540,7 @@ While there were several bugs that arose through the duration of the project, th
 
 - **Fix:** This error was resolved by changing the pathway of the page to redirect to. To do this, the following code was used and redirected to the official deployed URL: 
 
-|_window.location.assign(“https://solacoder005.github.io/ba-mi-soro/quiz-end.html”);_|
+_window.location.assign(“https://solacoder005.github.io/ba-mi-soro/quiz-end.html”);_
 
 **3. JShint Error message: “_____________ undefined variable”**
 
