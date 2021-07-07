@@ -14,6 +14,7 @@
 
 ![](/docs/readme-content/ba-mi-soro_MockUp.PNG)
 
+
 ## 1. Overview
 
 # Ba Mi Soro! 
