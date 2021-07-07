@@ -541,6 +541,15 @@ While there were several bugs that arose through the duration of the project, th
 
 **_window.location.assign(“https://solacoder005.github.io/ba-mi-soro/quiz-end.html”);_**
 
+3. JShint Error message: “_____________ undefined variable”
+
+- **Context:** When running script through the JShint validator the variables ‘bodymovin’ and ‘$’ operator produce returned values as ‘undefined’. When attempting to define the variables in the script, the animation and jQuery features are deactivated. 
+
+- **Reason:** The reason for this error was that the variables were not defined initally.
+
+- **Fix:** Given that the variables were being used in a block of code, each were declared as ‘var’ variables rather than ‘let’ and/or ‘const’. Decalring the variables this way allowed the animation and toggle features execute successfully. 
+
+
 #### **6.5.2 Unfixed bugs**
 
 1. Multiple JS Code functions will not run on one page 
@@ -667,8 +676,6 @@ Specifically the animation used on the BMS’ score page was created by [Arvind 
 ## 9. Acknowledgements
 ## 10. References
 
-Several resources have been referred to throughout the development of the 'Ba Mi Soro!' website. A list has been provided, below: 
-
 ### Books
 
 - **C.P.A Inc., 2019.** The Computer Programming Bible. 1st ed. C.P.A Inc.
@@ -723,6 +730,8 @@ Several resources have been referred to throughout the development of the 'Ba Mi
 
 - [Shiftelearning.com. 2019.The Psychology of Color: How Do Colors Influence Learning?](https://www.shiftelearning.com/blog/how-do-colors-influence-learning)
 
+- [Ulman, S., 2019. What is the meaning of "$" sign in ](https://stackoverflow.com/questions/1150381/what-is-the-meaning-of-sign-in-javascript)
+
 - [Worthington, J., 2021. Hobbies and Interests - UK - February 2021](https://reports.mintel.com/display/1065935/?fromSearch=%3Ffreetext%3Dlearning%2520language)
 
 - [W3schools.com. 2021. CSS3 Media Queries - Examples](https://www.w3schools.com/css/css3_mediaqueries_ex.asp)
@@ -736,3 +745,4 @@ Several resources have been referred to throughout the development of the 'Ba Mi
 - [W3schools.com. 2021. JavaScript Arrow Function](https://www.w3schools.com/js/js_arrow_function.asp)
 
 - [W3schools.com. 2021. JavaScript Window Location](https://www.w3schools.com/js/js_window_location.asp)
+

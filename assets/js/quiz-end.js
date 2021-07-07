@@ -4,8 +4,8 @@ const tallyTotal = document.querySelector('#tallyTotal');
 const totalPoints = localStorage.getItem('totalPoints');
 const play = document.querySelector('#btnSeePoints');
 const svgTag = document.querySelector('#svg');
-const $ = document.querySelector; //see developer notes for reason of decalation
-const bodymovin = document.querySelector; //see developer notes for reason of decalation
+var bodymovin;
+var $;
 
 //Animation Feature
 let animate = bodymovin.loadAnimation ({
@@ -41,7 +41,7 @@ tallyTotal.innerHTML = totalPoints;
         * J. Q. Quick, 2019 [https://youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx]
         * View Score TallyTotal Feature - Traversy Media, 2016 [https://www.youtube.com/watch?v=kVc_XfZY0vI&t=69s]
         * Animation Feature - DesignCourse, 2021 [https://www.youtube.com/watch?v=kVc_XfZY0vI&t=69s]
-        * The '$' operator and 'bodymovin' variable has been declared to adhere to JShint requirements. The feature executes without defining the variables mentioned. Source: [https://stackoverflow.com/questions/1150381/what-is-the-meaning-of-sign-in-javascript];
+        * For 'var' variable declarations - Reference Duckett, 2014 p.103. 
 */ 
 
 
