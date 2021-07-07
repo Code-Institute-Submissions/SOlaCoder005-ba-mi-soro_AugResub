@@ -1,21 +1,11 @@
 /*jshint esversion: 6 */
 
-//Quiz-end points fade-in feature
-$(document).ready(function(){
-    $('#btnSeePoints').click(function(){
-        $('#pointsDisplay').fadeIn(1000);
-    });
-});
-
-//Fetches score results from the respective quiz user has played
 const gitTotal = document.querySelector('#tallyTotal');
 const totalPoints = localStorage.getItem('totalPoints');
-
-tallyTotal.innerHTML = totalPoints;
-
-//Animation Feature
 const play = document.querySelector('#btnSeePoints');
 const svgTag = document.querySelector('#svg');
+
+//Animation Feature
 let animate = bodymovin.loadAnimation ({
     wrapper: svgTag, 
     animType: 'svg',
@@ -33,6 +23,15 @@ animate.addEventListener('complete', () => {
     svgTag.classList.add('hide');
 });
 
+//Quiz-end points fade-in feature
+$(document).ready(function(){
+    $('#btnSeePoints').click(function(){
+        $('#pointsDisplay').fadeIn(1000);
+    });
+});
+
+//Fetches score results from the respective quiz user has played
+tallyTotal.innerHTML = totalPoints; 
 
 /** DEVELOPER NOTES
  * 'jshint eversion...' tells JavaScript checkers like JShint that source code uses 'ECMAScript 6' specific syntax (Hibbard, 2014)
