@@ -8,14 +8,6 @@ const directoryQuestionsMax = 5;
 const individualPoints = 15; 
 const penaltyPoints = 5;
 
-const startQuiz = () => {
-    questionalCounter = 0;
-    tally = 0;
-    directoryQuestions = [...listOfQuestions];
-    console.log(directoryQuestions);
-    fetchNextQuestion();
-};
-
 let liveQuestion = {};
 let monitoringAnswers = false; //false value used so users can not pick answer before page loads
 let tally = 0; 
@@ -69,6 +61,13 @@ let listOfQuestions = [
     }
 ];
 
+startQuiz = () => {
+    questionalCounter = 0;
+    tally = 0;
+    directoryQuestions = [...listOfQuestions];
+    console.log(directoryQuestions);
+    fetchNextQuestion();
+};
 
 fetchNextQuestion = () => {
     if (directoryQuestions.length === 0 || questionalCounter > directoryQuestionsMax) {
