@@ -103,7 +103,7 @@ options.forEach(option => {
         if (classToApply === "right") {
             pointsIncrease(individualPoints);
         } else {
-            tallyDecrease(penaltyPoints);
+            pointsDecrease(penaltyPoints);
         }
 
     selectedOption.parentElement.classList.add(classToApply); //classList.add is shorthand for adding and removing classes to statements
@@ -119,7 +119,7 @@ pointsIncrease = num => {
     pointsTracker.innerHTML = tally;
 };
 
-tallyDecrease = num => {
+pointsDecrease = num => {
     tally -= num;
     pointsTracker.innerHTML = tally;
 };

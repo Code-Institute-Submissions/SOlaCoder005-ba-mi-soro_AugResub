@@ -8,7 +8,7 @@ $(document).ready(function(){
 });
 
 //Fetches score results from the respective quiz user has played
-const tallyTotal = document.querySelector('#tallyTotal');
+const gitTotal = document.querySelector('#tallyTotal');
 const totalPoints = localStorage.getItem('totalPoints');
 
 tallyTotal.innerHTML = totalPoints;
