@@ -1,25 +1,24 @@
 /*jshint esversion: 6 */
 
-const ham = document.querySelector('.ham');
+const hamburgerBtn = document.querySelector('.ham');
 const navMU = document.querySelector('#nav-MU');
-let hamExpand = false;
+let hamburgerBtnExpand = false;
 
 //Nav exapnd and collapse feature
-ham.addEventListener('click', () => {
-    if(!hamExpand) {
-        ham.classList.add('open');
+hamburgerBtn.addEventListener('click', () => {
+    if(!hamburgerBtnExpand) {
+        hamburgerBtn.classList.add('open');
         navMU.classList.toggle('show');
-        hamExpand = true;
+        hamburgerBtnExpand = true;
     } else {
-        ham.classList.remove('open');
+        hamburgerBtn.classList.remove('open');
         navMU.classList.remove('show');
-        hamExpand = false;
+        hamburgerBtnExpand = false;
     }
 });
 
 /** DEVELOPER NOTES
- * 'jshint eversion...' tells JavaScript checkers like JShint that source code uses 'ECMAScript 6' specific syntax (Hibbard, 2014)
  * Reference material: 
-        * Florin Pop, 2020  [https://www.youtube.com/watch?v=ydZc17rlR5E] 
-        * codeSTACKr, 2019 [https://youtu.be/dIyVTjJAkLw]
+        * Florin Pop, 2020 
+        * codeSTACKr, 2019
 */ 
