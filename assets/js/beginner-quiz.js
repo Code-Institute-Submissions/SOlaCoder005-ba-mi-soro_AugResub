@@ -9,7 +9,7 @@ const individualPoints = 15;
 const penaltyPoints = 5;
 
 const startQuiz = () => {
-    questionblCounter = 0;
+    questionCounter = 0;
     tally = 0;
     directoryQuestions = [...listOfQuestions];
     fetchNextQuestion();
@@ -20,14 +20,15 @@ const startQuiz = () => {
  * The questions are randomise using the Math.floor(Math.random()) method. 
  */
 const fetchNextQuestion = () => {
-    if (directoryQuestions.length === 0 || questionblCounter > directoryQuestionsMax) {
-        localStorage.setItem("totalPoints", tally);//allows points to appear on the respective quiz page
-        window.location.assign("https://solacoder005.github.io/ba-mi-soro/quiz-end.html"); //when user has completed all questions; they shall return to end page
+    if (directoryQuestions.length === 0 || questionCounter > directoryQuestionsMax) {
+        localStorage.setItem("totalPoints", tally);
+        window.location.assign("https://solacoder005.github.io/ba-mi-soro/quiz-end.html");
     }
 
-    questionblCounter++;
-    questionTracker.innerHTML= questionblCounter + "/" + directoryQuestionsMax; //question tracker increases on the html page
-    const questionIndex = Math.floor(Math.random() * directoryQuestions.length); //this allows the reandom selection of answers
+    questionCounter++;
+    questionTracker.innerHTML= questionCounter + "/" + directoryQuestionsMax;
+
+    const questionIndex = Math.floor(Math.random() * directoryQuestions.length);
     liveQuestion = directoryQuestions[questionIndex];
     question.innerHTML= liveQuestion.question;
 
@@ -36,14 +37,14 @@ const fetchNextQuestion = () => {
         option.innerHTML= liveQuestion['option' + number];
     });
 
-    directoryQuestions.splice(questionIndex, 1);//removes the question that is used
-    monitoringAnswers = true; //corrolates with initial variable value (above)
+    directoryQuestions.splice(questionIndex, 1);
+    monitoringAnswers = true;
 };
 
 let liveQuestion = {};
 let monitoringAnswers = false;
 let tally = 0; 
-let questionblCounter = 0;
+let questionCounter = 0;
 let directoryQuestions = [];
 let pointsIncrease = {};
 let pointsDecrease = {};

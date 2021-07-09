@@ -9,7 +9,7 @@ const individualPoints = 15;
 const penaltyPoints = 5;
 
 const startQuiz = () => {
-    questionilCounter = 0;
+    questionCounter = 0;
     tally = 0;
     directoryQuestions = [...listOfQuestions];
     console.log(directoryQuestions);
@@ -20,16 +20,17 @@ const startQuiz = () => {
  * This presents new quetion to user once answering the current question. 
  * The questions are randomise using the Math.floor(Math.random()) method. 
  */
-const fetchNextQuestion = () => {
-    if (directoryQuestions.length === 0 || questionilCounter > directoryQuestionsMax) {
-        localStorage.setItem("totalPoints", tally);
-        window.location.assign("https://solacoder005.github.io/ba-mi-soro/quiz-end.html");
+ const fetchNextQuestion = () => {
+    if (directoryQuestions.length === 0 || questionCounter > directoryQuestionsMax) {
+       localStorage.setItem("totalPoints", tally); 
+       window.location.assign("https://solacoder005.github.io/ba-mi-soro/quiz-end.html");
     }
 
-    questionilCounter++;
-    questionTracker.innerHTML = questionilCounter + "/" + directoryQuestionsMax;
-
+    questionCounter++;
+    questionTracker.innerHTML = questionCounter + "/" + directoryQuestionsMax;
+    
     const questionIndex = Math.floor(Math.random() * directoryQuestions.length);
+    liveQuestion = directoryQuestions[questionIndex];
     question.innerHTML = liveQuestion.question;
 
     options.forEach( option => {
@@ -38,13 +39,13 @@ const fetchNextQuestion = () => {
     });
 
     directoryQuestions.splice(questionIndex, 1);
-    monitoringAnswers = true;
+    monitoringAnswers = true; 
 };
 
 let liveQuestion = {};
 let monitoringAnswers = false;
 let tally = 0; 
-let questionilCounter = 0;
+let questionCounter = 0;
 let directoryQuestions = [];
 let pointsIncrease = {};
 let pointsDecrease = {};
