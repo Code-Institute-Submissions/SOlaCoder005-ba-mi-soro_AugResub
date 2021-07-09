@@ -109,8 +109,9 @@ The users’ responses were documented in the table below:
 
 
 | **User’s answers to questions** | 
-|-------------|
+
 |User1 | 
+|-------------|
 | 1. No|
 |2. Looks good on the CV, watch movies in my chosen language without subtitles, expand my dating pool, have a language to pass on to my kids in future| 
 |3. A mixture of the above|
