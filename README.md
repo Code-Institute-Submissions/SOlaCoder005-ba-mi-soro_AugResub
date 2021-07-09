@@ -17,17 +17,17 @@
 
 # Ba Mi Soro! 
 
-In a country that speaks over 200 languages, Yoruba is one of most common spoken languages in Nigeria, (spoken by more than 15% of the country’s population).
+In a country that speaks over 200 languages, Yoruba is one of the most common spoken languages in Nigeria, (spoken by more than 15% of the country’s population).
 
 “Ba Mi Soro!” is a Yoruba phrase that translates to “Talk to me!”. The Ba Mi Soro (BMS) website provides interactive quizzes and phrase sheets designed to test users’ understanding of the Yoruba language. 
 
 **Features Overview** 
 
-There are three quizzes which vary in difficulty and the variation in difficult is reflected in the (downloadable) phrase sheets also. The quizzes have been designed to appeal to, and challenge, a variety of users (e.g. of different age groups and abilities in speaking Yoruba). 
+There are three quizzes which vary in difficulty and the variation in difficulty is reflected in the (downloadable) phrase sheets also. The quizzes have been designed to appeal to, and challenge, a variety of users (e.g. of different age groups and abilities in speaking Yoruba). 
 
 ## 2. User Experience (UX)
 
-The [‘5 Planes of UX Design Model’ (5PUXD)](https://medium.com/designcentered/ux-design-5-planes-method-b1b1d6587c05#:~:text=The%20five%20planes%20%E2%80%94%20strategy%2C%20scope,the%20problem%20as%20a%20whole) provides **five** core principles used when creating websites and applications.These principles are: 
+The [‘5 Planes of UX Design Model’ (5PUXD)](https://medium.com/designcentered/ux-design-5-planes-method-b1b1d6587c05#:~:text=The%20five%20planes%20%E2%80%94%20strategy%2C%20scope,the%20problem%20as%20a%20whole) provides **five** core principles used in the design process of websites and applications. These principles are: 
 
 - Strategy
 - Scope
@@ -35,7 +35,7 @@ The [‘5 Planes of UX Design Model’ (5PUXD)](https://medium.com/designcentere
 - Skeleton
 - Surface
 
-The **Strategy** and **Scope** plane in the 5PUXD model suggest that consumer trends, needs and competing services should be considered before designing applications. Arguably, these factors are essential to identifying the core deliverables of the application and its services being offered. It also helps designers clarify the applications’ relevance withing the respective industry and potential market demand.
+The **Strategy** and **Scope** plane in the 5PUXD model suggest that consumer trends, consumer needs and competing services should be considered before designing applications. Arguably, these factors are essential to identifying the core deliverables of the application, and its services being offered. It also helps designers clarify the applications’ relevance within its respective industry and potential market demand.
 
 As such, brief market research was conducted to gain insight into competing services (e.g. existing language applications) and user psychographics. It also helped identify BMS’ target audience and the perceived objectives (goals) of the site owner and users’ (first-time and re-occurring) who visit BMS. This is discussed in more detail below.
 
