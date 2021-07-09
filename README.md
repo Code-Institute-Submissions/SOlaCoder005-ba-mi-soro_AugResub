@@ -698,13 +698,13 @@ Tutorials created by [Angela Delise(2020)](https://www.youtube.com/watch?v=68O6e
 
 ### **8.3 Language and Scripts**
 
-- **JavaScript:** The JavaScript used within the source-code assists with specific functionalities (e.g. Navigation Menu, Scroll button, and Icons). The scripts have been sourced from the following sites: 
+**JavaScript:** The JavaScript used within coding scripts assist with specific functionalities (e.g. Navigation Menu, Scroll button, and Icons). The some of the scripts used in the source-code for the Ba Mi Soro site has been sourced from the following sites: 
 
 - Font Awesome: https://kit.fontawesome.com/1699136767.js
 
 - bodymovin: https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js
 
-Similarly, The jQuery used within the source-code assists with specific functionalities as mentioned earlier. The script has been sourced from jQuery.com. A direct reference to how to use the jQuery in source-code can be found in the References section [below](#10-References):
+Similarly, the jQuery used within the source-code assists with specific functionalities as mentioned earlier. The script has been sourced from jQuery.com. A direct reference to how to use the jQuery link can be found in the References section [below](#10-References):
 
 - Jquery.com: https://code.jquery.com/jquery-3.6.0.min.js
 
@@ -712,9 +712,19 @@ Similarly, The jQuery used within the source-code assists with specific function
 
 - [LottieFiles.com](https://lottiefiles.com/): Score Page animation
 
-Specifically the animation used on the BMS’ score page was created by [Arvind Lakhani](https://lottiefiles.com/7434-confetti). The **colour scheme and speed** of the animation was adapted by the developer to fulfil the needs of the BMS website. Further, a tutorial by [DesignCourse (2021)](https://www.youtube.com/watch?v=x8WW0DDXZ4w&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=22) provided an example of how to implement the animation into HTML and JS code. 
+The animation used on the BMS’ score page was created by [Arvind Lakhani](https://lottiefiles.com/7434-confetti). The **colour scheme and speed** of the animation was adapted by the developer to fulfil the needs of the BMS website. Further, a tutorial by [DesignCourse (2021)](https://www.youtube.com/watch?v=x8WW0DDXZ4w&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=22) provided an example of how to implement the animation into HTML and JS code. 
 
-## 9. Acknowledgements
+## 9. Personal Acknowledgements
+
+This project could not have been achived without the strength given to me by God! 
+
+Additional thanks goes out to my Husband for all his loving patience and support. 
+
+I would also like to thank;
+
+- My mentor for the invaluable advice he has given me in relation to this project and overall coding principles. 
+- All the users that provided their feedback. Their feedback helped me to clarify the purpose of the BMS website. 
+- The Code Institute for the invaluable coding resources that has aided my learnig. 
 
 ## 10. References
 
