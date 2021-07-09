@@ -1,3 +1,5 @@
+![](/docs/readme-content/ba-mi-soro_MockUp.PNG)
+
 # List of Contents
 
 1. [Overview](#1-Overview)
@@ -10,10 +12,6 @@
 8. [Credits](#8-Credits)
 9. [Acknowledgements](#9-Acknowledgements)
 10. [References](#10-References)
-
-
-![](/docs/readme-content/ba-mi-soro_MockUp.PNG)
-
 
 ## 1. Overview
 
