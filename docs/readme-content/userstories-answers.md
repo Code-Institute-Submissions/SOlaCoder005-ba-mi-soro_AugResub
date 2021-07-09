@@ -9,7 +9,7 @@
 |4 - 7. N/A| 
 
 |User 2 | 
-|-----------|
+|-------------|
 |1. Yes|
 |2. Maybe (depending on if I'll need it)|
 |3. Conversation with others & Videos (TV show etc)|
@@ -20,7 +20,7 @@
 
 
 |User 3 | 
-|-----------|
+|-------------|
 |1. No|
 |2. Yes - I'm already learning Spanish, French and Mandarin|
 |3. Mixture of the above|
@@ -30,7 +30,7 @@
 |7. Mixture of the above|
 
 |User 4 | 
-|-----------|
+|-------------|
 |1. No |
 |2. Have knowledge and it may come in handy.  |
 |3.  Rosetta Stone.  |
@@ -40,7 +40,7 @@
 |7: Not sure. |
 
 |User 5 | 
-|-----------|
+|-------------|
 |1. Yes |
 |2. I would love to learn French and Spanish |
 |3. Mixture of the above |
