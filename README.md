@@ -196,13 +196,13 @@ The following colours were use on the BMS site. Rather than using HEX values, RG
 
 ## 4. Features
 
-This section provides an overview of the features on the BMS  website, and where relevant, the way in which theses feature(s) address the users’ stories, mentioned in prior sections.
+This section provides an overview of the features on the BMS website, and where relevant, the way in which theses feature(s) address the users’ stories and goals (which has been mentioned in prior sections).
 
 ### **Site-wide features**
 
 1. Logo 
 
-    - The logo is static on the enter-site landing page and has been included to establish the name of the site.The logo in the top right of BMS’ header allows the user to return back to the homepage.
+    - The logo is static on the enter-site landing page and has been included to establish the name of the site. The logo in the top right of BMS’ header allows the user to return back to the homepage.
 
 2. Social Media links (Footer) 
 
@@ -210,7 +210,7 @@ This section provides an overview of the features on the BMS  website, and where
 
 3. Navigation Menu
 
-    - The navigation menu has been placed on the primary sites and the quiz sites to aid easier navigation for the user. 
+    - The navigation menu has been placed on the primary and sub pages to aid easier navigation for the user. 
 
     - The navigation menu is presented in a horizontal line on devices that have a screen width size larger than 800px.  
 
@@ -232,7 +232,7 @@ This section provides an overview of the features on the BMS  website, and where
 
     - This feature has been centred intentionally and under the logo to communicate clear instructions to the user. 
     
-    For instance, to ‘enter’ the site they need to click the button. To bolster this message, the button’s text turns to orange and the cursor turns into a pointer when the user hovers over the button. 
+    For instance, to ‘enter’ the site they need to click the button. To add emphasis, the button’s text turns to orange and the cursor turns into a pointer when the user hovers over the button. 
 
 | Goal Number| Description|
 |-----|-----|
@@ -244,17 +244,19 @@ This section provides an overview of the features on the BMS  website, and where
 
 1. Quiz Icons
 
-    - The quiz icon links; ‘Beginner’, ‘Intermediate’ and ‘Advanced’ link to separate quizzes which content varies difficulty. This shall be discussed in latter sections. 
+    - The quiz icon links; ‘Beginner’, ‘Intermediate’ and ‘Advanced’ link to separate quizzes. 
 
-    - When hovered over, the icons enlarger slightly to communicate that the links are active and clickable. To add to this the cursor changes to a pointer when the user hovers over each. 
+    - The quiz content varies difficulty. 
+
+    - When hovered over, the icons enlarge slightly to communicate that the links are active and clickable. To add to this the cursor changes to a pointer when the user hovers over each. 
 
     - The icons are presented in a horizontal line on devices that have a screen width size larger than 800px.  
 
     - Devices that have a screen-size smaller than 768px will present the icons vertically to aid user experience and support the site’s responsiveness capabilities. 
     
-2. Icons 
+2. Quiz and Phrase Sheet Icons 
 
-    - The icons presented int the latter part of the page links to additional sections and pages on the site.  
+    - The icons presented in the latter part of the page links to additional sections and pages on the site.  
 
 | Goal Number| Description| 
 |-----|-----| 
@@ -263,32 +265,38 @@ This section provides an overview of the features on the BMS  website, and where
 
 #### **4.2.1 The Quizzes - Beginner, Intermediate and Advanced Quiz**
 
+
 1. Question complexity
 
     - Each level presents 5 questions that vary in complexity. For instance:
 
-![](docs/screenshots/beginnerqz-GenericLaptop.jpg)
 
 **Level: Beginner**
+
+![](docs/screenshots/beginnerqz-GenericLaptop.jpg)
+
+
 - Purpose: Test the user’s trivia knowledge of the Yoruba language. 
 
-- How: The questions are written in English where the user, is asked to identify the correct Yoruba syntax. 
+- How: The questions are written in English where the user is asked to identify the correct Yoruba syntax. 
 
 - Knowledge capability: The user would have no and/or limited knowledge of the Yoruba language.
 
-![](docs/screenshots/intermediateqz-GenericLaptop.jpg)
 
 **Level: Intermediate**
 
+![](docs/screenshots/intermediateqz-GenericLaptop.jpg)
+
 - Purpose: To test the user’s understanding and comprehension of some Yoruba sentences.
 
-- How: The user is asked to complete the presented sentence with the correct Yoruba word. To do this correctly, the user will likely have a deeper understanding of Yoruba grammar. 
+- How: The user is asked to complete the presented sentence with the correct Yoruba word. To do this correctly, the user will likely have a deeper understanding of Yoruba grammar and conversations. 
 
 - Knowledge capability: The user would have a basic understanding and knowledge of the Yoruba language and grammar. 
 
-![](docs/screenshots/advancedqz-GenericLaptop.jpg)
 
 **Level: Advanced**
+
+![](docs/screenshots/advancedqz-GenericLaptop.jpg)
 
 - Purpose: To test the user’s understanding and comprehension of conversation spoken in a Yoruba language.  
 
@@ -302,15 +310,15 @@ This section provides an overview of the features on the BMS  website, and where
 
     - The button lights up, forming an orange ring when the user hovers over the element.
     
-    - Once clicked the buttons turn either red or green depending whether the answer is correct.
+    - Once clicked the buttons turn either red or green depending whether the answer is inccorect or correct.
 
 3. Question Tracker
 
-    - Once each button is clicked, the questions tracker increases. Based on the JavaScript code, each question is randomised, therefore the questions will be presented in a different order each time the quiz is loaded/refreshed in the browser window. 
+    - Once each button is clicked, the questions tracker increases. Based on the JavaScript methods used ( e.g. Math.Floor(Math.random()..) ), each question is randomised. Therefore the questions will be presented in a different order each time the quiz is loaded/refreshed in the browser window. 
 
 4. Points tally tracker
 
-    - Depending on the answers chosen, each correct answer is awarded 15 points, if incorrect, 5  points are deducted. The points tally records the user’s points accumulated over the course of the quiz. 
+    - Depending on the answers chosen, each correct answer is awarded 15 points, if incorrect, 5  points are deducted. The points tally records the points accumulated over the course of the quiz. 
 
     - At the end of the quiz, the user will be directed to the score page. This shall be discussed in latter sections. 
 
@@ -329,15 +337,15 @@ This section provides an overview of the features on the BMS  website, and where
 
 1. Buttons 
 
-    - Each button serves a function such as returning users to the homepage or quiz landing page to play the quizzes again.
+    - Each button serves a function such as returning users to the homepage, or the quiz landing page to play the quizzes again.
 
-    - Akin to the other buttons on the site, the buttons presented on this page turn orange when thew user hovers over it. 
+    - Akin to the other buttons on the site, these buttons turn orange when the user hovers over it. 
 
-    - The ‘VIEW SCORE’ button reveals the user’s total points gained throughout the quiz. Clicking on the button. 
+    - The ‘VIEW SCORE’ button reveals the user’s total points gained throughout the quiz.
 
 2. Confetti feature
 
-    - This feature is activated once the user completes the quiz and then active again once the ‘VIEW SCORE’ button. This has been added to increase the informal tone of the overall BMS site. 
+    - This feature is activated once the user completes the quiz and then actives again once the ‘VIEW SCORE’ button is clicked. This has been added to increase the playful tone of the quiz. 
 
 ### **4.3 Phrase Sheets page**
 
@@ -345,9 +353,9 @@ This section provides an overview of the features on the BMS  website, and where
 
 1. Beginner, Intermediate and Advanced Phrase Sheets
 
-    - Akin to the quiz levels, this page provides users with phrase sheets. Each sheet provides useful phrases that can be used in Yoruba spoken conversations. 
+    - Akin to the quiz levels, this page provides users with phrase sheets. Each sheet provides useful phrases that can be used in Yoruba conversations. 
 
-    - As the language is complex and the BMS site is designed to provide users with a taster of the language through quizzes, the sheets provide a small selection of phrases. 
+    - As the language is complex; the BMS site is designed to provide users with a taster of the language through quizzes. As such, the sheets provide a small selection of commonly used Yoruba words and phrases. 
 
     - While these can help the user answer some of the the quiz questions, it is highly advised that users develop their knowledge with certified and supplementary learning resources (e.g. videos, lessons, and conversions) to develop their knowledge further. 
 
@@ -360,13 +368,15 @@ This section provides an overview of the features on the BMS  website, and where
 | Goal Number| Description|
 |-----|-----|
 |5. | Strengthen ability in understanding the Yoruba language in more complex contexts (e.g. increased comprehension). |
-|8. | (3) Can help different age-groups learn Yoruba. |
+|8. | ...(3) Can help different age-groups learn Yoruba. |
 
 ### **4.4 Contact Us form page**
 
 ![](docs/screenshots/contactus-GenericLaptop.jpg)
 
-- The form has been created to receive users’ feedback. A text box has been used rather thank multiple choice questions as it allows the user to provide qualitative feedback. Feedback of this nature can help the site owner analyse how the site and its quizzes can be developed to bolster users’ experience.
+- The form has been created to receive users’ feedback. A text box has been used rather thank multiple choice questions as it allows the user to provide qualitative feedback. 
+
+- Feedback of this nature can help the site owner analyse how the site and its quizzes can be developed to bolster users’ experience.
 
 - The form has been tested and submits successfully. 
 
@@ -390,7 +400,9 @@ This section provides an overview of the features on the BMS  website, and where
 
 ### **4.6 Future Features**
 
-In review of the BMS the project could be improved through a plethora of features. These could be implemented in future developments of the BMS site. Some of these features have been listed below: 
+Reflection
+
+The BMS website and its quizzes could be improved through a plethora of additional features. These could be implemented in future developments of the BMS site. Some of these features have been listed below: 
 
 **Quiz images**
 
@@ -398,21 +410,21 @@ In review of the BMS the project could be improved through a plethora of feature
 
 **Auditory Questions**
 
-- Similarly, audio-based questions could not only present another challenging aspect of the quiz, it may also benefit users that have stronger musical and linguistic intelligences. 
+- Similarly, audio-based questions could not only present another challenging aspect of the quiz; it may also benefit users that have stronger musical and linguistic intelligences. 
 
 **Playlist of video resources** 
 
-- Akin to the feedback from user stories, including an online playlist (e.g. hosted via YouTube) could make the BMS site more useful. / link to amazon bookstore for further literary resources. 
+- Akin to the feedback from user stories, including an online playlist (e.g. hosted via YouTube) could make the BMS site more useful. 
 
 **Increasing the quantity of quiz questions** 
 
-- Arguably, increasing the amount of questions for each quiz would create more of a challenge for the users. Based on the averages person’s short-term memory abilities, it is not difficult to memorise small chunks of simple information (e.g. answers). 
+- As such, a key limitation of the current quizzes is that, 5 questions per quiz will typically allow re-occurring users to memorise the correct answers.
 
-- As such, a key limitation of the current quizzes is that, 5 questions per quiz will typically allow re-occurring users to memorise the correct answers. 
+- Arguably, increasing the amount of questions for each quiz would create more of a challenge for the users. Based on the averages person’s short-term memory abilities, it is not difficult to memorise small chunks of simple information (e.g. answers). 
 
 **Hiding the quiz score and including a High score page**
 
-- Implementing these features could make the quiz more challenging. Arguably, these features would cause users to rely more of their knowledge and determine their understanding based on the end results.
+- Implementing these features could make the quiz more challenging. Arguably, these features would cause users to rely on their knowledge more. This can help users reflect on their understanding based on the end results (e.g. points).
 
 **Adding additional animations**
 
@@ -435,7 +447,7 @@ For instance;
 
 - JS script was also used to enable the hiding and appearing function of the scores once the quizzes were completed. elements of the website. 
 
-- **JQuery**: Supported specific functionalities (e.g. the scroll button) within the site through simplifying ‘Document Object Model’ (DOM) manipulation (Developer.mozilla.org, 2021).
+- **JQuery**: Supported specific functionalities (e.g. confetti animation) within the site through simplifying ‘Document Object Model’ (DOM) manipulation (Developer.mozilla.org, 2021).
 
 ### **5.2 Applications, Libraries and Resources**
 
@@ -486,21 +498,23 @@ All the tests produced **0 errors**. Evidence of the tests can be found in the t
 
 ### **6.2 WAVE: Website Accessibility Test**
 
-The [WAVE Accessibility Evaluation Tool](https://wave.webaim.org) was used to evaluate the overall accessibility of the BMS site. It considered factors such as the quantity and suitability of accessibility features used on the website (e.g. aria-labels, degree of contrast). The results produced **0 errors**, thus passing the overall test. However, there were some contrast errors which have not been altered due to design preferences. Evidence for the results of each page can be found [here](docs/testing/wave-results). 
+The [WAVE Accessibility Evaluation Tool](https://wave.webaim.org) was used to evaluate the overall accessibility of the BMS site. It considered factors such as the quantity and suitability of accessibility features used on the website (e.g. aria-labels, degree of contrast). The results produced **0 errors**, thus passing the overall test. However, there was one contrast error which has not been altered due to design preferences. Evidence for the results of each page can be found [here](docs/testing/wave-results). 
 
 ### **6.3 LIGHTHOUSE: Website Performance test**
 
-The [Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) was used to test the performance of the BMS website. In relation to performance, the tests indicated that the website will operate at an optimal level on desktop devices where each page achieved a score between **91-99 out of 100**. Evidence for the results of each page can be found [here](docs/testing/lighthouse-results).
+The [Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) was used to test the performance of the BMS website. In relation to performance, the tests indicated that the website will operate at an optimal level on desktop devices. Each page achieved a score between **91-99 out of 100**. Evidence for the results of each page can be found [here](docs/testing/lighthouse-results).
 
 ### **6.4 Website Responsiveness**
 
-Regarding the website’s degree of responsiveness, the site was accessed on multiple devices (incl. mobile, tablets, desktop, and larger devices) and multiple browsers (incl. FireFox, Google Chrome and Microsoft edge). The BMS site appears to respond appropriately to the changing device screen sizes and altering of browser’s size. Evidence of this is provided below: 
+- Regarding the website’s degree of responsiveness, the site was accessed on multiple devices (incl. mobile, tablets, desktop, and larger devices) and multiple browsers (incl. FireFox, Google Chrome and Microsoft Edge). 
+
+- The BMS site appears to respond appropriately to the changing device screen sizes and altering of browser’s size. Evidence of this is provided below: 
 
 ![](docs/screenshots/bms-responsiveness.PNG)
 
 ### **6.5 Bugs**
 
-While there were several bugs that arose through the duration of the project, the most notably fixed and unfixed bugs are discussed in more detail below. 
+While there were several bugs that arose through the duration of the project, the most notable fixed and unfixed bugs are discussed in more detail below. 
 
 #### **6.5.1 Fixed bugs**
 
