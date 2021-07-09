@@ -131,26 +131,31 @@ The key demographics and goals of users’ and site owners were identified throu
 
 ## 3. Content
 
-This section discusses various design elements of the BMS website. Formulating and executing such elements were integral the development of the BMS site. Arguably, consideration of these factors echoes the premises of the latter planes of the 5PUXD Model. For instance, when designing the BMS site, it was essential to identify the required information of the site (structure) and how users can access this content (skeleton).
+Formulating and executing such elements were integral the development of the BMS site. Arguably, consideration of these factors echoes the premises of the latter planes of the 5PUXD Model. For instance, when designing the BMS site, it was essential to identify:
+
+1. The required information of the site (structure)
+2. how users can access this content (skeleton)
 
 ### **3.1 Wireframes** 
 
-The wireframes below were drawn up before physically creating the BMS site. Each page shall be discussed in more detail in the features section of this README. Creating the preliminary mock-ups of the BMS site helped to highlight the limitations and strengths and weakness of the BMS design. It also allowed a more accurate analysis of which design elements were feasible to execute within the project time frame and which could be implemented if the BMS site could be expanded on if the project development were extended.   
+The wireframes below were drawn up before physically creating the BMS site. Each page shall be discussed in more detail in the [features](#4-features) section. Creating the preliminary mock-ups of the BMS site helped to highlight the  strengths, weakness and limitations of the BMS design. It also allowed a more accurate analysis of the following factors: 
+
+1. Which design elements were feasible to execute within the project time-frame.
+2. Which could be implemented if the BMS site could be expanded on if the project development were extended.   
 
 ![](docs/wireframes/bamisoroinitial.jpg)
 
-#### **Initial wireframes (above)** 
+#### **Initial wireframes** 
 
-The initial wireframes above were greated for the BMS site. However, at later stages of the site's development, additional wireframes were created to clarify yhte current structure of the BMS website. 
+The initial wireframes (above) were created for the BMS site. However, at later stages of the site's development, additional wireframes were created to clarify yhte current structure of the BMS website. 
 
-#### **Reviewed wireframes (below)** 
+#### **Reviewed wireframes** 
 
 Revisions were made to the wireframes after assessing the degree to which the website's design could be executed effectively. 
 
-Given the complexity of the initial website design, factors such as programming skill level, and project timeframe informed the perceived feasibility of creating the site. In turn, these considerations influenced the amendment of the website's initial wireframes. 
+Given the complexity of the initial website design, factors such as programming skill level, and project time-frame impacted the feasibility of creating the site. In turn, these considerations influenced the amendment of the website's initial wireframes. 
 
 The wireframes for the website's current design can be found in the following [directory](/docs/wireframes).
-
 
 ### **3.2 BMS Logo**
 
@@ -171,13 +176,13 @@ With reference to colour choice, the orange shapes were used to convey the idea 
 
 ![](/docs/readme-content/fonts-used.PNG) 
 
-- **Monserat**: To compliment the BMS logo, this san-serif font was used primarily for the headings included on the site. The letters are spaced out considerably and therefore likely to have greater readability than script typography. 
+- **Monserat**: To compliment the BMS logo, this san-serif font was used primarily for the headings included on the site. The letters are spaced out considerably and is therefore likely to have greater readability than script typography. 
 
 - **Roboto**: When previewed on Google fonts, this font appeared to compliment Monserat the most and it too is rounded which often conveys soft tones and perceived approachableness. 
 
 ### **3.4 Colour Pallet**
 
-The following colours were use on the BMS site. The colours’ rgba values were used in the source code rather than the hex values as the rgba values allowed the opacity of the colours to be adjusted where needed and reduce verboseness within in the css source-code. Moreover, the colours’ opacity was adjusted in some instances to convey depth and subtle differences.
+The following colours were use on the BMS site. Rather than using HEX values, RGBA values were used in the source-code as it allowed the opacity of the colours to be adjusted where needed and reduce 'verboseness' of the css source-code. The colours’ opacity was adjusted in some instances to convey depth and subtle differences.
 
 ![](/docs/readme-content/colourpallette.png)
 
