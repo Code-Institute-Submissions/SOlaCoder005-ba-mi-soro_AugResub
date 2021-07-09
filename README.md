@@ -520,15 +520,21 @@ While there were several bugs that arose through the duration of the project, th
 
 **1. JShint Error message**
 
+**Context:** 
+
+When testing the JavaScript through the JShint validator, the following error kept arising: 
+
 |Error Message|
 |------|
 | "arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6')” |
 
-- **Context:** While testing the JavaScript through the JShint validator, the following error kept arising: **_”arrow function syntax (=>)' is only available in ES6…”_**.
+**Reason:** 
 
-- **Reason:** The JavaScript code uses new ECMAScript 6 (ES6) abbreviations of traditional JS code. While it is not supported by all browsers, it is supported by many. As such, ES6 was designed to help programmers reduce code verbosity. For instance, in this case the ‘=>’ function in JS code is often used to shorten the function syntax. Similarly, rather than using bracket notation;  property accessors such as  dot notation is often used to shorten code (W3Schools.com, 2021, Hayani, 2018 & Rafael, 2017).  
+Through research, it was suggestedt that JavaScript code uses new ECMAScript 6 (ES6) abbreviations of traditional JS code. While it is not supported by all browsers, it is supported by many. As such, ES6 was designed to help programmers reduce code verbosity. For instance; in this case the ‘=>’ function in JS code is often used to shorten the function syntax. Similarly, rather than using bracket notation; property accessors such as  dot notation is often used to shorten code (W3Schools.com, 2021, Hayani, 2018 & Rafael, 2017).  
 
-- **Fix:** This error was resolved by using the following syntax:
+**Fix:** 
+
+This error was resolved by using the following syntax:
 
 |JS Comment|
 |------|
@@ -538,17 +544,23 @@ This was placed at the top of the JavaScript source-code as it communicates to t
 
 **2. Redirecting users to another page via JavaScript**
 
-- **Context:** As part of the quiz, it was essential for the users to be directed to the Score page on the BMS once the quiz had been completed. Initially, the following JS syntax was used: 
+**Context:** 
+
+As part of the quiz, it was essential for the users to be directed to the **Score Page** on the BMS once the quiz had been completed. Initially, the following JS syntax was used: 
 
 |JS Statement|
 |------|
 | window.location(“/quizEnd.html”); |
 
-Running this page locally hosted port (Port: 5500) successfully directed to the score page once the game was completed. However, this code continually produced an error when the site was deployed to the live published page, via Github.com. 
+Running this page on a locally hosted port (Port: 5500) successfully directed to the score page once the game was completed. However, this code continually produced an error when the site was deployed to the live published page, via Github.com. 
 
-- **Reason:** This bug was arising as the code was running on the local repository and therefor was able to run the local quizEnd.html file. 
+**Reason:** 
 
-- **Fix:** This error was resolved by changing the pathway of the page to redirect to. To do this, the following code was used and redirected to the official deployed URL: 
+This bug was arising as the code was running on the local repository and therefore was able to run the local /quizEnd.html file. 
+
+**Fix:** 
+
+This error was resolved by changing the pathway of the page to redirect to. To do this, the following code was used and redirected to the official deployed URL: 
 
 |JS Statement|
 |------|
@@ -556,30 +568,40 @@ Running this page locally hosted port (Port: 5500) successfully directed to the 
 
 **3. JShint Error message: “_____________ undefined variable”**
 
-- **Context:** When running script through the JShint validator the variables ‘bodymovin’ and ‘$’ operator produce returned values as ‘undefined’. When attempting to define the variables in the script, the animation and jQuery features are deactivated. 
+**Context:** 
 
-- **Reason:** The reason for this error was that the variables were not defined initally.
+When running script through the JShint validator the variables ‘bodymovin’ and ‘$’ operator produce returned values as ‘undefined’. When attempting to define the variables in the script, the animation and jQuery features are deactivated. 
 
-- **Fix:** Given that the variables were being used in a block of code, each were declared as ‘var’ variables rather than ‘let’ and/or ‘const’. Decalring the variables this way allowed the animation and toggle features execute successfully. 
+**Reason:** 
+
+The reason for this error was that the variables were not defined initally.
+
+**Fix:** 
+
+Given that the variables were being used in a block of code, each were declared as ‘var’ variables rather than ‘let’ and/or ‘const’. Decalring the variables this way allowed the animation and toggle features execute successfully. 
 
 
 #### **6.5.2 Unfixed bugs**
 
 **1. Multiple JS Code functions will not run on one page**
 
-- **Context:** The primary unfixed bug that should be addressed if this project is developed is reducing the amount of JS code sheets included in the repo. 
+**Context:** 
 
-- **Reason:** 
+The primary unfixed bug that should be addressed if this project is developed is reducing the amount of JS code sheets included in the repo. 
 
-    The repo has multiple JS files for a few reasons: 
+**Reason:** 
 
-    (1) During the initial stages of writing the script, the functions were created and ran on the site individually. It was then combined into one sheet where possible.
+The repo has multiple JS files for a few reasons: 
 
-    (2) As the quizzes vary in difficultly, the structure of questions varied also. As such it became a conscious decision for the questions not to be combined into one quiz. In reflection, the use of ‘fetch ()’ method and web APIs would provide a more sufficient and effective solution to presenting differing question based on difficulty. 
+1.  During the initial stages of writing the script, the functions were created and ran on the site individually. It was then combined into one sheet where possible.
 
-    (3) The developer was unable to find a solution to successfully run multiple functions from one JavaScript. While each worked individually, when combined into one file; some functions would not execute successfully, whereas others would. 
+2. As the quizzes vary in difficultly, the structure of questions varied also. As such it became a conscious decision for the questions not to be combined into one quiz. In reflection, the use of ‘fetch ()’ method and web APIs would provide a more sufficient and effective solution to presenting differing question based on difficulty. 
 
-- **Potential Fix:** Implement the fetch() method with the use of a Web API to the JS source code. This will be considered and implemented in future projects. 
+3. The developer was unable to find a solution to successfully run multiple functions from one JavaScript. While each worked individually, when combined into one file; some functions would not execute successfully, whereas others would. 
+
+**Potential Fix:** 
+
+Implement the fetch(); method with the use of a Web API to the JS source code. This will be considered and implemented in future projects. 
 
 ## 7. Deployment
 
@@ -589,7 +611,7 @@ The Ba Mi Soro website was deployed locally via the use of GitHub (web applicati
 
 |The Process| 
 |-------------|
-|Note: You will need this key to clone your repo to your local space (e.g. on your desktop).|
+|Note: You will need a SSH key to clone your repo to your local space (e.g. on your desktop).|
 |1.	Download the GitBash application and create a SSH key. How to create a SSH key can be found [here]( https://inchoo.net/dev-talk/how-to-generate-ssh-keys-for-git-authorization/).|
 |2.	Sign into [GitHub](https://github.com/).|
 |3.	Click your profile icon in the top-right corner of the GitHub webpage, click **Settings**.|
@@ -643,17 +665,17 @@ Below is an overview on how to deploy a project via GitHub’s GitHub Pages. Thi
 
 Although some of the resources credited below are already listed in the [5. Technologies Used](#5-Technologies-Used) section of the README and [References section](#10-References); the credits listed here are relative to specific content that has been incorporated into the Ba Mi Soro website:
 
-Nav Menu  
+**Nav Menu**  
 
 Tutorials created by [Pop (2020)](https://www.youtube.com/watch?v=ydZc17rlR5E&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=19) and [codeSTACKr (2019)](https://www.youtube.com/watch?v=dIyVTjJAkLw&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=7) influenced the structure of the Navigation menu code was influenced by the YouTube tutorials presented by Direct references can be found in the References section [below](#10-References).
 
-CSS Grid 
+**CSS Grid**
 
-Tutorial created by [Angela Delise(2020)](https://www.youtube.com/watch?v=68O6eOGAGqA&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=16&t=681s) and [codeSTACKEr (2019)](https://www.youtube.com/watch?v=0-DY8J_skZ0&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=15&t=971s) assisted the develpers understanding and implementation of CSS grids. 
+Tutorials created by [Angela Delise(2020)](https://www.youtube.com/watch?v=68O6eOGAGqA&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=16&t=681s) and [codeSTACKEr (2019)](https://www.youtube.com/watch?v=0-DY8J_skZ0&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=15&t=971s) assisted the understanding and implementation of CSS grids. 
 
-Quiz functional logistics
+**Quiz functional logistics**
 
-- [Traversy Media’s (2016)](https://www.youtube.com/watch?v=kVc_XfZY0vI&t=69s) and [J. Q. Quick’s (2019)](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx) tutorial informed influenced the construction of the Ba Mi Soro quizzes. Direct references to this tutorial can be found in the   References section [below](#10-References). 
+- [Traversy Media’s (2016)](https://www.youtube.com/watch?v=kVc_XfZY0vI&t=69s) and [J. Q. Quick’s (2019)](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx) tutorials influenced the construction of the Ba Mi Soro quizzes. Direct references to this tutorial can be found in the References section [below](#10-References). 
 
 - [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecommerce): The Code Institute's lesson and challenges has been referred to help with the construction and functionality of the site. For instance: 
 
