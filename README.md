@@ -108,9 +108,14 @@ If you **can speak** multiple languages:
 The users’ responses were documented in the table below:
 
 
-|Q/User| User 1 | User 2 | User 3 | User 4| 
-|-------------|:-------------:|:-------------:|:-------------:|:-------------
-|Q1.|N/A| N/A| N/A | N/A |
+| **User’s answers to questions** | 
+|-------------|
+|User1 | 
+| 1. No|
+|2. Looks good on the CV, watch movies in my chosen language without subtitles, expand my dating pool, have a language to pass on to my kids in future| 
+|3. A mixture of the above|
+|4 - 7. N/A| 
+
 
 The key demographics and goals of users’ and site owners were identified through the findings derived from the market, competitor, and psychographic analysis. These factors are discussed in more detail below. 
 
