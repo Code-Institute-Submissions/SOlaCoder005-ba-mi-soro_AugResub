@@ -1,15 +1,15 @@
 /*jshint esversion: 6 */
 
-const tallyTotal = document.querySelector('#tallyTotal');
-const totalPoints = localStorage.getItem('totalPoints');
+const tallyTotalRef = document.querySelector('#tallyTotal');
+const totalPointsRef = localStorage.getItem('totalPoints');
 const play = document.querySelector('#btnSeePoints');
-const svgTag = document.querySelector('#svg');
+const confettiAnimationRef = document.querySelector('#svg');
 var bodymovin;
 var $;
 
 //Animation Feature
 let animate = bodymovin.loadAnimation ({
-    wrapper: svgTag, 
+    wrapper: confettiAnimationRef, 
     animType: 'svg',
     loop: false, 
     autoplay: true,
@@ -17,12 +17,12 @@ let animate = bodymovin.loadAnimation ({
 });
 
 play.addEventListener('click', () =>{
-    svgTag.classList.remove('hide');
+    confettiAnimationRef.classList.remove('hide');
     animate.goToAndPlay(0, true);
 });
 
 animate.addEventListener('complete', () => {
-    svgTag.classList.add('hide');
+    confettiAnimationRef.classList.add('hide');
 });
 
 //Quiz-end points fade-in feature
@@ -33,15 +33,8 @@ $(document).ready(function (){
 });
 
 //Fetches score results from the respective quiz user has played
-tallyTotal.innerHTML = totalPoints; 
+tallyTotalRef.innerHTML = totalPointsRef; 
 
-/** DEVELOPER NOTES
- * 'jshint eversion...' tells JavaScript checkers like JShint that source code uses 'ECMAScript 6' specific syntax (Hibbard, 2014)
- * Reference material: 
-        * J. Q. Quick, 2019 [https://youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx]
-        * View Score TallyTotal Feature - Traversy Media, 2016 [https://www.youtube.com/watch?v=kVc_XfZY0vI&t=69s]
-        * Animation Feature - DesignCourse, 2021 [https://www.youtube.com/watch?v=kVc_XfZY0vI&t=69s]
-        * For 'var' variable declarations - Reference Duckett, 2014 p.103. 
-*/ 
+ 
 
 
