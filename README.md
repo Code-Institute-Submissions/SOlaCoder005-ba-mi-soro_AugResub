@@ -80,9 +80,9 @@ The following questions were sent to a group of users who have interest in and/o
 |6. Did you use any of the following resources to aid your learning? For instance; conversation with others, Books, Applications (quizzes and games), Videos (TV shows/ YouTube) or a mixture of the above.|
 |7. If you were to teach, or are teaching younger peers (e.g. your children) additional language(s) (e.g. ‘your native tongue’), which resources do you feel they would respond well to when learning the language? For instance; conversation with others, Books, Applications (quizzes and games), Videos (TV shows/ YouTube) or a mixture of the above.|
 
-The users’ responses were documented and can be viewed [here](/docs/readme-content/userstories-answers.md). 
+**The users’ responses were documented and can be viewed [here](/docs/readme-content/userstories-answers.md).**
 
-#### **Summary: Interpretation of data**
+#### **2.3.1 Summary: Interpretation of data**
 
 Based on the feedback gained from the users; many whos native language is English seemed to want to learn more ‘Romance’ languages. Arguably, there is more simlarity between the english and romance languages than their counterparts, such as Hindi and Japanese. 
 
@@ -214,9 +214,9 @@ This section provides an overview of the features on the BMS  website, and where
 
     - Devices that have a screen-size smaller than 768px will present an expandable and collapsing menu, often titled as a ‘Hamburger menu’. The menu has been created this way to aid user experience and support effective UXD and UI functionalities (e.g. device responsivity). 
 
-| Goal Number| Description| User Stories - Supporting Statement|
-|-----|-----|-----| 
-| 7. | Ensure that the quiz can be accessed by users on most devices (i.e phone, tablet, laptops, and desktops)| N/A| 
+| Goal Number| Description|
+|-----|-----|
+| 7. | Ensure that the quiz can be accessed by users on most devices (i.e phone, tablet, laptops, and desktops)|
 
 ### **4.1 Enter Page**
 
@@ -232,8 +232,8 @@ This section provides an overview of the features on the BMS  website, and where
     
     For instance, to ‘enter’ the site they need to click the button. To bolster this message, the button’s text turns to orange and the cursor turns into a pointer when the user hovers over the button. 
 
-| Goal Number| Description| User Stories - Supporting Statement|
-|-----|-----|-----| 
+| Goal Number| Description|
+|-----|-----|
 | 7. | Ensure that the quiz can be accessed by users on most devices (i.e phone, tablet, laptops, and desktops)| N/A| 
 
 ### **4.2 Quiz Landing page**
@@ -254,9 +254,9 @@ This section provides an overview of the features on the BMS  website, and where
 
     - The icons presented int the latter part of the page links to additional sections and pages on the site.  
 
-| Goal Number| Description| User Stories - Supporting Statement|
-|-----|-----|-----| 
-| 7. | Ensure that the quiz can be accessed by users on most devices (i.e phone, tablet, laptops, and desktops)| N/A| 
+| Goal Number| Description| 
+|-----|-----| 
+| 7. | Ensure that the quiz can be accessed by users on most devices (i.e phone, tablet, laptops, and desktops)|
 
 
 #### **4.2.1 The Quizzes - Beginner, Intermediate and Advanced Quiz**
@@ -277,6 +277,7 @@ This section provides an overview of the features on the BMS  website, and where
 ![](docs/screenshots/intermediateqz-GenericLaptop.jpg)
 
 **Level: Intermediate**
+
 - Purpose: To test the user’s understanding and comprehension of some Yoruba sentences.
 
 - How: The user is asked to complete the presented sentence with the correct Yoruba word. To do this correctly, the user will likely have a deeper understanding of Yoruba grammar. 
@@ -286,6 +287,7 @@ This section provides an overview of the features on the BMS  website, and where
 ![](docs/screenshots/advancedqz-GenericLaptop.jpg)
 
 **Level: Advanced**
+
 - Purpose: To test the user’s understanding and comprehension of conversation spoken in a Yoruba language.  
 
 - How: The user is asked to pick the correct answers in relation to the story presented. The story is written in Yoruba, however, to aid users understanding – the answers are written in English. This quiz is also designed to test Yoruba language and grammar.
@@ -310,14 +312,14 @@ This section provides an overview of the features on the BMS  website, and where
 
     - At the end of the quiz, the user will be directed to the score page. This shall be discussed in latter sections. 
 
-| Goal Number| Description| User Stories - Supporting Statement|
-|-----|-----|-----| 
-|1. | Play an online quiz that can be accessed anywhere on different devices.|N/A |
-|4. |Test personal knowledge of the Yoruba language for leisure and educational purposes.| N/A| 
-|5. |Strengthen ability in understanding the Yoruba language in more complex contexts (e.g. increased comprehension) | N/A| 
-|6. | Provide a front-end accessible quiz. | N/A|  
-|8. | Provide content that: (1) Assists user’s knowledge and development of the Yoruba language, (2) Challenges users’ varying ability and/or understanding of the Yoruba language and (3) Can help different age-groups learn Yoruba.| N/A| 
-|9. | Provide users with feedback on their quiz score. |N/A | 
+| Goal Number| Description|
+|-----|-----|
+|1. | Play an online quiz that can be accessed anywhere on different devices.|
+|4. |Test personal knowledge of the Yoruba language for leisure and educational purposes.|
+|5. |Strengthen ability in understanding the Yoruba language in more complex contexts (e.g. increased comprehension) |
+|6. | Provide a front-end accessible quiz. |
+|8. | Provide content that: (1) Assists user’s knowledge and development of the Yoruba language, (2) Challenges users’ varying ability and/or understanding of the Yoruba language and (3) Can help different age-groups learn Yoruba.|
+|9. | Provide users with feedback on their quiz score. |
 
 #### **4.2.1 Score page**
 
@@ -335,12 +337,8 @@ This section provides an overview of the features on the BMS  website, and where
 
     - This feature is activated once the user completes the quiz and then active again once the ‘VIEW SCORE’ button. This has been added to increase the informal tone of the overall BMS site. 
 
-| Goal Number| Description| User Stories - Supporting Statement|
-|-----|-----|-----| 
-|N/A|N/A|N/A | 
-
-
 ### **4.3 Phrase Sheets page**
+
 ![](docs/screenshots/phrasesheets-GenericLaptop.jpg)
 
 1. Beginner, Intermediate and Advanced Phrase Sheets
@@ -357,23 +355,25 @@ This section provides an overview of the features on the BMS  website, and where
 
     - Once the buttons are clicked, the phrase sheets automatically download to the persons device. This works on desktop, android, and mobile devices.
 
-| Goal Number| Description| User Stories - Supporting Statement|
-|-----|-----|-----| 
-|5. | Strengthen ability in understanding the Yoruba language in more complex contexts (e.g. increased comprehension). |N/A | 
-|8. | (3) Can help different age-groups learn Yoruba. |N/A | 
+| Goal Number| Description|
+|-----|-----|
+|5. | Strengthen ability in understanding the Yoruba language in more complex contexts (e.g. increased comprehension). |
+|8. | (3) Can help different age-groups learn Yoruba. |
 
 ### **4.4 Contact Us form page**
+
 ![](docs/screenshots/contactus-GenericLaptop.jpg)
 
 - The form has been created to receive users’ feedback. A text box has been used rather thank multiple choice questions as it allows the user to provide qualitative feedback. Feedback of this nature can help the site owner analyse how the site and its quizzes can be developed to bolster users’ experience.
 
 - The form has been tested and submits successfully. 
 
-| Goal Number| Description| User Stories - Supporting Statement|
+| Goal Number| Description|
 |-----|-----|-----| 
-|10. | Gain users’ feedback on the usefulness of the application. |N/A | 
+|10. | Gain users’ feedback on the usefulness of the application. |
 
 ### **4.5 404 page**
+
 ![](docs/screenshots/404e-GenericLaptop.jpg)
 
 1. Central Logo 
