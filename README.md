@@ -105,23 +105,22 @@ If you **can speak** multiple languages:
     - Videos (TV shows/ YouTube)
     - A mixture of the above
 
-The users’ responses were documented in the table below:
+The users’ responses were documented and can be viewed [here](/docs/readme-content/userstories-answers.md). 
 
+#### **Summary: Interpretation of data**
 
-| **User’s answers to questions** | 
-|-------------|
+Based on the feedback gained from the users; many whos native language is English seemed to want to learn more ‘Romance’ languages. Arguably, there is more simlarity between the english and romance languages than their counterparts, such as Hindi and Japanese. 
 
-|User1 | 
-|-------------|
-| 1. No|
-|2. Looks good on the CV, watch movies in my chosen language without subtitles, expand my dating pool, have a language to pass on to my kids in future| 
-|3. A mixture of the above|
-|4 - 7. N/A| 
+Moreover, users who did speak other non ‘romance’ languages (e.g. GA, Yoruba and Twi) seemed to have learnt their respective languages mostly through socio-cultural practices. 
 
+With this in mind, it is likely that the Ba Mi Soro website would appeal to those who are interested/ familiar with African culture(s) particularly those within Nigeria.
 
 The key demographics and goals of users’ and site owners were identified through the findings derived from the market, competitor, and psychographic analysis. These factors are discussed in more detail below. 
 
+
 ### **2.4 Key Demographic(s)**
+
+The key demographics and goals of users’ and site owners were identified through the findings were derived from market, competitor, and psychographic analysis. These factors are discussed in more detail below. 
 
 - Age: 8-50
 - Sex: Men and Women
