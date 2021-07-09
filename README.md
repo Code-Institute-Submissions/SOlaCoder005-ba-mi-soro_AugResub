@@ -660,9 +660,12 @@ Tutorial created by [Angela Delise(2020)](https://www.youtube.com/watch?v=68O6eO
 
 - [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecommerce): The Code Institute's lesson and challenges has been referred to help with the construction and functionality of the site. For instance: 
 
-    - Form validation URL: The Code Institute’s URL (https://formdump.codeinstitute.net) has been incorporated into the form on the ‘Contact Us’ page of the website. The tutorial can be found [here](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/ee2afa91c35e4268b7de2ea21fe311dd/9?activate_block_id=block-v1%3ACodeInstitute%2BHE101%2B2020%2Btype%40vertical%2Bblock%4004ae28359c4340048efdeeacf3363eb0).
+    - Form validation URL: 
+    
+    The Code Institute’s URL (https://formdump.codeinstitute.net) has been incorporated into the form on the ‘Contact Us’ page of the website. The tutorial can be found [here](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/ee2afa91c35e4268b7de2ea21fe311dd/9?activate_block_id=block-v1%3ACodeInstitute%2BHE101%2B2020%2Btype%40vertical%2Bblock%4004ae28359c4340048efdeeacf3363eb0).
 
-    - Changing Existing Elements: This challenge was referred to to form the quizzes’ buttons. Click [here](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+2021_T1/courseware/0a4bf408d10c4149bb686457ac11edf6/37e3becd93804fdf8bf586523f56ead5/) to access the tutorial.  
+    - Changing Existing Elements: 
+    This challenge was referred to to form the quizzes’ buttons. Click [here](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+2021_T1/courseware/0a4bf408d10c4149bb686457ac11edf6/37e3becd93804fdf8bf586523f56ead5/) to access the tutorial.  
 
 -   [Font Awesome](https://fontawesome.com/): The icons used on the website has been sourced from Font Awesome.
 
@@ -693,6 +696,7 @@ Similarly, The jQuery used within the source-code assists with specific function
 Specifically the animation used on the BMS’ score page was created by [Arvind Lakhani](https://lottiefiles.com/7434-confetti). The **colour scheme and speed** of the animation was adapted by the developer to fulfil the needs of the BMS website. Further, a tutorial by [DesignCourse (2021)](https://www.youtube.com/watch?v=x8WW0DDXZ4w&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=22) provided an example of how to implement the animation into HTML and JS code. 
 
 ## 9. Acknowledgements
+
 ## 10. References
 
 ### Books
