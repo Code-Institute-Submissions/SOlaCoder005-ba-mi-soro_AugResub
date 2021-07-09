@@ -69,7 +69,7 @@ Prior to creating the BMS website, some market research was conducted in the hop
 
 The following questions were sent to a group of users who have interest in and/or are actively learning language(s) aside from their mother tongue: 
 
-|the Questions|
+|The Questions|
 |-------------|
 |1. Do you and/or peers (e.g. friends, children, siblings, parents, partner) communicate more than one language?|
 |If you **cannot speak** multiple languages, but would be interested in learning to...|
