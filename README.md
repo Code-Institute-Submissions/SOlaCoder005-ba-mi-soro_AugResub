@@ -67,12 +67,11 @@ As the core aim of the BMS is to add to educational resources that teaches Yorub
 
 Prior to creating the BMS website, some market research was conducted in the hopes to gain insight into users’ expectations when engaging with resources designed to assist in learning a language.  
 
-The following questions were sent to a group of users who have interest in and/or are actively learning language(s) aside from their mother tongue: 
+The following questions were sent to a group of users who have interest in and/or are actively learning language(s) aside from their native tongue: 
 
 |The Questions|
 |-------------|
 |1. Do you and/or peers (e.g. friends, children, siblings, parents, partner) communicate more than one language?|
-|If you **cannot speak** multiple languages, but would be interested in learning to...|
 |2. Why would you like to learn another language?|
 |3. Which type of resources would you like to engage with when learning another language? For instance conversation with others, Books, Applications (quizzes and games), Videos (TV shows/ YouTube) or a mixture of the above.|
 |4. What other language(s) can you speak?|
@@ -84,18 +83,16 @@ The following questions were sent to a group of users who have interest in and/o
 
 #### **2.3.1 Summary: Interpretation of data**
 
-Based on the feedback gained from the users; many whos native language is English seemed to want to learn more ‘Romance’ languages. Arguably, there is more simlarity between the english and romance languages than their counterparts, such as Hindi and Japanese. 
+Based on the feedback gained from the users; many who speak English seemed to want to learn more ‘Romance’ languages. Arguably, there is more simlarity between English and romance languages as they are latin derividents. Languages such as Hindi and Japanese differ considerably. 
 
-Moreover, users who did speak other non ‘romance’ languages (e.g. GA, Yoruba and Twi) seemed to have learnt their respective languages mostly through socio-cultural practices. 
+Moreover, users who did speak other non ‘romance’ languages (e.g. GA, Yoruba and Twi) seemed to have learnt theses languages through socio-cultural practices and peer-to-peer learning. 
 
 With this in mind, it is likely that the Ba Mi Soro website would appeal to those who are interested/ familiar with African culture(s) particularly those within Nigeria.
 
-The key demographics and goals of users’ and site owners were identified through the findings derived from the market, competitor, and psychographic analysis. These factors are discussed in more detail below. 
+The key demographics and goals of users’ and site owners were identified through market, competitor, and psychographic analysis. These factors are discussed in more detail below. 
 
 
 ### **2.4 Key Demographic(s)**
-
-The key demographics and goals of users’ and site owners were identified through the findings were derived from market, competitor, and psychographic analysis. These factors are discussed in more detail below. 
 
 - Age: 8-50
 - Sex: Men and Women
@@ -124,7 +121,7 @@ The key demographics and goals of users’ and site owners were identified throu
 
 8.  Provide content that:
 
-    - Assists user’s knowledge and development of the Yoruba language.
+    - Assists users' knowledge and development of the Yoruba language.
     - Challenges users’ varying ability and/or understanding of the Yoruba language.
     - Can help different age-groups learn Yoruba.
 
