@@ -28,8 +28,9 @@ const fetchNextQuestion = () => {
 
     questionCounter++;
     questionTracker.innerHTML = questionCounter + "/" + directoryQuestionsMax;
-    
-    const questionIndex = Math.floor(Math.random() * directoryQuestions.length);
+
+    let questionIndex;
+    questionIndex = Math.floor(Math.random() * directoryQuestions.length);
     liveQuestion = directoryQuestions[questionIndex];
     question.innerHTML = liveQuestion.question;
 
@@ -39,13 +40,12 @@ const fetchNextQuestion = () => {
     });
 
     directoryQuestions.splice(questionIndex, 1);
-    monitoringAnswers = true; 
+    monitoringAnswers = true;
 };
 
 let liveQuestion = {};
 let monitoringAnswers = false; 
-let tally = 0;
-let questionCounter = 0;
+let tally = 0;let questionCounter = 0;
 let directoryQuestions = [];
 let pointsIncrease = {};
 let pointsDecrease = {};

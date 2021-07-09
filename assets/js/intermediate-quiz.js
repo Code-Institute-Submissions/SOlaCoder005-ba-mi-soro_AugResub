@@ -21,25 +21,26 @@ const startQuiz = () => {
  * The questions are randomise using the Math.floor(Math.random()) method. 
  */
  const fetchNextQuestion = () => {
-    if (directoryQuestions.length === 0 || questionCounter > directoryQuestionsMax) {
-       localStorage.setItem("totalPoints", tally); 
-       window.location.assign("https://solacoder005.github.io/ba-mi-soro/quiz-end.html");
-    }
+     if (directoryQuestions.length === 0 || questionCounter > directoryQuestionsMax) {
+        localStorage.setItem("totalPoints", tally); 
+        window.location.assign("https://solacoder005.github.io/ba-mi-soro/quiz-end.html");
+     }
 
-    questionCounter++;
-    questionTracker.innerHTML = questionCounter + "/" + directoryQuestionsMax;
-    
-    const questionIndex = Math.floor(Math.random() * directoryQuestions.length);
-    liveQuestion = directoryQuestions[questionIndex];
-    question.innerHTML = liveQuestion.question;
+     questionCounter++;
+     questionTracker.innerHTML = questionCounter + "/" + directoryQuestionsMax;
 
-    options.forEach( option => {
-        const number = option.dataset.number;
-        option.innerHTML = liveQuestion['option' + number];
-    });
+     let questionIndex;
+     questionIndex = Math.floor(Math.random() * directoryQuestions.length);
+     liveQuestion = directoryQuestions[questionIndex];
+     question.innerHTML = liveQuestion.question;
 
-    directoryQuestions.splice(questionIndex, 1);
-    monitoringAnswers = true; 
+     options.forEach( option => {
+         const number = option.dataset.number;
+         option.innerHTML = liveQuestion['option' + number];
+     });
+
+     directoryQuestions.splice(questionIndex, 1);
+     monitoringAnswers = true;
 };
 
 let liveQuestion = {};

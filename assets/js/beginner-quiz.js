@@ -15,10 +15,6 @@ const startQuiz = () => {
     fetchNextQuestion();
 };
 
-/**
- * This presents new quetion to user once answering the current question. 
- * The questions are randomise using the Math.floor(Math.random()) method. 
- */
 const fetchNextQuestion = () => {
     if (directoryQuestions.length === 0 || questionCounter > directoryQuestionsMax) {
         localStorage.setItem("totalPoints", tally);
@@ -28,7 +24,8 @@ const fetchNextQuestion = () => {
     questionCounter++;
     questionTracker.innerHTML= questionCounter + "/" + directoryQuestionsMax;
 
-    const questionIndex = Math.floor(Math.random() * directoryQuestions.length);
+    let questionIndex;
+    questionIndex = Math.floor(Math.random() * directoryQuestions.length);
     liveQuestion = directoryQuestions[questionIndex];
     question.innerHTML= liveQuestion.question;
 
@@ -43,7 +40,7 @@ const fetchNextQuestion = () => {
 
 let liveQuestion = {};
 let monitoringAnswers = false;
-let tally = 0; 
+let tally = 0;
 let questionCounter = 0;
 let directoryQuestions = [];
 let pointsIncrease = {};
