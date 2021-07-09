@@ -646,17 +646,17 @@ Below is an overview on how to deploy a project via GitHub’s GitHub Pages. Thi
 
 Although some of the resources credited below are already listed in the [5. Technologies Used](#5-Technologies-Used) section of the README and [References section](#10-References); the credits listed here are relative to specific content that has been incorporated into the Ba Mi Soro website:
 
-- Nav Menu  
+Nav Menu  
 
 Tutorials created by [Pop (2020)](https://www.youtube.com/watch?v=ydZc17rlR5E&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=19) and [codeSTACKr (2019)](https://www.youtube.com/watch?v=dIyVTjJAkLw&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=7) influenced the structure of the Navigation menu code was influenced by the YouTube tutorials presented by Direct references can be found in the References section [below](#10-References).
 
-- CSS Grid 
+CSS Grid 
 
 Tutorial created by [Angela Delise(2020)](https://www.youtube.com/watch?v=68O6eOGAGqA&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=16&t=681s) and [codeSTACKEr (2019)](https://www.youtube.com/watch?v=0-DY8J_skZ0&list=PLH7H7OKKWG3T0SAJxSVBxr-Qz-219iWeH&index=15&t=971s) assisted the develpers understanding and implementation of CSS grids. 
 
-- Quiz functional logistics
+Quiz functional logistics
 
-[Traversy Media’s (2016)](https://www.youtube.com/watch?v=kVc_XfZY0vI&t=69s) and [J. Q. Quick’s (2019)](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx) tutorial informed influenced the construction of the Ba Mi Soro quizzes. Direct references to this tutorial can be found in the   References section [below](#10-References). 
+- [Traversy Media’s (2016)](https://www.youtube.com/watch?v=kVc_XfZY0vI&t=69s) and [J. Q. Quick’s (2019)](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx) tutorial informed influenced the construction of the Ba Mi Soro quizzes. Direct references to this tutorial can be found in the   References section [below](#10-References). 
 
 - [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecommerce): The Code Institute's lesson and challenges has been referred to help with the construction and functionality of the site. For instance: 
 
