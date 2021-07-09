@@ -109,6 +109,7 @@ The users’ responses were documented in the table below:
 
 
 | **User’s answers to questions** | 
+|-------------|
 
 |User1 | 
 |-------------|
