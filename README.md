@@ -314,7 +314,7 @@ This section provides an overview of the features on the BMS website, and where 
 
 3. Question Tracker
 
-    - Once each button is clicked, the questions tracker increases. Based on the JavaScript methods used ( e.g. Math.Floor(Math.random()..) ), each question is randomised. Therefore the questions will be presented in a different order each time the quiz is loaded/refreshed in the browser window. 
+    - Once each button is clicked, the questions tracker increases. As [Math functions](https://www.techonthenet.com/js/math_floor.php) were used in the script (e.g. Math.floor(Math.random()..) ), each question is randomised. Therefore, the questions will be presented in a different order each time the quiz is loaded/refreshed in the browser window. 
 
 4. Points tally tracker
 
@@ -595,13 +595,13 @@ The repo has multiple JS files for a few reasons:
 
 1.  During the initial stages of writing the script, the functions were created and ran on the site individually. It was then combined into one sheet where possible.
 
-2. As the quizzes vary in difficultly, the structure of questions varied also. As such it became a conscious decision for the questions not to be combined into one quiz. In reflection, the use of ‘fetch ()’ method and web APIs would provide a more sufficient and effective solution to presenting differing question based on difficulty. 
+2. As the quizzes vary in difficultly, the structure of questions varied also. As such it became a conscious decision for the questions not to be combined into one quiz. 
 
-3. The developer was unable to find a solution to successfully run multiple functions from one JavaScript. While each worked individually, when combined into one file; some functions would not execute successfully, whereas others would. 
+3. The developer was unable to find a solution to successfully run multiple functions from one external script. While each worked individually, when combined into one file; some functions would not execute successfully, whereas others would. 
 
 **Potential Fix:** 
 
-Implement the fetch(); method with the use of a Web API to the JS source code. This will be considered and implemented in future projects. 
+Implement the fetch(); method with the use of a Web API to the JS source code. In reflection, the use of ‘fetch ();’ method and web APIs would provide a more sufficient and effective solution to presenting different questions based on difficulty. This will be considered and implemented in future projects. 
 
 ## 7. Deployment
 
