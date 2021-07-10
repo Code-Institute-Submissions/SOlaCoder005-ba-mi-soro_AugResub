@@ -43,13 +43,13 @@ const startQuiz = () => {
      monitoringAnswers = true;
 };
 
-let liveQuestion = {};
+let liveQuestion = null;
 let monitoringAnswers = false;
-let tally = 0; 
+let tally = 0;
 let questionCounter = 0;
-let directoryQuestions = [];
-let pointsIncrease = {};
-let pointsDecrease = {};
+let directoryQuestions = null;
+let pointsIncrease = null;
+let pointsDecrease = null;
 
 let listOfQuestions = [
     {
