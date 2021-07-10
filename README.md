@@ -23,7 +23,7 @@ In a country that speaks over 200 languages, Yoruba is one of the most common sp
 
 **Features Overview** 
 
-There are three quizzes which vary in difficulty and the variation in difficulty is reflected in the (downloadable) phrase sheets also. The quizzes have been designed to appeal to, and challenge, a variety of users (e.g. of different age groups and abilities in speaking Yoruba). 
+There are three quizzes which vary in difficulty. The difficulty is reflected in the (downloadable) phrase sheets also. The quizzes have been designed to appeal to, and challenge, a variety of users (e.g. of different age groups and abilities in speaking Yoruba). 
 
 ## 2. User Experience (UX)
 
@@ -61,7 +61,7 @@ While the Yoruba language is commonly spoken in Nigeria, it can be argued that c
 
 **2.2.2 How does BMS differ competitors?**
 
-As the core aim of the BMS is to add to educational resources that teaches Yoruba, the BMS does not differ considerably from other applications and websites that teach the Yoruba language. 
+As the core aim of BMS is to add to educational resources that teach Yoruba - BMS does not differ considerably from other applications and websites that teach the Yoruba language. 
 
 ### **2.3 Key Psychographic(s)**
 
@@ -735,6 +735,12 @@ I would also like to thank;
 - **Duckett, J., 2014.** JavaScript & JQuery: Interactive Front-End Web Development. John Wiley & Sons.
 
 - **DuRocher, D., 2020.** HTML and CSS QuickStart Guide. 1st ed. ClydeBank Media LLC.
+
+**Language References**
+   
+- **Kashaorow, 2013.** Modern Yoruba Grammar
+- **Fakinlede, K., 2018.** Beginner's Yoruba with online audio.
+- **Adeola, A., 2016.** Yoruba Language - The Yoruba Phrasebook and Dictionary 
 
 ### Online Resources 
 

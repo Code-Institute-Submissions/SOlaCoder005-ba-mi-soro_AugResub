@@ -1,5 +1,16 @@
 # Users' answers to questions
 
+The following questions were sent to a group of users who have interest in and/or are actively learning language(s) aside from their native tongue:
+
+|The Questions|
+|-------------|
+|1. Do you and/or peers (e.g. friends, children, siblings, parents, partner) communicate more than one language?|
+|2. Why would you like to learn another language?|
+|3. Which type of resources would you like to engage with when learning another language? For instance conversation with others, Books, Applications (quizzes and games), Videos (TV shows/ YouTube) or a mixture of the above.|
+|4. What other language(s) can you speak?|
+|5. How did you learn to speak other language(s)?|
+|6. Did you use any of the following resources to aid your learning? For instance; conversation with others, Books, Applications (quizzes and games), Videos (TV shows/ YouTube) or a mixture of the above.|
+|7. If you were to teach, or are teaching younger peers (e.g. your children) additional language(s) (e.g. ‘your native tongue’), which resources do you feel they would respond well to when learning the language? For instance; conversation with others, Books, Applications (quizzes and games), Videos (TV shows/ YouTube) or a mixture of the above.|
 
 |User 1 | 
 |-------------|
