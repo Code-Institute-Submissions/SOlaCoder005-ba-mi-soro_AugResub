@@ -4,10 +4,11 @@ const tallyTotalRef = document.querySelector('#tallyTotal');
 const totalPointsRef = localStorage.getItem('totalPoints');
 const play = document.querySelector('#btnSeePoints');
 const confettiAnimationRef = document.querySelector('#svg');
+
 var bodymovin;
 var $;
 
-//Animation Feature
+//Animation feature plays at the end of quiz
 let animate = bodymovin.loadAnimation ({
     wrapper: confettiAnimationRef, 
     animType: 'svg',
@@ -16,13 +17,13 @@ let animate = bodymovin.loadAnimation ({
     path: 'https://assets2.lottiefiles.com/packages/lf20_awltzwnj.json', 
 });
 
+animate.addEventListener('complete', () => {
+    confettiAnimationRef.classList.add('hide');
+});
+
 play.addEventListener('click', () =>{
     confettiAnimationRef.classList.remove('hide');
     animate.goToAndPlay(0, true);
-});
-
-animate.addEventListener('complete', () => {
-    confettiAnimationRef.classList.add('hide');
 });
 
 //Quiz-end points fade-in feature

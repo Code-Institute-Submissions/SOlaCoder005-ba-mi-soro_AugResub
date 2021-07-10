@@ -559,12 +559,12 @@ section {
 
 .return-content > button:hover {
 	color: rgb(239, 130, 62);
-	border: 4px solid rgb(239, 130, 62);
+	box-shadow: 7px 7px 7px rgb(0, 0, 0, .8);
 }
 
 .return-content > a:hover {
 	color: rgb(239, 130, 62);	
-	border: 4px solid rgb(239, 130, 62);
+	box-shadow: 7px 7px 7px rgb(0, 0, 0, .8);
 }
 
 #tallyTotal {

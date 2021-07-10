@@ -16,9 +16,3 @@ hamburgerBtn.addEventListener('click', () => {
         hamburgerBtnExpand = false;
     }
 });
-
-/** DEVELOPER NOTES
- * Reference material: 
-        * Florin Pop, 2020 
-        * codeSTACKr, 2019
-*/ 
