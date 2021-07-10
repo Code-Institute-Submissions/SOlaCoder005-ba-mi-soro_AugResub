@@ -131,19 +131,24 @@ The key demographics and goals of users’ and site owners were identified throu
 
 ## 3. Content
 
-Formulating and executing such elements were integral the development of the BMS site. Arguably, consideration of these factors echoes the premises of the latter planes of the 5PUXD Model. For instance, when designing the BMS site, it was essential to identify:
+Formulating and executing such elements were integral to the development of the BMS site. Arguably, consideration of these factors echoes the premises of the latter planes of the 5PUXD Model. For instance, when designing the BMS site, it was essential to identify:
 
 1. The required information of the site (structure)
-2. how users can access this content (skeleton)
+2. How users can access this content (skeleton)
 
 ### **3.1 Wireframes** 
 
-The wireframes below were drawn up before physically creating the BMS site. Each page shall be discussed in more detail in the [features](#4-features) section. Creating the preliminary mock-ups of the BMS site helped to highlight the  strengths, weakness and limitations of the BMS design. It also allowed a more accurate analysis of the following factors: 
+The wireframes below were drawn up before physically creating the BMS site. Each page shall be discussed in more detail in the [features](#4-features) section. 
+
+Creating the preliminary mock-ups of the BMS site helped to highlight the  strengths, weakness and limitations of the BMS design. It also allowed a more accurate analysis of the following factors: 
 
 1. Which design elements were feasible to execute within the project time-frame.
 2. Which could be implemented if the BMS site could be expanded on if the project development were extended.   
 
+
 ![](docs/wireframes/bamisoroinitial.jpg)
+
+
 
 #### **Initial wireframes** 
 
@@ -176,23 +181,23 @@ With reference to colour choice, the orange shapes were used to convey the idea 
 
 ![](/docs/readme-content/fonts-used.PNG) 
 
-- **Monserat**: To compliment the BMS logo, this san-serif font was used primarily for the headings included on the site. The letters are spaced out considerably and is therefore likely to have greater readability than script typography. 
+- **Monserat**: To compliment the BMS logo, this san-serif font was used primarily for the headings included on the site. The letters are spaced out considerably and is likely to have greater readability than script styled typography. 
 
-- **Roboto**: When previewed on Google fonts, this font appeared to compliment Monserat the most and it too is rounded which often conveys soft tones and perceived approachableness. 
+- **Roboto**: When previewed on Google Fonts, this font appeared to compliment Monserat the most as it too is rounded which often conveys soft tones and connoates fun and = approachableness. 
 
 ### **3.4 Colour Pallet**
 
-The following colours were use on the BMS site. Rather than using HEX values, RGBA values were used in the source-code as it allowed the opacity of the colours to be adjusted where needed and reduce 'verboseness' of the css source-code. The colours’ opacity was adjusted in some instances to convey depth and subtle differences.
+The colours presented below were used on the BMS site. Rather than using HEX values, RGBA values were used in the source-code as it allowed the opacity of the colours to be adjusted where needed and reduce 'verboseness' of the css source-code. The colours’ opacity was adjusted in some instances to convey depth and subtle differences.
 
 ![](/docs/readme-content/colourpallette.png)
 
-- [#FF0000](https://www.webfx.com/web-design/hex-to-rgb/#FF0000/)
+- [#FF0000](https://www.webfx.com/web-design/hex-to-rgb/#FF0000)
 - [#EF823E](https://www.webfx.com/web-design/hex-to-rgb/#EF823E)
 - [#9ACD32](https://www.webfx.com/web-design/hex-to-rgb/#9ACD32)
 - [#9018F1](https://www.webfx.com/web-design/hex-to-rgb/#9018F1)
 - [#5D5D5D]( https://www.webfx.com/web-design/hex-to-rgb/#5D5D5D)
 - [#5A5757](https://www.webfx.com/web-design/hex-to-rgb/#5A5757)
-- [#FFFFFF](https://www.webfx.com/web-design/hex-to-rgb/)
+- [#FFFFFF](https://www.webfx.com/web-design/hex-to-rgb/#FFFFFF)
 
 ## 4. Features
 
