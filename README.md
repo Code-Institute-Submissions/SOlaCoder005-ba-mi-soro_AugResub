@@ -10,7 +10,7 @@
 6. [Testing](#6-Testing)
 7. [Deployment](#7-Deployment)
 8. [Credits](#8-Credits)
-9. [Acknowledgements](#9-Acknowledgements)
+9. [Personal Acknowledgements](#9-Personal-Acknowledgements)
 10. [References](#10-References)
 
 ## 1. Overview
@@ -728,15 +728,15 @@ The animation used on the BMS’ score page was created by [Arvind Lakhani](http
 
 ## 9. Personal Acknowledgements
 
-This project could not have been achived without the strength given to me by God! :raised_hands:
+:raised_hands: This project could not have been achived without the strength given to me by God! 
 
-Additional thanks goes out to my Husband for all his loving patience and support. :heartpulse:
+:heartpulse: Additional thanks goes out to my Husband for all his loving patience and support. 
 
 I would also like to thank;
 
-- My mentor for the invaluable advice he has given me in relation to this project and overall coding principles. 
-- All the users that provided their feedback. Their feedback helped me to clarify the purpose of the BMS website. 
-- The Code Institute for the invaluable coding resources that has aided my learnig. 
+- :computer: My mentor for the invaluable advice he has given me in relation to this project and overall coding principles. 
+- :speech_balloon: All the users that provided their feedback. Their feedback helped me to clarify the purpose of the BMS website. 
+- :books: The Code Institute for the invaluable coding resources that has aided my learnig. 
 
 ## 10. References
 
