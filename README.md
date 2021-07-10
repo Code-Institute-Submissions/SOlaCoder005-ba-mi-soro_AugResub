@@ -386,7 +386,7 @@ This section provides an overview of the features on the BMS website, and where 
 - The form has been tested and submits successfully. 
 
 | Goal Number| Description|
-|-----|-----|-----| 
+|-----|-----|
 |10. | Gain users’ feedback on the usefulness of the application. |
 
 ### **4.5 404 page**
