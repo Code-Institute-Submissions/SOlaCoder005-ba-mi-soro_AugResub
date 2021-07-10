@@ -762,6 +762,8 @@ I would also like to thank;
 
 - [GeneratePress. 2021. Tom - Lead Developer | 15th April 2016 #187200 | Shadow under nav bar - GeneratePress](https://generatepress.com/forums/topic/shadow-under-nav-bar)
 
+- [Github.com 2021. Creating a custom 404 page for your GitHub Pages site - GitHub Docs.](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+
 - [Google Fonts. 2021. Google Fonts](https://fonts.google.com/specimen/Montserrat?category=Sans+Serif,Display#standard-styles)
 
 - [Hayani, S., 2018. JavaScript ES6 — write less, do more](https://www.freecodecamp.org/news/write-less-do-more-with-javascript-es6-5fd4a8e50ee2/#:~:text=JavaScript%20ES6%20brings%20new%20syntax,destruction%2C%20Modules%E2%80%A6%20and%20more)
