@@ -448,9 +448,9 @@ The BMS website and its quizzes could be improved through a plethora of addition
 
 For instance;
 
--  JS script was used to instigate the colour change of the quiz buttons when the right or wrong answers were clicked on.  
+-  JS statements and functions were used to instigate the colour change of the quiz buttons when the right or wrong answers were clicked on.  
 
-- JS script was also used to enable the hiding and appearing function of the scores once the quizzes were completed. elements of the website. 
+- JS statements and functions were also used to enable the hiding and appearing function of the scores once the quizzes were completed. elements of the website. 
 
 - **JQuery**: Supported specific functionalities (e.g. confetti animation) within the site through simplifying ‘Document Object Model’ (DOM) manipulation (Developer.mozilla.org, 2021).
 
@@ -497,17 +497,17 @@ To ensure that the HTML, CSS and JS source-code adhered to industry standards, e
 
 - [W3C Validator](https://validator.w3.org/)
 - [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator)
-- [JShint Validator](https://jshint.com/). 
+- [JShint Validator](https://jshint.com/)
 
 All the tests produced **0 errors**. Evidence of the tests can be found in the testing repository directory, [here](docs/testing).
 
 ### **6.2 WAVE: Website Accessibility Test**
 
-The [WAVE Accessibility Evaluation Tool](https://wave.webaim.org) was used to evaluate the overall accessibility of the BMS site. It considered factors such as the quantity and suitability of accessibility features used on the website (e.g. aria-labels, degree of contrast). The results produced **0 errors**, thus passing the overall test. However, there was one contrast error which has not been altered due to design preferences. Evidence for the results of each page can be found [here](docs/testing/wave-results). 
+The [WAVE Accessibility Evaluation Tool](https://wave.webaim.org) was used to evaluate the overall accessibility of the BMS site. It considered factors such as the suitability of accessibility features used on the website (e.g. aria-labels, degree of contrast). The results produced **0 errors**, thus passing the overall test. However, there was one contrast error which has not been altered due to design preferences. Evidence for the results of each page can be found [here](docs/testing/wave-results). 
 
 ### **6.3 LIGHTHOUSE: Website Performance test**
 
-The [Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) was used to test the performance of the BMS website. In relation to performance, the tests indicated that the website will operate at an optimal level on desktop devices. Each page achieved a score between **91-99 out of 100**. Evidence for the results of each page can be found [here](docs/testing/lighthouse-results).
+The [Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) application was used to test the performance of the BMS website. In relation to performance, the tests indicated that the website will operate at an optimal level on desktop devices. Each page achieved a score between **91-99 out of 100**. Evidence for the results of each page can be found [here](docs/testing/lighthouse-results).
 
 ### **6.4 Website Responsiveness**
 
@@ -535,7 +535,7 @@ When testing the JavaScript through the JShint validator, the following error ke
 
 **Reason:** 
 
-Through research, it was suggestedt that JavaScript code uses new ECMAScript 6 (ES6) abbreviations of traditional JS code. While it is not supported by all browsers, it is supported by many. As such, ES6 was designed to help programmers reduce code verbosity. For instance; in this case the ‘=>’ function in JS code is often used to shorten the function syntax. Similarly, rather than using bracket notation; property accessors such as  dot notation is often used to shorten code (W3Schools.com, 2021, Hayani, 2018 & Rafael, 2017).  
+Through research, it was suggestedt that contempory JS syntax uses new ECMAScript 6 (ES6) abbreviations of traditional JS code. While it is not supported by all browsers, it is supported by many. As such, ES6 was designed to help programmers reduce code verbosity. For instance; in this case the ‘=>’ function in JS code is often used to shorten traditional function syntax (e.g. 'function(){};'). Similarly, rather than using bracket notation; property accessors such as  dot notation is often used to shorten code (W3Schools.com, 2021, Hayani, 2018 & Rafael, 2017).  
 
 **Fix:** 
 
@@ -557,7 +557,7 @@ As part of the quiz, it was essential for the users to be directed to the **Scor
 |------|
 | window.location(“/quizEnd.html”); |
 
-Running this page on a locally hosted port (Port: 5500) successfully directed to the score page once the game was completed. However, this code continually produced an error when the site was deployed to the live published page, via Github.com. 
+Running this page on a locally hosted port (Port: 5500) successfully directed to the score page once the game was completed. However, this code continually produced an error when the site was deployed live, via [Github Pages](https://pages.github.com/). 
 
 **Reason:** 
 
@@ -612,7 +612,14 @@ Implement the fetch(); method with the use of a Web API to the JS source code. I
 
 ### 7.1 Deployment: Local Clone 
 
-The Ba Mi Soro website was deployed locally via the use of GitHub (web application), Git Bash, an IDE such as VS Code (desktop application, and the use of a ‘repo’ - specific SSH Key. An overview of how the site was deployed locally is discussed in more detail below: 
+The Ba Mi Soro website was deployed locally via the use of the following tools and applications;
+
+- GitHub (web application), 
+- Git Bash, 
+- An IDE (such as VS Code, desktop application),
+- A repository-specific SSH Key. 
+
+An overview of how the site was deployed locally is discussed in more detail below: 
 
 |The Process| 
 |-------------|
@@ -668,7 +675,7 @@ Below is an overview on how to deploy a project via GitHub’s GitHub Pages. Thi
 
 ### **8.2 Content** 
 
-Although some of the resources credited below are already listed in the [5. Technologies Used](#5-Technologies-Used) section of the README and [References section](#10-References); the credits listed here are relative to specific content that has been incorporated into the Ba Mi Soro website:
+Although some of the resources credited below are already listed in the [5. Technologies Used](#5-Technologies-Used) section and [10. References section](#10-References); the credits listed here are relative to specific content that has been incorporated into the Ba Mi Soro website:
 
 **Nav Menu**  
 
@@ -686,7 +693,7 @@ Tutorials created by [Angela Delise(2020)](https://www.youtube.com/watch?v=68O6e
 
     - Form validation URL: 
     
-    The Code Institute’s URL (https://formdump.codeinstitute.net) has been incorporated into the form on the ‘Contact Us’ page of the website. The tutorial can be found [here](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/ee2afa91c35e4268b7de2ea21fe311dd/9?activate_block_id=block-v1%3ACodeInstitute%2BHE101%2B2020%2Btype%40vertical%2Bblock%4004ae28359c4340048efdeeacf3363eb0).
+      The Code Institute’s URL (https://formdump.codeinstitute.net) has been incorporated into the form on the ‘Contact Us’ page of the website. The tutorial can be found [here](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/ee2afa91c35e4268b7de2ea21fe311dd/9?activate_block_id=block-v1%3ACodeInstitute%2BHE101%2B2020%2Btype%40vertical%2Bblock%4004ae28359c4340048efdeeacf3363eb0).
 
     - Changing Existing Elements: 
     This challenge was referred to to form the quizzes’ buttons. Click [here](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+2021_T1/courseware/0a4bf408d10c4149bb686457ac11edf6/37e3becd93804fdf8bf586523f56ead5/) to access the tutorial.  
@@ -721,9 +728,9 @@ The animation used on the BMS’ score page was created by [Arvind Lakhani](http
 
 ## 9. Personal Acknowledgements
 
-This project could not have been achived without the strength given to me by God! 
+This project could not have been achived without the strength given to me by God! :raised_hands:
 
-Additional thanks goes out to my Husband for all his loving patience and support. 
+Additional thanks goes out to my Husband for all his loving patience and support. :heartpulse:
 
 I would also like to thank;
 
