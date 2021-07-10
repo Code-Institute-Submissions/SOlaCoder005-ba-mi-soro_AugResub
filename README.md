@@ -235,9 +235,9 @@ This section provides an overview of the features on the BMS website, and where 
 
 2. ‘Enter’ Button
 
-    - This feature has been centred intentionally and under the logo to communicate clear instructions to the user. 
+    - This feature has been centred under the logo intentionally to communicate clear instructions to the user. 
     
-    For instance, to ‘enter’ the site they need to click the button. To add emphasis, the button’s text turns to orange and the cursor turns into a pointer when the user hovers over the button. 
+      For instance, to ‘enter’ the site they need to click the button. To add emphasis, the button’s text turns to orange and the cursor turns into a pointer when the user hovers over the button. 
 
 | Goal Number| Description|
 |-----|-----|
