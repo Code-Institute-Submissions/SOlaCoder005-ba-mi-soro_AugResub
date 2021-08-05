@@ -5,7 +5,7 @@ const navMU = document.querySelector('#nav-MU');
 let hamburgerBtnExpand = false;
 
 //Nav exapnd and collapse feature
-window.onload=hamburgerBtn.addEventListener('click', () => {
+hamburgerBtn.addEventListener('click', () => {
     if(!hamburgerBtnExpand) {
         hamburgerBtn.classList.add('open');
         navMU.classList.toggle('show');
