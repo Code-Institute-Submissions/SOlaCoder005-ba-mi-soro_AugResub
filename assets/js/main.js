@@ -1,5 +1,5 @@
 /*jshint esversion: 6 */
-permissions-policy: interest-cohort=()
+permissions-policy: interest-cohort=():
 
 const hamburgerBtn = document.querySelector('.ham');
 const navMU = document.querySelector('#nav-MU');
