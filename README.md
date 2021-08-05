@@ -802,6 +802,8 @@ I would also like to thank;
 
 - [Quick, J. Q., 2019. Build a Quiz App with HTML, CSS, and JavaScript](https://youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx)
 
+- [Ratnakumar, S., 2020. How to prevent favicon.ico requests? Stack Overflow.](https://stackoverflow.com/questions/1321878/how-to-prevent-favicon-ico-requests)
+
 - [Shiftelearning.com. 2019.The Psychology of Color: How Do Colors Influence Learning?](https://www.shiftelearning.com/blog/how-do-colors-influence-learning)
 
 - [Ulman, S., 2019. What is the meaning of "$" sign in ](https://stackoverflow.com/questions/1150381/what-is-the-meaning-of-sign-in-javascript)
