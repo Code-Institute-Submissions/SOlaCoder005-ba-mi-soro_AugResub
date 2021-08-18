@@ -586,6 +586,21 @@ The reason for this error was that the variables were not defined initally.
 Given that the variables were being used in a block of code, each were declared as ‘var’ variables rather than ‘let’ and/or ‘const’. Decalring the variables this way allowed the animation and toggle features execute successfully. 
 
 
+**4. Favicon.ico error message**
+
+**Context:** 
+
+When using the Chrome Dev tools, a favicon error appeared in the console. 
+
+**Reason:** 
+
+The reason for this error was that there was no browser tab icon established in the directory for the BMS site to use. 
+
+**Fix:** 
+
+Using the Favicon website, a directory was created and named favicon. The required files were moved to this folder. This way, upon accessing the site, the BMS site would pick up the favicon.ico file and use it on the site. This icon now appears in the website browser tab. 
+
+
 #### **6.5.2 Unfixed bugs**
 
 **1. Multiple JS Code functions will not run on one page**
@@ -715,6 +730,8 @@ Tutorials created by [Angela Delise(2020)](https://www.youtube.com/watch?v=68O6e
 - Font Awesome: https://kit.fontawesome.com/1699136767.js
 
 - bodymovin: https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js
+
+- Favicon: The Favicon [speaking head emoji](https://favicon.io/emoji-favicons/speaking-head) was used to establish an icon for the BMS pages. Using this icon resolved the **'favicon.ico'** error in the console.
 
 Similarly, the jQuery used within the source-code assists with specific functionalities as mentioned earlier. The script has been sourced from jQuery.com. A direct reference to how to use the jQuery link can be found in the References section [below](#10-References):
 
